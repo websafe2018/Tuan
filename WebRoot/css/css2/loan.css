@@ -1,0 +1,148 @@
+.loan-icon{background: url('//js.tuandai.com/images/borrow/loan-icon.png?v=201605101647');}
+.item{background: #fff;}
+.item .s-title{vertical-align:-1px;}
+.item1{background: #fff;}
+.c-org{color:#ffa019;}
+.container{margin-bottom: 40px;}
+.mb0{margin-bottom:0!important;}
+.animation-transition{  width: 271px; height: 262px;  position: relative; z-index: 0; transition: all 0.2s ease-out;    -webkit-transition: all 0.2s ease-out;}
+.animation-transition:hover{transform:translate(0px,-5px); -webkit-transform:translate(0px,-5px);}
+.item1 ul {padding-top: 36px; padding-bottom:40px; padding-left:53px; }
+.item1 ul li{float:left; width: 154px;}
+.item1 ul li .pic{width: 105px;height: 105px; margin: 0 auto;}
+.item1 ul li span{display:block; text-align:center; }
+.item1 ul li .text{padding-top: 14px;}
+.p1{width:105px;height:105px;background-position:0 0;}
+.p2{width:105px;height:105px;background-position:-106px 0;}
+.p3{width:105px;height:105px;background-position:-213px 0;}
+.p4{width:105px;height:105px;background-position:-319px 0;}
+.item1 ul li .circle{ width:108px;height:64px;background-position:-463px -18px; position: relative; top:25px; left: 10px;}
+
+.item2{ }
+.item2 h2,
+.item3 h2,
+
+.item4 h2{height: 46px; background: #f2f2f2; padding-top: 28px; }
+.item2 h2 .line,
+.item3 h2 .line,
+.item4 h2 .line{border-left:2px solid #ffa019; height: 26px; overflow:hidden; line-height: 26px; padding-left: 15px; font-size: 24px;color:#505050;}
+.item2 h2 .zhhp a{color:#ffa019; }
+.item2 h2 .zhhp a:hover{text-decoration: underline; }
+.item2 h2 .zhhp{      position: relative;    top:5px;  *top: 7px;}
+
+
+.item2 h2 .zhhp i,
+.item3 h2 .zhhp i,
+.item4 h2 .zhhp i{width: 16px; height: 16px; margin-right: 3px; vertical-align:-3px; *vertical-align:1px; background-position:-1px -754px; display:inline-block; *display:inline;}
+
+.item-list{background: #fff; }
+.item-list .title{font-size: 26px; color:#ffa019; height: 85px; line-height: 80px;}
+.item-list .text{font-size: 14px; width: 206px; line-height: 20px; position: relative; top:-10px;  color:#666;}
+.item-list .text p{padding-top:5px;}
+.item-list .pic{height: 112px;width: 250px; position: relative; bottom:0; }
+.item-list .pic-1{top:28px;}
+.item-list .pic-2{top:28px;}
+.item-list .pic-3{top:48px;}
+.item-list .pic-4{top:28px;}
+.item-list .pic-5{top:45px;}
+.item-list .pic-6{top:41px;}
+.item-list .pic-7{top:39px;}
+.item-list .pic-8{top:38px;}
+.item-list li{ width: 271px; height: 290px; cursor:pointer; float: left; padding-left: 27px; color:#7e7e7e; position: relative; border-right: 1px solid #eeeeee;}
+.item-list li .apply{ color:#ffa019;  margin-top: 37px;}
+.item-list li .t{display:block; float: right; position: relative; }
+.item-list li .t1{width:172px;height:148px;background-position:-8px -120px ;  top:-37px;} 
+.item-list li .t2{width:118px;height:151px;background-position:-198px -118px;  top:-38px;}
+.item-list li .t3{width:114px;height:150px;background-position:-326px -118px; top:-38px;}
+.item-list li .t4{width:145px;height:156px;background-position:-447px -112px; top:-44px;}
+.item-list li .tp5{width:124px;height:129px;background-position:-1px -286px; top:-32px;}
+.item-list li .t6{width:160px;height:90px;background-position:-126px -336px; top:6px;}
+.item-list li .t7{width:170px;height:122px;background-position:-285px -319px; top:-15px;}
+.item-list li .t8{width:89px;height:113px;display:block;background-position:-508px -414px;  left: 180px;    top: 20px;}
+.item-list li .t9{width:122px;height:88px;  background-position:-478px -309px;    top: 39px;    left: 179px;}
+.item-list .fqb{  background: #f3f3f3; width: 301px; padding-left: 2px;}
+.item-list  .price{background: #fff; padding-left: 20px; padding-bottom: 10px; overflow:hidden;position: relative; z-index: 0; transition: all 0.2s ease-out;    -webkit-transition: all 0.2s ease-out; }
+.item-list  .price:hover{transform:translate(0px,-5px); -webkit-transform:translate(0px,-5px);}
+.item-list  .price a{ color:#ffa019;;}
+.item-list  .fqb .anima{ height: 143px; width: 301px;  overflow:hidden;  background-color: #fff;}
+ .item3 .fqb-title{width: 300px;  }
+
+.item4 {background:#fff; padding-bottom: 30px; }
+.item4 dl{ float: left;   padding-left: 25px;   padding-top: 30px; height: 123px;   }
+.item4 dt{width: 36px; position: relative; top:-5px; height: 36px; float:left; margin-right:20px; background-position: -1px -715px; }
+.item4 dd{ float: left; padding-right: 29px; padding-bottom: 30px; }
+.item4 dd .tt{    color:#505050; font-size: 18px; }
+.item4 dd .text{ margin-top: 20px; height: 48px;width: 474px;  font-size: 14px; line-height: 24px; color:#7e7e7e;  }
+.item4 dd.d1{border-right:1px solid #eeeeee; border-bottom:1px solid #eeeeee;}
+.item4 dl.d2{border-bottom:1px solid #eeeeee; height: 123px;}
+.item4 dl.d3{border-right:1px solid #eeeeee; }
+
+.loan-dial{ background: #fff; position: fixed; left: 50%; top: 50%; width: 700px;   margin-left: -350px; margin-top: -225px; overflow: hidden; display:none; border-radius: 4px; -webkit-border-radius: 4px; }
+.loan-dial .body{margin-top: 30px; padding-bottom: 40px;}
+.loan-dial .input-box{  position: relative;  margin-bottom: 25px;}
+.loan-dial .left{width:330px; padding: 0 30px 0 25px;  border-right:1px dashed #d5d5d5;}
+.loan-dial .v-name{width: 74px; margin-right: 5px;   color:#5e5e5e; display:inline-block; *display:inline;}
+.loan-dial .val{   display:inline-block; *display:inline;  position: relative;
+  	 }
+.loan-dial .input-box .err-tip{left: 0; top: 33px;font-size: 12px;color: red; position: absolute; z-index:1;}
+.loan-dial .input-box .err{width: 12px; height: 12px; margin-right: 3px; vertical-align:-2px; *vertical-align:1px; display:inline-block; *display:inline; background-position: 0 -695px;}
+.loan-dial .val.sex i{width: 33px; cursor:pointer; height: 33px; margin-right: 10px; display:inline-block; *display:inline; vertical-align:-11px; *vertical-align:-0px;}
+.loan-dial .val.sex span{*vertical-align:8px;}
+.loan-dial .val.sex{color:#5e5e5e;}
+.loan-dial .val .femal{margin-left: 20px;}
+.loan-dial .val .select{background-position:-8px -597px;}
+.loan-dial .val .selected{background-position:-43px -597px;}
+.loan-dial .input-style{width: 230px; height: 15px; border:1px solid #d2d2d2; line-height: 14px; padding: 7px 0 8px 5px; font-size: 14px;    }
+.loan-dial .img-input{width: 141px;  }
+ 
+.loan-dial .font-666{color: #666!important;}
+.loan-dial .title{ height: 40px; line-height: 40px; font-size: 14px; padding-left:20px ; background: #f7f7f7; color: #666; position: relative;}
+.loan-dial .img{vertical-align:-11px; *vertical-align:-4px; margin-left: 4px; *margin-left: 10px;}
+.loan-dial .right{width: 248px; padding:0 30px;}
+.loan-dial .left .loan-btn1{    width: 238px; height: 38px; margin-right: 10px; line-height: 38px; text-align: center;background: #ffbc1b;color: #fff;display: block;font-size: 16px;   border-radius: 4px;   -webkit-border-radius: 4px;}
+.loan-dial .left .loan-btn1:hover{background: #ffa019;}
+.loan-dial .right .int{margin-bottom: 18px;}
+.loan-dial .right p{margin-bottom:12px;  color:#5e5e5e;}
+.loan-dial .right p span{color:#868686;}
+.loan-dial .left .v-name{display:inline-block; vertical-align:0px;  *vertical-align:8px; text-align:right; }
+.loan-dial .left .v-city{vertical-align:12px; display:inline-block; *display:inline; }
+.loan-dial-w460 {width: 460px; left: 50%; margin-left: -220px;}
+.loan-dial-w460 .body{padding-left:30px;  	}
+.loan-dial-w500{width: 500px; left: 50%;  margin-left: -250px; height: 260px;}
+.loan-dial-w500 .body{padding-top: 25px;  }
+.loan-dial-w500 .body .btn{margin:0 auto;}
+.loan-dial-w500 .body .text{color:#616161; height: 80px; font-size: 16px; line-height: 26px; position: relative; left:136px; }
+.loan-dial-w500 .body .text span{width: 180px; height: 54px;}
+.loan-dial-w500 .body i.cicle{margin-right: 10px; width: 54px; height: 54px; display: inline-block; *display: inline; }
+.loan-dial-w500 .body i.success{background-position: 0 -640px;}
+.loan-dial-w500 .body i.err{background-position: -55px -640px; }
+/* icon */
+.arrow,.cb,.rb{background-image:url(//js.tuandai.com/images/borrow/icon-1.png);}
+/* select box */
+.sb{width: 110px!important;	border:solid 1px #d2d2d2;cursor:pointer;background-color:#ffffff;position:relative; z-index:5;float:left; ;display:inline-block; }
+.sb_active{
+	border:solid 1px #d2d2d2;
+	  }
+.sb *{color:#666666;font:normal 12px Song;cursor:pointer;background-color:#fff;}
+.sb .opts{border:1px solid #d2d2d2;cursor:pointer;display:none;height:auto;left:0;max-height:121px;overflow-x:hidden;overflow-y:auto;position:absolute;top:0;width:auto;z-index:99;}
+.sb > .selected{
+	padding:0 15px 0 5px;overflow:hidden;position:absolute;cursor:pointer;left:0;
+	
+   }
+.sb .opts a{width:auto;height:24px;line-height:24px;padding:0 5px;cursor:default;outline:none;white-space:nowrap;text-decoration:none;display:block;cursor:pointer;}
+.sb .opts a.selected{ }
+.sb .opts a.none{background:#fff;}
+.sb .opts a:hover{ }
+.sb .sb_icon{width:7px;height:4px;overflow:hidden;position:absolute;cursor:pointer;right:4px;}
+.sb .arrow{	background:url(//js.tuandai.com/images/borrow/icon-1.png) -27px -18px;}
+.sb_active .arrow{background-position:-27px -4px;	}
+/* checkbox box */
+.cb{width:13px;height:13px;display:inline-block;*display:inline;zoom:1;background-position:0 0;cursor:pointer;}
+.cb_active{background-position:0 -13px;}
+/* radio box */
+.rb{width:13px;height:13px;margin:0 auto;padding:0;display:inline-block;*display:inline;zoom:1;vertical-align:middle;background-position:-13px 0;cursor:pointer;}
+.rb_active{background-position:-13px -13px;}
+
+
+
+ 

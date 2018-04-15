@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<!--使用接口方式动态配置sql,官方推荐-->
+	<mapper namespace="dao.AccountDao">
+		<update id="updateAccByUid"  parameterType="entity.Account">
+			update account set set id=#{id},blockMoney=#{blockMoney},realName=#{realName},idnumber=#{idnumber},bankNumber=#{bankNumber},acBalance=#{acBalance} where uid=#{uid}
+		</update>
+		<delete id="delAccByUid">
+			delete from account where uid =#{0}
+		</delete>
+		<select id="findAccByUid" resultType="entity.Account">
+			select * from account where uid =#{0}
+		</select>
+		<select id="checkIdNum" resultType="Integer">
+			select count(1) from account where idnumber=#{0}
+		</select>
+		<select id="checkBank" resultType="Integer">
+			select count(1) from account where bankNumber=#{0}
+		</select>
+		<insert id="addVipAcc" parameterType="entity.Account">
+			insert into account (uid,realName,idnumber,bankNumber,acBalance,blockMoney) 
+			values(#{uid},#{realName},#{idnumber},#{bankNumber},#{acBalance},#{blockMoney})
+		</insert>
+		
+		<!-- 申请借款时添加的信息 -->
+		<insert id="addAccount" parameterType="entity.Account">
+		insert into account (uid,realName) 
+			values(#{uid},#{realName})
+		</insert>
+		<!-- 申请借款时修改的信息-->
+		<update id="updateAccountByUid"  parameterType="entity.Account">
+			update account set realName=#{realName} where uid=#{uid}
+		</update>
+		<select id="findAccByUidtwo" resultType="entity.Account">
+			select * from account where uid =#{0}
+		</select>
+		
+		<select id="getaBodyByUid" resultType="entity.Account">
+			select * from account where uid=#{0}
+		</select>
+		<update id="rechargeAcc">
+			update account set acBalance=#{0} where id=#{1}
+		</update>
+		<select id="findAccountNumber" resultType="entity.Account">
+		select * from account 
+		</select>
+		<update id="updateAcc" parameterType="entity.Account">
+		update account
+		<set>
+		<if test="realName !=null">
+		realName=#{realName},
+		</if>
+		<if test="idnumber !=null">
+		idnumber=#{idnumber},
+		</if>
+		<if test="bankNumber !=null">
+		bankNumber=#{bankNumber},
+		</if>
+		<if test="bank !=null">
+		bank=#{bank},
+		</if>
+		<if test="backTel !=null">
+		backTel=#{backTel},
+		</if>
+		<if test="acBalance !=null">
+		acBalance=#{acBalance},
+		</if>
+		<if test="blockMoney !=null">
+		blockMoney=#{blockMoney},
+		</if>
+		<if test="income !=null">
+		income=#{income},
+		</if>
+		<if test="expend !=null">
+		expend=#{expend},
+		</if>
+		<if test="paymentPwd !=null">
+		paymentPwd=#{paymentPwd},
+		</if>
+		<if test="overIncome !=null">
+		overIncome=#{overIncome},
+		</if>
+		<if test="sqName !=null">
+		sqName=#{sqName},
+		</if>
+		</set>
+		where uid=#{uid}
+		</update>
+		
+	</mapper>
+

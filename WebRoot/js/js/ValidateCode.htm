@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:sec="http://www.springframework.org/schema/security">
+
+<head>
+    <title>团贷网 - 综合金融服务平台,让金融更简单！</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.tdw.cn/"/>
+    <link rel="dns-prefetch" href="//image.tuandai.com"/>
+    <link rel="dns-prefetch" href="//js2.tdw.cn"/>
+
+    <link rel="shortcut icon" href="//js2.tdw.cn/images/default/favicon.ico?v=20150513" />
+    <link rel="stylesheet" href="//js2.tdw.cn/styles/base.css?v=20170428001" />
+    <meta name="keywords" content="投资理财，互联网金融，P2P网站，P2P网贷，P2P理财"/>
+    <meta name="description" content="团贷网(tdw.cn)是派生科技集团股份有限公司（以下简称“派生集团”）旗下的综合金融服务平台,致力于为广大投资用户提供基金、保险、证券、网络借贷等互联网投资一站式综合服务.">
+    <!-- 前端公用CSS库-->
+    <link rel="stylesheet" href="//js2.tdw.cn/styles/public.css?v=20170816001" />
+    <link rel="stylesheet" href="//js2.tdw.cn/styles/member/bank/xiamen-bank.css?v=2017022701" />
+    <link rel="stylesheet" href="//js2.tdw.cn/styles/cgt/cgt.css?v=2017022701" />
+
+    <!-- UI CSS-->
+    <link rel="stylesheet" href="//js2.tdw.cn/styles/user/register/new.user.public.css?v=2017022701">
+    <script type="text/javascript">
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?e5885737885060b19f50ba5ed78c9802";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    
+    
+	<link rel="stylesheet" type="text/css" href="//js2.tdw.cn/styles/err-404.css" />
+
+
+    
+</head>
+<body>
+    <!-- 头部STAR -->
+   <div class="header">
+        <!-- top bar STAR -->
+        <div class="t-b  t-b-w lh40 bgff f12 fst cl">
+            <div class="w1200 h40 auto g6">
+                <div class="right-side  r inline-block-debug">
+                    <div class="inline-block-debug c-poi-a" id="topinfo">
+<!--  <a th:if="${#httpServletRequest.getQueryString()} == null" th:href="@{'/jump'(returnUrl=${#httpServletRequest.getRequestURI()})}" class="reg">登录</a>
+ <a th:if="${#httpServletRequest.getQueryString()} != null" th:href="@{'/jump'(returnUrl=${#httpServletRequest.getRequestURI()}+'?'+${#httpServletRequest.getQueryString()})}" class="reg">登录</a> -->
+ 					<a href="https://www.tdw.cn/user/login.aspx" class="reg">登录</a>
+ 					<!--<a href="javascript:login();" class="reg">登录</a>-->
+                    <span>|</span><a rel="nofollow" href="javascript:register();" class="reg">注册</a><span>|</span>
+                    
+                    </div>
+                    <a rel="nofollow" href="https://hd.tdw.cn/web/invite_friends/index.aspx">邀请有礼</a><span>|</span>
+                    <a rel="nofollow" href="http://info.tdw.cn/social.html" class="soc" target="_blank"><span class="hot-icon"></span>社会责任</a><span>|</span>
+                    <a rel="nofollow" href="http://info.tdw.cn/help/index.html" target="_blank">帮助中心</a><span>|</span>
+                    <a href="https://www.tuandai.com/activity/index.aspx" target="_blank">活动专题</a><span>|</span>
+                    <a href="https://bbs.tuandai.com" target="_blank">社区</a><span>|</span>
+                    <span class="rel member-list z1">
+                        <i class="down-arrow arrow"></i>
+                        <ul class="abs z1  ">
+                            <li>
+                                <a rel="nofollow" href="https://vip.tdw.cn" target="_blank" style="display: block" class="member-link"><i class="icon a"></i>会员中心</a>
+                            </li>
+                            <li class="mission " style="display: none"><a rel="nofollow" href="https://hd.tdw.cn/web/newhand/gonglve.aspx" target="_blank">团币任务</a></li>
+                        </ul>
+                    </span>
+                    <!-- <span>|</span> -->
+                    <div class="inline-block-debug rel app-ewm-box" ><a rel="nofollow" class="app  icon  mr10  inline-block-debug">&nbsp;</a>
+                        &nbsp;
+                        <div class="app-ewm   pt20 abs z5" style="display: none">
+                            <i class="arrow icon abs db zx2"></i>
+                        </div>
+                    </div>
+                    <!--<a rel="nofollow"  th:href="${@globals.portalWeburl}+'/web/tuandaiAppNew/index.aspx'" target="_blank" class="app  icon  mr10  inline-block-debug">&nbsp;</a>-->
+                    <div class="weixin icon   mr10  rel z5   inline-block-debug c-poi">
+                        &nbsp;
+							<div class="ewm   p20 abs z5" style="display: none">
+                                <i class="arrow icon abs db zx2"></i>
+                            </div>
+                    </div>
+                    <div class="sina icon   inline-block-debug c-poi" onclick="javascript:window.open('http://weibo.com/tuandai');"></div>
+                </div>
+                <div class="left-side">
+                    <i class="icon dib phone vm  lh0">&nbsp;</i><span class="ml5">客服热线：1010-1218（9:00～22:00）</span>
+                </div>
+            </div>
+        </div>
+        <!-- top bar END -->
+        <!-- nav STAR -->
+        <div class="nav-w bgfff">
+            <div class="nav-box auto w1200 fix">
+                <div class="r rel tc  slid z3">
+
+                    <dl class="abs i-b-d vt about-us r0" id="myaccountScroll"><dt><a href="https://www.tdw.cn/member/account_default.aspx" ><i class="account-icon i-b-d icon vm"></i>我的账户</a></dt></dl>
+                </div>
+                <div class="nav r">
+                    <ul>
+                        <li class="nav-t">
+                            <a href="//www.tdw.cn">首页</a>
+                        </li>
+						<li class="nav-t ">
+                            <a href="https://www.tuandai.com/pages/weplan/welist.aspx">网贷</a>
+                            <!--<div class="r rel tc  slid z3 r ">-->
+                            <!--<dl class="abs i-b-d vt guarantee r0">-->
+                            <!--<dt><a th:href="${@globals.portalWeburl}+'/pages/weplan/welist.aspx'">网贷<i class="icon arrow i-b-d vm"></i></a></dt>-->
+                            <!--<dd style="overflow: hidden; height: 37px; display: none; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">-->
+                            <!--<a th:href="${@globals.portalWeburl}+'/pages/weplan/welist.aspx'" target="_blank">智能投资</a>-->
+                            <!--</dd>-->
+                            <!--<dd style="overflow: hidden; height: 37px; display: none; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">-->
+                            <!--<a th:href="${@globals.portalWeburl}+'/pages/invest/invest_list.aspx'" target="_blank">散标专区</a>-->
+                            <!--</dd>-->
+                            <!--</dl>-->
+                            <!--</div>-->
+					</li>
+
+
+                        
+                        <li class="nav-t ">
+                            <a href="https://dq.tdw.cn/pages/invest/dqzqzr_list.aspx">定期</a>
+                            <!--<div class="r rel tc  slid z3 r ">-->
+                                <!--<dl class="abs i-b-d vt guarantee r0">-->
+                                    <!--&lt;!&ndash;<dt><a th:href="${@globals.dqWebUrl}+'/pages/weplan/WeAYB_List.aspx'">定期<i class="icon arrow i-b-d vm"></i></a></dt>&ndash;&gt;-->
+                                    <!--<dt><a th:href="${@globals.dqWebUrl}+'/pages/invest/dqzqzr_list.aspx'">定期<i class="icon arrow i-b-d vm"></i></a></dt>-->
+                                    <!--&lt;!&ndash;<dd>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;<a th:href="${@globals.dqWebUrl}+'/pages/weplan/WeAYB_List.aspx'">安盈计划</a>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;</dd>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;<dd>&ndash;&gt;-->
+                                        <!--&lt;!&ndash;<a th:href="${@globals.dqWebUrl}+'/pages/RegularFinancial/dqlclist.aspx'">安盈宝</a>&ndash;&gt;-->
+                                    <!--&lt;!&ndash;</dd>&ndash;&gt;-->
+
+                                    <!--<dd>-->
+                                        <!--<a th:href="${@globals.dqWebUrl}+'/pages/invest/dqzqzr_list.aspx'">定期转让</a>-->
+                                    <!--</dd>-->
+
+
+                                <!--</dl>-->
+                            <!--</div>-->
+                        </li>
+                        <li class="nav-t">
+                            <a href="https://www.paisheng.com/" target="_blank">私募</a>
+                        </li>
+                        <li class="nav-t">
+                            <a href="http://www.zc-insurance.com/" target="_blank">保险</a>
+                        </li>
+                        <li class="nav-t">
+                            <a rel="nofollow" href="https://hd.tdw.cn/web/newhand/classroom.aspx?tdsource=pcnewguide">新手</a>
+                        </li>
+                        <li class="nav-t ">
+                            <a href="https://www.tdw.cn/pages/zSharePlan/zx_invest_list.aspx">会员交易</a>
+                        </li>
+<li class="nav-t ">
+<div class="r rel tc  slid z3 r ">
+<dl class="abs i-b-d vt guarantee r0">
+<dt><a rel="nofollow" href="http://info.tdw.cn/about/guarantee.html?mark=1">信息披露<i class="icon arrow i-b-d vm"></i></a></dt>
+<dd style="overflow: hidden; height: 37px; display: none; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">
+<a rel="nofollow" href="http://info.tdw.cn/about/guarantee.html?mark=1">安全保障</a>
+</dd>
+<dd style="overflow: hidden; height: 37px; display: none; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">
+<a rel="nofollow" href="https://hd.tdw.cn/web/20161124Quality/index.aspx?tdsource=pcbanner" target="_blank">担保专款</a>
+</dd>
+<dd style="overflow: hidden; height: 37px; display: none; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">
+<a rel="nofollow" href="http://info.tdw.cn/about/report.html?mark=3">运营报表</a>
+</dd>
+
+<dd style="overflow: hidden; height: 37px; display: none; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">
+<a rel="nofollow" href="http://info.tdw.cn/about/regulatory.html?mark=17">监管法规</a>
+</dd>
+<dd style="overflow: hidden; height: 37px; display: none; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">
+<a rel="nofollow" href="http://info.tdw.cn/about/platform.html?mark=8">关于我们</a>
+</dd>
+</dl>
+</div>
+</li>
+<li class="nav-t">
+<a href="https://www.tuandai.com/pages/borrow/index.aspx">借款</a>
+</li>
+
+                    </ul>
+
+                </div>
+                <a href="https://www.tdw.cn" class="logo dib l">
+                    <img src="//js2.tdw.cn/images/default/logo.png?v=2017051601" alt="团贷网" /></a>
+                <div class="index-bd">
+                    <ul class="index_slider" style="bottom: 0px">                    
+
+                   <li>
+                             <img src="https://infoimage.tuandai.com/ad/1500523393353.png?2017-08-09T11:11:06" alt="让金融更简单"/>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <!-- nav End -->
+
+
+        <!-- banner STAR -->
+        
+    <!-- nav STAR -->
+			<!--<div class="nav-w suspension   fixed z101 t0 l0 suspension suspension-up" style="width:100%;">-->
+				<!--<div class="nav-box auto w1200  fix">-->
+					<!--<div class="r rel tc  slid z3">-->
+						<!--<dl class="abs i-b-d vt about-us r0" id="myaccount"><dt><a th:href="${@globals.financialWebsiteUrl}+'/member/account_default.aspx'" ><i class="account-icon i-b-d icon vm"></i>我的账户</a></dt></dl>-->
+					<!--</div>-->
+					<!--<div class="nav r">-->
+						<!--<ul>-->
+							<!--<li class="nav-t">-->
+								<!--<a th:href="${@globals.tdwUrl}">首页311</a>-->
+							<!--</li>-->
+<!--<li class="nav-t w130">-->
+<!--<div class="r rel tc  slid z3 r " style="margin-top:0px">-->
+<!--<dl class="abs i-b-d vt guarantee r0"><dt><a th:href="${@globals.portalWeburl}+'/pages/weplan/welist.aspx'">网贷<i class="icon arrow i-b-d vm"></i></a></dt>-->
+<!--<dd>-->
+<!--<a th:href="${@globals.portalWeburl}+'/pages/weplan/welist.aspx'" >智能投资</a>-->
+<!--</dd>-->
+<!--<dd>-->
+<!--<a th:href="${@globals.portalWeburl}+'/pages/invest/invest_list.aspx'" >散标专区</a>-->
+<!--</dd>-->
+<!--</dl>-->
+<!--</div>-->
+<!--</li>-->
+                             <!---->
+                             <!--<li class="nav-t w130">-->
+ 								<!--<div class="r rel tc  slid z3 r " style="margin-top:0px">-->
+ 									<!--<dl class="abs i-b-d vt guarantee r0"><dt><a th:href="${@globals.dqWebUrl}+'/pages/weplan/WeAYB_List.aspx'" >定期<i class="icon arrow i-b-d vm"></i></a></dt>-->
+                                  <!--<dd>-->
+                                        <!--<a th:href="${@globals.dqWebUrl}+'/pages/weplan/WeAYB_List.aspx'">安盈计划</a>-->
+                                    <!--</dd>-->
+
+                                    <!--<dd>-->
+                                        <!--<a th:href="${@globals.dqWebUrl}+'/pages/RegularFinancial/dqlclist.aspx'">安盈宝</a>-->
+                                    <!--</dd>-->
+                                    <!---->
+                                    <!--<dd>-->
+                                          <!--<a th:href="${@globals.dqWebUrl}+'/pages/invest/dqzqzr_list.aspx'">定期转让</a>-->
+                                    <!--</dd>-->
+ 									<!--</dl>-->
+ 								<!--</div>-->
+ 							<!--</li>-->
+<!--<li class="nav-t">-->
+<!--&lt;!&ndash; /*<a rel="nofollow"  th:href="${@globals.activityWebsiteUrl}+'/web/newhand/classroom.aspx?tdsource=pcnewguide'">新手指引</a> */&ndash;&gt;-->
+<!--</li>-->
+<!--<li class="nav-t w130">-->
+<!--<div class="r rel tc  slid z3 r " style="margin-top:0px">-->
+<!--<dl class="abs i-b-d vt guarantee r0"><dt><a th:href="${@globals.newsTdwUrl}+'/about_us/guarantee.aspx?mark=1'">信息披露<i class="icon arrow i-b-d vm"></i></a></dt>-->
+<!--<dd style="overflow: hidden; height: 37px; display: none; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">-->
+<!--<a rel="nofollow" th:href="${@globals.infoWebUrl}+'/about/guarantee.html?mark=1'">安全保障</a>-->
+<!--</dd>-->
+<!--<dd style="overflow: hidden; height: 37px; display: none; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">-->
+<!--<a rel="nofollow"  th:href="${@globals.hdWebUrl}+'/web/20161124Quality/index.aspx?tdsource=pcbanner'" target="_blank">质保服务</a>-->
+<!--</dd>-->
+<!--<dd style="overflow: hidden; height: 37px; display: none; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">-->
+<!--<a rel="nofollow" th:href="${@globals.infoWebUrl}+'/about/report.html?mark=3'">运营报表</a>-->
+<!--</dd>-->
+<!--&lt;!&ndash;/*-->
+<!--<dd style="overflow: hidden; height: 37px; display: none; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">-->
+<!--<a rel="nofollow" th:href="${@globals.activityWebsiteUrl}+'/web/20160330/Index.aspx?tdsource=pcbanner'" target="_blank">平台数据</a>-->
+<!--</dd>-->
+<!--*/&ndash;&gt;-->
+<!--<dd style="overflow: hidden; height: 37px; display: none; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">-->
+<!--<a rel="nofollow" th:href="${@globals.infoWebUrl}+'/about/regulatory.html?mark=17'">监管法规</a>-->
+<!--</dd>-->
+<!--<dd style="overflow: hidden; height: 37px; display: none; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">-->
+<!--<a rel="nofollow" th:href="${@globals.infoWebUrl}+'/about/platform.html?mark=8'">关于我们</a>-->
+<!--</dd>-->
+<!--</dl>-->
+<!--</div>-->
+<!--</li>-->
+<!--<li class="nav-t">-->
+<!--<a th:href="${@globals.portalWeburl}+'/pages/borrow/index.aspx'">我要借款</a>-->
+<!--</li>-->
+						<!--</ul>-->
+					<!--</div>-->
+					<!--<a th:href="${@globals.financialWebsiteUrl}" class="logo-s dib" style="float:left"><img src="//js2.tdw.cn/images/logo-s.png?v=2017051601" alt="团贷网" /></a>-->
+					<!--<div class="index_ad-s">-->
+						<!--<ul class="index_slider-s" style="bottom: 0px">-->
+							<!--<li><img src="//js2.tdw.cn/images/default/c-title.jpg" alt="让金融更简单" /></li>-->
+						<!--</ul>-->
+					<!--</div>-->
+				<!--</div>-->
+			<!--</div>-->
+			<!-- nav End -->
+
+    </div>
+        <!-- 头部END -->
+        <!-- 右侧计算器 -->
+        <div class="tool">
+            <div class="t-box rel" onclick="javascript:void(0);">
+                <div class="dan-tip abs tc" style='display: none'>市场有风险投资需谨慎<span class="triangle db"></span></div>
+                <i class="t6"></i>
+                <a href="javascript:;">风险提示</a>
+            </div>
+            <div class="t-box" onclick="javascript:window.open('http://www.sobot.com/chat/pc/index.html?sysNum=20ab7dce1e3346e8b90b649bd8baf591');"><i class="t1"></i><a href="javascript:;">在线客服</a></div>
+            <div class=" t-box" onclick="javascript:window.open('//info.tdw.cn/help/index.html')"><i class="t2"></i><a href="javascript:;">帮助中心</a></div>
+            <div class=" t-box" onclick="javascript:window.open(&#39;//news.tdw.cn/tool/int_fina.aspx&#39;);"><i class="t3"></i><a class="" href="javascript:;">计算工具</a></div>
+            <div class="t-box to-top" onclick="javascript:;" style="display: none"><i class="t5"></i><a href="javascript:;" class="pt10">回到顶部</a></div>
+        </div>
+
+        <!-- 中间内容STAR -->                
+        
+    <!-- 中间内容STAR -->
+    
+		<div class="container w1200 auto   mt20">
+			<div class="w600 auto cl fix">
+				<div class="pai l">
+
+				</div>
+				<div class="l">
+					<p class="err f24 g6 pt25">哎呀！页面找不到！</p>
+					<p class="res g9 pt20">
+						<span class="ml-65">  可能原因：  </span> 网络信号弱 <br> 找不到请求页面 <br> 输入的网址不正确
+
+					</p>
+					<div class="btn pt25">
+						<a href="javascript:;"  onclick="history.go(-1)" class="mr10">返回上一页</a><a href="/">团贷首页</a>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	
+    <!-- 页脚 -->
+    <div class="footer fix"  >
+        <div class="footer-content auto fix cl">
+            <div class="address fa f12 tc mt15">
+                2010-<span>2017</span> 版权所有 © 团贷网 <a href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备16104116号-1</a> 派生科技集团股份有限公司 地址：东莞市南城区新城鸿福路102号汇成大厦102A号
+            </div>
+        </div>
+        <div class="security tc">
+            <a class="case1" rel="nofollow" href="http://www.beianbeian.com/beianxinxi/b3d821c3-95ad-49a0-8be4-157b33f3317f.html"  target="_blank"></a>
+            <a class="case2" rel="nofollow" href="http://www.gddg110.gov.cn/publicfiles/business/htmlfiles/dgjch/index.htm" target="_blank"></a>
+        </div>
+    </div>
+
+        <!-- 中间内容END -->
+
+        <!-- 提示弹出窗口 -->
+        <div id="dial-window" style="display: none;" class="z103">
+            <div class="title">
+                加载中 <i class="close close-x icon abs"></i>
+            </div>
+            <div class="body">
+                <img src="//js2.tdw.cn/images/default/loading.gif" alt="加载中" />
+            </div>
+            <div id="dial-window-btns" class="btns tc">
+                <a href="javascript:void(0)" class="td-btn-1 td-btn-1-or dete " id="dial-window-okbtn">确定</a>
+                <a href="javascript:void(0)" class="td-btn-1 td-btn-1-gar  cancle " id="dial-window-canclebtn">取消</a>
+            </div>
+        </div>
+        <!--遮罩层-->
+        <div id="diallayer" style="display: none;"></div>
+
+        <script type="text/javascript" src="//js2.tdw.cn/scripts/jquery-1.7.2.min.js?v=2017022701"></script>
+        <script type="text/javascript" src="//js2.tdw.cn/scripts/jquery.pagination/jquery.pagination.js?v=20170803"></script>
+        <!--引用Jquery-->
+        <script src="//js2.tdw.cn/scripts/thirdlib.js"></script>
+        <script src="//js2.tdw.cn/scripts/public.js?v=2017070301"></script>
+        <script src="//js2.tdw.cn/scripts/common.js?v=2017060801"></script>
+        <!--<script src="//js2.tdw.cn/scripts/pager.js?v=2017070301"></script>-->
+        <script src="//js2.tdw.cn/scripts/settuandaicookie.js?v=2017070501"></script>
+
+       
+    
+
+       
+        <!--数据统计-->
+        <script  type="text/javascript">
+
+        portalWebsiteUrl = "\/\/www.tdw.cn";
+       // portalWebsiteUrl = "http://www.tuandai.com";
+        imageWebsiteUrl = "\/\/image.tuandai.com";
+        ActivityWebsiteUrl = "https:\/\/hd.tuandai.com";
+        PassportWebUrl = "\/\/passport.tuandai.com\/lgck";
+
+			/*<![CDATA[*/
+            (function () {
+                $('.member-list').hover(function () {
+                    $(this).find('ul').addClass('ul-type').end().find('.mission').show();
+                    $(this).find('.arrow').removeClass('down-arrow').addClass('up-arrow');
+                }, function () {
+                    $(this).find('ul').removeClass('ul-type').end().find('.mission').hide();
+                    $(this).find('.arrow').removeClass('up-arrow').addClass('down-arrow');
+                }
+            )
+            })();
+            function stringToHex(s) { var r = ''; var hexes = new Array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'); for (var i = 0; i < (s.length) ; i++) { r += hexes[s.charCodeAt(i) >> 4] + hexes[s.charCodeAt(i) & 0xf] } return r }
+            function HexTostring(s) { var r = ''; for (var i = 0; i < s.length; i += 2) { var sxx = parseInt(s.substring(i, i + 2), 16); r += String.fromCharCode(sxx) } return r }
+
+            var nwbi_userName = "";
+            var nwbi_sysNo = "TDW";
+            var IsLogin = isCookieLogin();
+           
+            if (IsLogin) {
+                var nickname = jaaulde.utils.cookies.get("TDWUserName");
+                
+                nwbi_userName = nickname;
+
+            }
+            
+            (function () {
+                var ta = document.createElement('script'); ta.type = 'text/javascript'; ta.async = true;
+                ta.src = ((("https:") == document.location.protocol) ? "https://" : "http://") + 'bilog.niiwoo.com/js/webaccess.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ta, s);
+            })();
+
+			/*]]>*/            
+        </script>        
+</body>
+</html>

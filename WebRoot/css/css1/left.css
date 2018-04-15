@@ -1,0 +1,35 @@
+﻿.left_dv_1
+{
+	 width:150px;
+	 height :25px;
+	 line-height:25px;
+	 background-image:url(//js.tuandai.com/images/member/l_bg.jpg)  ;
+	 border :1px solid #cccccc;
+	 text-align:left ; 
+}
+.left_dv_2
+{
+	 width:150px;
+	 height :100%;
+	 overflow :hidden ;
+	 line-height:25px;
+	 border-left :1px solid #cccccc;
+	 border-right :1px solid #cccccc;
+	 border-bottom :1px solid #cccccc;
+	 text-align:left ; 
+	 background-color:#f6f6f6; 
+}
+.left_span_1
+{
+
+	  color :#ffffff;
+	  margin-left:8px;
+}
+
+#leftMenu .dv_r_6 ul li.currentMenu{ background:#ffc600; border:1px solid #ffc600 }
+#leftMenu .dv_r_6 ul li.currentMenu a { font-weight:bold; color:#fff; }
+#leftMenu .dv_r_6 ul li.currentMenu a:hover{background:none;}
+
+#leftMenu .dv_r_6 .tbx_newicon{position:relative;}
+#leftMenu .dv_r_6 .tbx_newicon i,#leftMenu .dv_r_6 .currentMenu .tbx_newicon i{background:url(//js.tuandai.com/images/member/td_new.png) no-repeat 0 -20px; display:inline-block; width:25px; height:11px;  _overflow:hidden; margin-left:2px; position:absolute; top:-2px; left:70px; _left:78px;}
+#leftMenu .dv_r_6 .currentMenu .tbx_newicon i{background-position:0 -39px}

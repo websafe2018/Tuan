@@ -1,0 +1,22 @@
+
+.login_footer{border-top:#e6e6e6 solid 2px; width:100%; height:50px; background:#f8f8f8; color:#282828; text-align:center; line-height:24px; padding:40px 0px;}
+
+.footer_box{  background:#f8f8f8;  border-top:#e6e6e6 solid 2px; color:#282828;}
+
+
+
+/*借款申请类型2014-04-15_lsh*/
+.jksq_sl{width:726px;float:left;margin:0;padding:0;overflow:hidden;}
+.jksq_sl ul{width:726px;float:left;margin:0;padding:0;overflow:hidden;list-style:none;}
+.jksq_sl ul li{width:232px;float:left;margin:0;overflow:hidden;}
+
+.jksq_sl_title{width:232px;height:58px;line-height:58px;color:#fff;font-size:30px;font-weight:bold;text-align:center;border-radius:5px 5px 0 0;}
+.jksq_sl_color_o{background:#ff8a00;text-shadow:0 1px 5px #d27100;}
+.jksq_sl_color_b{background:#55b7d4;text-shadow:0 1px 5px #4491a9;}
+.jksq_sl_color_g{background:#7ed126;text-shadow:0 1px 5px #6aae20;}
+.jksq_sl_con{width:210px;height:250px;padding:10px;border:1px solid #f2f2f2;line-height:58px;color:#515151;font-size:14px;line-height:24px;background:#fff;}
+.jksq_sl_btn{width:210px;height:48px;padding:0;}
+.pl_15{padding-left:15px;}
+
+
+

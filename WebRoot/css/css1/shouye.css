@@ -1,0 +1,646 @@
+.line-h30{ line-height: 30px !important;}
+.cl{clear:both;}
+.h13{height: 13px;*height: 0px;}
+.ffe9900{color: #fe9900;}
+.mgl40{margin-left: 85px;}
+.mgt15{margin-top: 15px;}
+.mgt10{margin-top: 10px;}
+.v-a1{vertical-align:1px;}
+.t-c{text-align: center;}
+.c-fff{color: #fff;}
+.pt5{padding-top: 5px;}
+.pt10{padding-top: 10px;}
+.pt15{padding-top: 15px;}
+.pb5{padding-bottom: 5px;}
+.f14{font-size: 14px;}
+img{vertical-align:middle;}
+/*团贷等级*/
+.lv{padding-right: 20px!important;    }
+.lv i{width: 19px; height: 19px;  display:inline-block; *display:inline; zoom:1; vertical-align:-5px;background: url(//js.tuandai.com/images/member/member-lv.png); *vertical-align:0px; margin-right: 5px; *margin-right: 8px; }
+.lv .i1{background-position: 0 0;}
+.lv .i2{background-position: -19px 0;}
+.lv .i3{background-position: -38px 0;}
+.lv .i4{background-position: -57px 0;}
+.lv .i5{background-position: -76px 0;}
+.lv .i6{background-position: -95px 0;}
+.lv .i7{background-position: -114px 0;}
+.lv .i8{background-position: -133px 0;}
+/**/
+
+
+/*边框*/
+.information{
+    width:800px; 
+}
+.information .upper_part{
+	height: 124px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.information .upper_part .touxiangtu{
+    float: left;
+    width: 94px;
+    height: 94px;
+    border-radius: 47px;
+    -moz-border-radius: 47px;
+    -webkit-border-radius: 47px;
+    margin-top:6px;
+}
+.pic-fram2{background: url("//js.tuandai.com/images/member/index/pic-fram2.png") no-repeat; width:64px; height:64px; position: absolute; }
+.information .upper_part .upper_right{
+    float: left;
+	width:690px;  /*1218新增*/
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.information .upper_part .upper_right .ask_hou{
+    position: relative;
+}
+.information .upper_part .upper_right .ask_hou p{
+    color: #333;
+	line-height:34px;/*1218新增*/
+}
+.information .upper_part .upper_right .ask_hou s{
+    position: relative;
+    display: inline-block;
+    top:3px;
+    width: 24px;
+    height: 24px;
+    background: url("//js.tuandai.com/images/member/icon.png?v=20150701001") 0px -183px;
+}
+.information .upper_part .upper_right .ask_hou b{
+    position: relative;
+    display: inline-block;
+    top:3px;
+    left:-12px;
+    width: 24px;
+    height: 24px;
+    background: url("//js.tuandai.com/images/member/icon.png?v=20150701001") 0px -210px;
+}
+.information .upper_part .upper_right .ask_hou em{
+    position: relative;
+    display: inline-block;
+    top: -12px;
+    left: -10px;
+    width: 18px;
+    height: 19px;
+    overflow: hidden;
+    line-height: 19px;
+     font-style: normal;
+    color: #fff;
+    text-align: center;
+    font-size: 8px;
+    background: url("//js.tuandai.com/images/member/icon.png?v=20150701001") 0px -243px;
+}
+.information .upper_part .upper_right .ask_hou em.em1{
+    position: relative;
+    display: inline-block;
+    top: -12px;
+    left: -20px;
+    width: 17px;
+    height: 19px;
+    overflow: hidden;
+    line-height: 19px;
+     text-align: center;
+      color: #fff;
+    background: url("//js.tuandai.com/images/member/icon.png?v=20150701001") 0px -243px;
+}
+.information .upper_part .upper_right .ask_hou span{
+    color: #ffa642;
+}
+.information .upper_part .upper_right .level{
+    padding-top:20px;
+}
+.information .upper_part .upper_right .level ul li{
+    display: inline;
+    border-right:1px solid #e1e1e1;
+    padding-right: 10px;
+    padding-left: 6px;
+    color: #a9a9a9;
+}
+.information .upper_part .upper_right .level ul li.no4{
+    border-right: none;
+}
+.information .upper_part .upper_right .level ul li.no5 a{
+      display:inline-block;vertical-align:-8px; *vertical-align:-4px;
+     *display:inline; width: 24px; height: 24px;
+}
+/* 会员认证 */
+.information   .level  li.no5 i{    display:inline-block; *display:inline; margin-right:2px;     width: 24px;    height: 24px;    background: url("//js.tuandai.com/images/member/icon.png?v=20150701001") 0px -0px;}
+.information   .level  li.no5 .i1{background-position: 0 0;}
+.information   .level  li.no5 .i1-1{background-position: 0 -24px ;}
+.information   .level  li.no5 .i2{ background-position: -24px 0;  }
+.information   .level  li.no5 .i2-1{background-position: -24px -24px }nformation   .level  li.no5 .i1{background-position: 0 0;}
+.information   .level  li.no5 .i3{ background-position: -48px 0;  }
+.information   .level  li.no5 .i3-1{background-position: -48px -24px; }
+.information   .level  li.no5 .i4{ background-position: -72px 0;  }
+.information   .level  li.no5 .i4-1{background-position: -72px -24px; }
+ /* 会员认证  END*/
+/*   
+.information .upper_part .upper_right .level ul li.no5 b{
+display:inline-block;*display:inline;
+width: 24px;
+    height: 24px;
+    background: url("//js.tuandai.com/images/member/icon.png?v=20150701001") -24px 0px;
+}
+.information .upper_part .upper_right .level ul li.no5 s{
+display:inline-block; *display:inline; 
+ height: 24px;  
+  width:  24px;
+    background: url("//js.tuandai.com/images/member/icon.png?v=20150701001") -48px 0px;
+}
+.information .upper_part .upper_right .level ul li.no5 em{
+display:inline-block; 
+*display:inline;    
+width: 24px;
+    height: 24px;
+    background: url("//js.tuandai.com/images/member/icon.png?v=20150701001") -72px 0px;
+}
+.information .upper_part .upper_right .level ul li.no5 i.i{
+display:inline-block; 
+*display:inline;    
+width: 24px;
+    height: 24px;
+    background: url("//js.tuandai.com/images/member/icon.png?v=20150701001") 0px -24px;
+} */
+.information .upper_part .upper_right .level ul li.no5 b.b{
+display:inline-block; *display:inline;
+width: 24px;
+    height: 24px;
+    background: url("//js.tuandai.com/images/member/icon.png?v=20150701001") -24px -24px;
+}
+.information .upper_part .upper_right .level ul li.no5 s.s{
+display:inline-block; 
+*display:inline;    
+width: 24px;
+    height: 24px;
+    background: url("//js.tuandai.com/images/member/icon.png?v=20150701001") -48px -24px;
+}
+.information .upper_part .upper_right .level ul li.no5 em.em{
+display:inline-block;
+ *display:inline;   
+ width: 24px;
+    height: 24px;
+    background: url("//js.tuandai.com/images/member/icon.png?v=20150701001") -72px -24px;
+}
+.information .upper_part .upper_right .level ul li span{
+    color: #333333;
+}
+.information .upper_part .upper_right .level ul li.no6{
+    position: relative;
+}
+.information .upper_part .upper_right .level ul li.no6 b{
+    position: absolute;
+    top: 0px;
+    left: 129px;
+    width: 36px;
+    height: 19px;
+    color: #fff;
+    background: #c6c62a;
+}
+.information .amount{
+
+}
+.information .amount .down-list{ position: relative;  z-index: 1000003;}
+.information .amount .down-list dl{position: absolute; z-index: 1000003; background: #fff; padding: 3px 10px 10px 10px; left: -10px; top:48px;}
+.information .amount .down-list dl dd{font-size: 14px; line-height: 24px; color: #999;}
+.information .amount .down-list dl dd a{color: #FF9933; text-decoration: underline;}
+.information .amount .amout_left{
+    float: left;
+    width: 623px;
+}
+.information .amount .amout_left ul li{
+    float: left;
+    width:230px;
+    padding-top: 28px;
+    color: #999999;
+}
+.information .amount .amout_left ul li span{
+    color: #ff9933;
+    font-size: 16px;
+}
+.information .amount .amout_right{
+    float: left;
+    padding-top: 23px;
+    padding-left: 0px;
+}
+.information .amount .amout_right a.top_up{
+    width:99px;
+    height: 35px;
+    display: inline-block;
+    background: #52c47e;
+    text-align: center;
+    line-height: 35px;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2px;  -webkit-border-radius: 2px;-moz-border-radius: 2px;
+}
+.information .amount .amout_right a.top_up:hover{ background: #ff9933;}
+.information .amount .amout_right a.withdrawal
+{
+    margin-top:12px;
+    width: 99px;
+    height: 35px;
+    display: inline-block;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 35px;
+    font-size: 15px;
+    color: #333333;
+    text-decoration: none;
+    border-radius: 2px;  -webkit-border-radius: 2px;-moz-border-radius: 2px;
+}
+.information .amount .amout_right a.withdrawal:hover{ background: #ff9933;color: #fff;}
+.Classified{
+    width: 850px;
+    height: 464px;
+    background: #f3f3f3;
+    
+}
+.Classified .clfi_left{
+    float: left;
+    margin-right: 10px;
+
+}
+.Classified .clfi_left .dakuang{
+    position: relative;
+    z-index: 1000005;
+}
+.Classified .clfi_left .authentication{
+    width: 593px;
+    height: 48px;
+    border:1px solid #e1e1e1;
+    background: #fff;
+}
+.Classified .clfi_left .authentication .ction{
+    float: left;
+}
+.Classified .clfi_left .authentication .ction_1{
+    width: 33px;
+    height: 45px;
+    margin-top: 7px;
+    margin-left: 18px;
+ }
+.Classified .clfi_left .authentication .ction_1 .clock{width: 45px;
+    height: 45px; background:url("//js.tuandai.com/images/member/icon.png?v=20150701001") 8px -679px; }
+.Classified .clfi_left .authentication .ction_2{
+    width: 450px;
+    line-height: 48px;
+    padding-left: 4px;
+    position: relative;
+    z-index: 1;
+}
+.Classified .clfi_left .authentication .change{
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 460px;
+    width: 60px;
+    height: 20px;
+    font-size:14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Classified .clfi_left .authentication .change:hover
+{
+     text-decoration: none;
+     color: #ff9900;
+}
+.Classified .clfi_left .authentication .ction_3{
+    line-height: 48px;
+    padding-left:20px;
+    background:url("//js.tuandai.com/images/member/icon.png?v=20150701001") 0px -137px;
+}
+.Classified .clfi_right{
+    float: right;
+}
+.Classified .clfi_right .ranking{
+     
+    
+    border:1px solid #e1e1e1;
+    background: #fff;
+}
+.Classified .clfi_right .ranking p.tzpm{
+    line-height: 48px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.Classified .clfi_right .improve{
+    height: 104px;
+}
+.Classified .clfi_right .improve .improve_tu{
+    float: left;
+    width: 47px;
+    height: 51px;
+    margin-top: 27px;
+    margin-left: 9px;
+    background:url("//js.tuandai.com/images/member/icon.png?v=20150701001") 0px -262px;
+}
+.Classified .clfi_right .improve .improve_wz{
+    float: left;
+    padding-top: 30px;
+    padding-left: 12px;
+    position: relative;
+}
+.Classified .clfi_right .improve .improve_wz p span{
+    font-size: 20px;
+    color: #ffa95d;
+}
+.Classified .clfi_right .improve .improve_wz p.tb2{
+    color: #ff6600;
+    padding-top: 5px;
+}
+.Classified .clfi_right .improve .improve_wz p.tb1 b{
+    display:inline-block;
+    width: 6px;
+    margin-left:2px;
+    height: 13px;
+    background: url("//js.tuandai.com/images/member/icon.png?v=20150701001") -4px -469px;
+}
+.Classified .clfi_right .accumulation{
+    width: 219px;
+    height: 30px;
+    background: #eaeaea;
+}
+.Classified .clfi_right .accumulation p{
+    line-height: 30px;
+    text-align: center;
+}
+.Classified .clfi_right .shuffling{
+    width: 242px;
+    height: 246px;
+    border: 1px solid #e1e1e1;
+}
+/*轮播图片*/
+#ganbeng{
+    position: relative;
+    width: 242px;
+    height: 243px;
+    border: 1px solid #e1e1e1;
+}
+#ganbeng .tupian ul{
+    list-style: none;
+}
+#ganbeng .tupian ul li{
+    display: none;
+}
+#ganbeng .tupian ul li.on{
+    display: block;
+}
+
+#ganbeng .hd{
+    width: 100%;
+    height: 40px;
+    background-color:#4D4D4D;
+    filter:alpha(opacity=60);
+    -moz-opacity:0.6;
+    opacity:0.6;
+    position: absolute;
+    bottom: 38px;
+    left: 0;
+    z-index: 10;
+}
+#ganbeng .hd h3{
+    font: 16px/40px "微软雅黑","宋体";
+    color: white;
+    text-align: center;
+    float: left;
+    width: 242px;
+}
+#ganbeng .hd ul{
+	text-align: center;
+    list-style: none;
+    line-height: 38px;
+    padding-top: 15px;
+}
+#ganbeng .hd ul li{
+	display: inline-block;;
+	*display: inline;
+    width: 12px;
+    height: 13px;
+    _font-size:0;
+    background: url("//js.tuandai.com/images/member/index/icons.png?v=20150701001") no-repeat -22px -125px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+#ganbeng .hd ul li.on{
+    background-position: -10px -125px;
+}
+
+/*弹窗内容*/
+#dahei{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 1000004;
+    opacity: 0.4;
+    filter:alpha(opacity=40);
+    -moz-opacity:0.4;
+    display: block;
+
+}
+.opup_window{
+    position: fixed;
+    z-index: 10000002;
+    width: 210px;
+    height: 134px;
+    top: -117px;
+    left: -51px;
+    background: url("//js.tuandai.com/images/member/icon.png?v=20150701001") no-repeat -119px 0px;
+}
+.aa .guanbi{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background: url("//js.tuandai.com/images/member/icon.png?v=20150701001") no-repeat 0px -52px;
+    top: -10px;
+    right: -8px;
+}
+.opup_window .miaoshu{
+    padding-top: 17px;
+    padding-left: 24px;
+}
+.opup_window .miaoshu .fw{
+    font-weight: bold;
+}
+
+.tab
+{
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    width:100%;
+    height:360px;
+}
+.tab table{
+    border-spacing: 0px;
+} 
+#tab-header{
+    height:36px!important;      
+}     
+.tab th
+{
+    font-size:14px;
+     line-height: 33px;
+    height: 36px;
+    text-align:center;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    font-family:"微软雅黑",Arial, Helvetica,sans-serif,"宋体";
+    background:#F0F0F0;
+}
+.tab tr{
+    
+    height:41px!important;
+    padding-top: 0px!important;
+}
+ 
+#tabContent  tr{
+    height: 38px!important;
+}
+.tab td
+{
+    text-align:right;
+    font-size:13px;
+    padding-right:5px;
+    padding-top: 16px!important;
+     vertical-align:top;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.tab td:hover{padding-top:0px!important
+    ;}
+.tab td div{display:none;}
+
+.text-box{width: 120px; height: 31px; border: 1px solid #E5E5E5; padding:0 5px; font-size: 14px; line-height: 30px; position: relative;cursor:pointer;}
+.text-box ul{position: absolute; background: #fff; top: 32px; left: -1px; width: 130px; border: 1px solid #E5E5E5; max-height: 250px;overflow: auto; z-index: 999;}
+.text-box ul li{height: 30px; background: #fff; line-height: 30px;  padding-left: 5px;  font-size: 14px; cursor: pointer;}
+.text-box ul li:hover{background: #ff9900; color: #fff; }
+.text-box .arrow{background:url("//js.tuandai.com/images/member/arrow.png") 9px 13px no-repeat; right: -1px!important; width: 34px; height: 31px; position: absolute; border-left:1px solid #E5E5E5;  right: 0; top: 0; cursor: pointer;-webkit-transition: 0.3s;-moz-transition: 0.3s;-ms-transition: 0.3s;-o-transition: 0.3s;transition: 0.3s;}
+.text-box .arrow1-rotate{ -moz-transform: rotate(180deg);-webkit-transform: rotate(180deg);-o-transform: rotate(180deg);transform: rotate(180deg);  }
+.button{padding:1px 5px;margin:0px 3px;text-align: center;font-size: 12px;color:Gray;text-decoration: none;}
+.button:hover{color: #ff9900;}
+.title{font-size:14px;color:Orange;}
+.tooltip{background-color:#4D4D4D;filter:alpha(opacity=80);-moz-opacity:0.8;opacity:0.8;font-size:13px;line-height:22px;display: none;position:absolute;color:#fff;padding:8px 12px;-moz-border-radius: 5px; -webkit-border-radius: 5px;border-radius:5px;z-index:9999999;}
+.chartbox{background-color: #f5f5f5;border: 1px solid #e3e3e3;-moz-border-radius: 5px; -webkit-border-radius: 5px;border-radius:5px;-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);margin:20px auto;}
+.tooltip a{color:#fff;cursor:pointer;}
+.tooltip a:hover{color:#ff9933}
+.tooltip p{padding-top: 10px;font-size: 12px;line-height: 22px;}
+.tooltip span{font-size: 12px;}
+
+/*1218加息部分*/
+.jxbox{ float:right; width:290px; height:41px; position:relative;}
+.jxtop{width:286px; height:33px; padding-top:3px; padding-left:4px; background:url(//js.tuandai.com/images/member/index/jxbg01.png) 0 0 no-repeat; cursor:pointer;}
+.jxtop h5{ float:left; width:62px; line-height:28px; padding-left:14px; font-size:14px; color:#ff4546;}
+.jxtop dt{ float:left; width:150px; padding-top:3px;}
+.jxtop dd{ float:left; width:40px; height:18px; overflow:hidden;background: url(//js.tuandai.com/images/member/index/jxb.png) 0 0 no-repeat; margin-top:6px; text-align:center;}
+.jxtipbox{ position:absolute; width:290px; height:auto; display:none;top:40px; left:2px; z-index:1000008;}
+.jxtipbox .tips_detail_t{ height:20px;background: url(//js.tuandai.com/images/member/index/jxbg02.png) 0 0 no-repeat;}
+.jxtipbox .tips_detail{ height:auto; background: url(//js.tuandai.com/images/member/index/jxbg03.png) 0 0 repeat-y; padding:0px 18px; font-size:12px; color:#fd8271; line-height:24px;}
+.jxtipbox .tips_detail_f{height:14px;background: url(//js.tuandai.com/images/member/index/jxbg04.png) 0 0 no-repeat;}
+
+.suppor-bank{background:#f8f8f8; padding:5px 0 5px 18px;}
+.welfare{border:1px solid #e5e5e5; background: #fff;   height: 102px;}
+.welfare .red-page{width: 122px; height: 70px; background: url(//js.tuandai.com/images/member/index/red-page.png); margin-left: 10px;}
+.welfare .arrow{width: 38px; padding-top: 10px;  height: 102px; background: url(//js.tuandai.com/images/member/index/arrow.png) top right no-repeat; display: block; font-size: 14px; float: left; text-align: center; vertical-align: middle;}
+.welfare .c{width: 34px; text-align: center; height: 32px; color: #fff; display: block; margin: 0 auto; font-size: 11px; line-height: 12px; padding-top: 5px;}
+.welfare .y-c1{background: url(//js.tuandai.com/images/member/index/y-c1.png) ; }
+.welfare .y-c2{background: url(//js.tuandai.com/images/member/index/y-c2.png) ; }
+.welfare .g-c1{background: url(//js.tuandai.com/images/member/index/g-c1.png); }
+.welfare .g-c2{background: url(//js.tuandai.com/images/member/index/g-c2.png); }
+.welfare .page-list{padding-top: 16px;}
+
+
+/*20160331 新增存管账户提示信息*/
+.information .upper_part .upper_right .level ul .no5{position: relative;}
+.information .upper_part .upper_right .level ul li .ny-showtips{position: absolute;}
+.ny-showtips{display:none; position: absolute; top: 35px; width: 340px; left: -10px; line-height: 20px;  padding: 5px 10px; z-index: 2;  color: #666; background: #fff; border-radius: 4px; -webkit-border-radius: 4px; border: 1px solid #fbab4a}
+.ny-showtips .arrow-tip{background: url(//js.tuandai.com/images/default/td-art-icon.png?v=20160122001);}
+.ny-showtips .arrow-tip{width: 12px; height: 11px; background-position: -71px -77px; position: absolute; left: 116px; top: -10px;}
+
+/*20160603领取红包弹窗*/
+.red-paper, .use-red-paper{background: #fff; position: fixed; left: 50%; top: 50%; z-index: 1111111102; display:none; border-radius: 4px; -webkit-border-radius: 4px; }
+.red-paper{width: 390px; margin-left: -210px; margin-top: -195px;}
+.red-paper .close-x{background: url(//js.tuandai.com/images/member/index/red-paper-colse.png) no-repeat;}
+.red-paper .close-x{width: 50px; height: 50px; right: -14px; top: -13px; display: inline-block; cursor: pointer;-webkit-transition: all .3s linear;transition: all .3s linear;transform:rotate(0deg)}
+.red-paper .close-x:hover{transform:rotate(180deg); -webkit-transform:rotate(180deg);}
+
+.red-paper .red-paper-body{padding: 46px; height: auto;}
+.red-paper .red-paper-body h3{text-align: center;}
+.red-paper .notpaperbox{width: 270px; height: 190px; margin: 34px auto 28px; background: url(//js.tuandai.com/images/member/index/red-paper.png) no-repeat;}
+.red-paper-body .btn{ width: 232px; height: 46px; margin: 0 auto; -webkit-border-radius: 17px; border-radius: 17px; background: #ffbc1b; line-height: 46px; color: #fff; font-size: 24px; text-align: center; display: block;}
+
+/*已领取红包*/
+.use-red-paper{width: 270px; height: 190px; margin-left: -135px; margin-top: -95px;}
+.use-red-paper .red-paper-body{padding: 30px 0 0;}
+.use-red-paper .p1{color: #fe351a}
+.use-red-paper p{text-align: center;}
+.use-red-paper p b{display: block; color: #494949}
+.red-paper-body .usebtn{width: 140px; height: 38px; line-height: 38px; margin: 20px auto 0;}
+
+
+/*2016-06-17会员专享弹窗*/
+.members_beijing{position: fixed;width: 100%;height: 100%;top:0;left: 0;background: #000;opacity: 0.5;filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity: 0.5;z-index: 100;}
+.members{width:750px;height:750px;position: fixed;top:60px;left:50%;margin-left:-380px;z-index:200;background: url("//js.tuandai.com/images/default/20160606by.png") no-repeat;animation:Turn 5s linear infinite backwards;}
+@keyframes Turn{
+    0%{transform-origin:50% 50%;transform:rotate(0deg);}
+    100%{transform-origin:50% 50%;transform:rotate(180deg);}
+}
+@-webkit-keyframes Turn{
+    0%{transform-origin:50% 50%;transform:rotate(0deg);}
+    100%{transform-origin:50% 50%;transform:rotate(180deg);}
+}
+.members_welfare{width:442px;height:637px;position: fixed;top:50px;left:50%;margin-left:-219px;z-index:201;background: url("//js.tuandai.com/images/member/index/20160617_members.png") no-repeat;}
+.members_welfare .closed{position: absolute;width: 45px;height: 45px;display: block;top:191px;left:400px;}
+.members_welfare p{font-size: 14px;color: #5c4733;position: absolute;left: 94px;}
+.members_welfare .p1{top:427px;}
+.members_welfare .p2{top:453px;}
+.members_welfare .p3{top:479px;}
+.members_welfare .mashang{width: 266px;height: 53px;position: absolute;top:520px;left:88px;}
+
+/*20160620 消息设置提示弹窗*/
+#setmask{width: 100%; height: 100%; top: 0 ; left: 0; background: #000; opacity: 0.5; filter:alpha(opacity=50); position: fixed; z-index:1000001; }
+.setMes-alert{position: fixed; width: 350px; height: 185px; left: 50%; top: 50%; margin-top: -60px; margin-left: -175px; background: #fff; -webkit-border-radius: 6px; border-radius: 6px; z-index:1000002; }
+.setMes-alert .closes{position: absolute; right: 0px; top: -38px; width: 26px; height: 26px; cursor: pointer; background: url("//js.tuandai.com/images/member/index/setmes_alert/close.png") no-repeat;}
+.setMes-alert .titimg{position: absolute; top: -106px;  left: 50%; margin-left: -87px; width: 175px; height: 150px; background: url("//js.tuandai.com/images/member/index/setmes_alert/tit-img.png") no-repeat;}
+.setMes-alert .set-body{height: auto; text-align: center; padding-top: 50px; padding-left: 10px; padding-right: 10px; overflow: hidden;}
+.setMes-alert .set-body p{line-height: 30px;}
+.setMes-alert .set-body .p1{color: #ff7800;}
+.setMes-alert .set-body .setbtn{width: 104px; height: 32px; line-height: 32px; margin: 16px auto 0;}
+
+
+/*20160822 邀请有礼定向活动弹窗*/
+.beijing{display: none;;width: 100%; height: 100%; top: 0 ; left: 0; background: #000; opacity: 0.5; filter:alpha(opacity=50); position: fixed; z-index:1000001; }
+.invitation_activities{display: none;position: fixed; width:663px;padding-bottom: 20px;left: 50%;top:50%;margin-top: -240px;right: 50%;margin-left: -332px; background: #fff;-webkit-border-radius: 6px; border-radius: 6px; z-index:1000002;}
+.invitation_activities i{display: block;position: absolute;top:7px;right:7px;cursor: pointer;width: 25px;height: 25px;-webkit-transition: all .3s linear;
+    transition: all .3s linear;transform: rotate(0deg);background: url("//js.tuandai.com/images/member/index/colse.png") no-repeat;}
+.invitation_activities i:hover{transform:rotate(180deg);}
+.exclusive_tu{
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width:111px;
+    height: 89px;
+    background: url("//js.tuandai.com/images/member/index/exclusive.png?v=20160826001") no-repeat;
+}
+.invitation_activities .tit{text-align: center;line-height: 75px;font-size: 22px;color: #fff;background: url("//js.tuandai.com/images/member/index/tit_03.png?v=20160826001") no-repeat;width: 663px;height: 75px;}
+.invitation_activities .describe span{color:#fe0101;*display: inline-block;}
+.invitation_activities .describe{text-indent: 2rem;padding-top: 35px;font-size: 15px;line-height: 32px;padding:35px 35px 0 35px;color: #666;}
+.invitation_activities .rules{padding-top: 35px;font-size: 15px;padding:20px 35px 10px 35px;color: #ffa019;}
+.invitation_activities .condi{line-height: 32px;font-size: 15px;padding-left:35px;color: #666;}
+.invitation_activities .parsing{padding:20px 35px 0px 35px;;line-height: 32px;font-size: 15px;padding-left:35px;color: #999;}
+
+
+/*518红包2888理财金弹窗*/
+.financial_bj{width: 100%; height: 100%; top: 0 ; left: 0; background: #000; opacity: 0.5; filter:alpha(opacity=50); position: fixed; z-index:1000001;-moz-opacity:0.5;-khtml-opacity:0.5; }
+.financial{position: fixed; width:503px;height: 369px;left: 50%;top:30%;right: 50%;margin-left: -254px; background: #fff;-webkit-border-radius: 6px; border-radius: 6px; z-index:1000002;}
+.financial .shut{display: block;position: absolute;top:14px;right:7px;cursor: pointer;width: 25px;height: 25px;background: url("//js.tuandai.com/images/member/we_close.png") no-repeat;}
+.financial .tit{line-height:40px;font-size:14px;color: #666;background:#f7f7f7;width:483px;height:40px;padding-left: 20px;border-top-left-radius: 6px;border-top-right-radius: 6px;}
+.financial .prompt{text-align: center;font-size: 16px;color: #666;line-height: 75px;}
+.financial .tu{text-align: center;}
+.financial .tu img{padding: 0 20px;}
+.financial a.look{display: block;width: 140px;height: 38px;background: #ffbc1b;font-size: 16px;color: #fff;text-align: center;line-height: 38px;margin: 28px auto 0px;border-radius: 6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;}
+

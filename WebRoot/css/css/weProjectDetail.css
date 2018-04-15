@@ -1,0 +1,246 @@
+body, html{color: #333!important; background: #fff!important;}
+.font-16{font-size: 16px!important;}
+.font-20{font-size: 20px!important;}
+.font-30{font-size: 30px!important;}
+.bdr-0{border-right: none!important;}
+.font-bold{font-weight: bold;}
+.font-orange{color: #fd9800;}
+.we-content{width: 100%;}
+.index-1{z-index: 1}
+.index-10{z-index: 10}
+.index-20{z-index: 20}
+.index-301{z-index: 30}
+.we-content .main-box{width: 1000px; border: 1px solid #E5E5E5; margin: 0 auto; }
+.we-content .project-detail{height: auto;}
+.we-content .project-detail-l{width: 677px;}
+/*计划左边*/
+.project-detail-l .project-id{height: 64px; border-bottom: 1px solid #E5E5E5; line-height: 64px; font-size: 20px; color: #fd9800; padding-left: 25px; border-right: 1px solid #E5E5E5;}
+.project-detail-l .project-id .end-time{font-size: 14px; color: #666; padding-right: 20px;}
+.project-detail-l .project-data{ border-right: 1px solid #E5E5E5;}
+.project-detail-l .project-data ul{padding-top: 20px;}
+.project-detail-l .project-data ul li{  float: left;}
+.project-detail-l .project-data ul li p{font-size: 14px; color: #666; margin-bottom: 10px;}
+.project-detail-l .project-data ul .l1{width: 285px; padding-left: 30px;}
+.project-detail-l .project-data ul .l2{width: 186px; position: relative;}
+.project-detail-l .project-data ul .l3{width: 120px; }
+
+.project-detail-l .project-data-2{width: 676px; padding-bottom: 10px; border-right: 1px solid #E5E5E5; border-bottom: 1px solid #E5E5E5;padding-top:11px;}
+.project-detail-l .project-data-2 ul{ width: 600px;   margin: 0 auto ;  padding-top: 6px;}
+.project-detail-l .project-data-2 li{float: left; width: 276px; height:100%;   font-size: 14px; color: #666; margin-bottom: 10px; }
+.project-detail-l .project-data-2 .l1{width: 276px;}
+.project-detail-l .project-data-2 .l2{width: 186px;}
+.project-detail-l .project-data-2 .l3{width: 136px;}
+.project-detail-l .project-data-2 .l4{width: 275px; line-height: 37px;}
+.project-detail-l .project-data-2 .l5{line-height: 37px;}
+
+.project-detail-l .project-data-2 li img{margin-right: 3px;}
+
+.project-detail-l .progress{width: 676px;border-right:1px solid #E5E5E5;   padding-top: 35px; *padding-top: 31px; height: 100px; *height: 106px;}
+.project-detail-l .progress .load{ padding-left: 25px;   padding-top: 10px; padding-bottom: 10px;  border-right: 1px solid #E5E5E5; width: 340px; overflow: hidden;}
+.project-detail-l .progress .load p{font-size: 14px; color: #666; float: left; display: inline-block; margin-right: 10px;}
+.project-detail-l .progress .load .load-bg{height: 10px; width: 200px; background: #fef1c1; border-radius: 20px;-moz-border-radius: 20px; -webkit-border-radius: 20px; overflow: hidden; position: relative;  overflow: hidden; margin-top: 7px;}
+.project-detail-l .progress .load .load-pro{height: 10px; display: block; position: absolute; left: 0 ;top: 0; background: #FFD700;}
+.project-detail-l .progress .time{ padding-left: 35px; font-size: 14px; color: #666; padding-top: 10px;}
+/*投资数据 右边*/
+.project-detail-r{width: 323px; height:auto; padding-bottom:5px;}
+.project-detail-r .invest-t{padding-left: 36px;     line-height: 65px; height: 64px; border-bottom: 1px solid #E5E5E5; position: relative; font-size: 20px; color: #FD9800;}
+.project-detail-r .invest-t a{position: absolute;  right: 30px; top: 20px; padding:0 10px; height: 25px; line-height: 25px; display: block ; text-align: center; font-size: 14px; text-align: center;  border: 1px solid #d8d8d8; border-radius: 3px; -webkit-border-radius:
+  3px; text-decoration: none;}
+.project-detail-r .invest-t a:hover{border: 1px solid #ffbc1b; background: #ffbc1b; color: #fff;}
+.project-detail-r .account{padding-left: 0px; padding-top: 5px;}
+.project-detail-r .account .dt{width:70px; height:35px; margin:5px 30px 5px 20px;float:right;}
+.project-detail-r .account .dt .bond_login{ width:68px; height:28px; display:block; background:#FFF; border:#c7c7c7 solid 1px; text-align:center; line-height:26px; color:#828282; font-size:14px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;}
+.project-detail-r .account .dt .bond_login:hover{ text-decoration:none;background: #ff9600;border: #ff9600 solid 1px;color: #FFF;}
+.project-detail-r .account .text{line-height: 32px; font-size: 14px; color: #333; padding-bottom: 0px;}
+.project-detail-r .account .line{width: 250px; border-bottom: 1px  dashed #E5E5E5; height: 1px; line-height: 1px; font-size: 1px; margin-top: 10px;  margin-bottom: 10px;}
+.project-detail-r #recharge-art .line{width: 260px; border-bottom: 1px  dashed #E5E5E5; height: 1px; line-height: 1px; font-size: 1px; margin-top: 10px;  margin-bottom: 10px; padding-bottom: 0; overflow-y: hidden;}
+.project-detail-r .account .invest-input{width: 230px; height: 50px; position: relative; margin-top: 10px; }
+.project-detail-r .account .invest-input span{width: 38px; height: 40px; display:block; border-radius:5px;  background: #ffc801; text-align: center; font-size: 30px; color: #fff; line-height: 37px; cursor: pointer; position: absolute;}
+.project-detail-r .account .invest-input .input-box{ width: 140px; padding: 9px 0  9px 15px; border: 1px solid #ffc801;  height: 20px; line-height: 20px; position: absolute; left: 35px; font-size: 16px; font-weight: bold; color: #666 }
+.project-detail-r .account .invest-input .red{
+    border-bottom-right-radius: 0; -webkit-border-bottom-right-radius: 0; -moz-border-bottom-right-radius: 0;
+    border-top-right-radius: 0; -webkit-border-top-right-radius: 0; -moz-border-top-right-radius: 0; left: 0 ; top: 0;}
+.project-detail-r .account .invest-input .add{
+    border-bottom-left-radius: 0; -webkit-border-bottom-left-radius: 0; -moz-border-bottom-left-radius:0;
+    border-top-left-radius:0; -webkit-border-top-left-radius: 0; -moz-border-top-left-radius: 0; left: 192px ; top: 0;}
+.project-detail-r .account .invest-input .unit{font-size: 18px; position: absolute; color: #666;  line-height: 40px; font-style: normal; left: 160px; }
+.project-detail-r .account .invest-btn{width: 258px; height: 40px; margin-top: 0; /*margin-top: 15px;*/ border-radius: 5px; text-decoration: none; -webkit-border-radius: 5px; -moz-border-radius: 5px; display: block; background: #ffc801; color: #fff; text-align: center; font-weight: bold; line-height: 40px; font-size: 18px;
+-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;-o-transition: 0.5s;transition: 0.5s;}
+.project-detail-r .account .invest-btn:hover{background: #ffa200;}
+
+.project-detail-r .account .invest-garyinput{width: 230px; height: 50px; position: relative; margin-top: 10px; }
+.project-detail-r .account .invest-garyinput span{width: 38px; height: 40px; display:block; border-radius:5px;  background: #ddd; text-align: center; font-size: 30px; color: #fff; line-height: 37px; cursor: pointer; position: absolute;}
+.project-detail-r .account .invest-garyinput .input-box{ width: 140px; padding: 9px 0  9px 15px; border: 1px solid #ddd;  height: 20px; line-height: 20px; position: absolute; left: 35px; font-size: 16px; font-weight: bold; color: #666 }
+.project-detail-r .account .invest-garyinput .red{
+    border-bottom-right-radius: 0; -webkit-border-bottom-right-radius: 0; -moz-border-bottom-right-radius: 0;
+    border-top-right-radius: 0; -webkit-border-top-right-radius: 0; -moz-border-top-right-radius: 0; left: 0 ; top: 0;}
+.project-detail-r .account .invest-garyinput .add{
+    border-bottom-left-radius: 0; -webkit-border-bottom-left-radius: 0; -moz-border-bottom-left-radius:0;
+    border-top-left-radius:0; -webkit-border-top-left-radius: 0; -moz-border-top-left-radius: 0; left: 192px ; top: 0;}
+.project-detail-r .account .invest-garyinput .unit{font-size: 18px; position: absolute; color: #666;  line-height: 40px; font-style: normal; left: 160px; }
+.project-detail-r .account .invest-garybtn{width: 230px; height: 40px; border-radius: 5px; text-decoration: none; -webkit-border-radius: 5px; -moz-border-radius: 5px; display: block; background: #ddd; color: #fff; text-align: center; font-weight: bold; line-height: 40px; font-size: 18px;cursor:default;
+-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;-o-transition: 0.5s;transition: 0.5s;}
+.project-detail-r .account .invest-garybtn-time{font-size: 18px; font-weight: normal;}
+
+.project-detail-r .account .agreement{height: 23px; padding-left: 20px; margin-top: 5px; font-size: 14px; color: #666; position: relative;}
+.project-detail-r .account .agreement input{position: absolute; left: 2px ; top: 4px;}
+
+.process{width: 1000px; padding-top: 32px; border-top: 1px solid #E5E5E5; margin-bottom: 20px; }
+.process .process-t{font-size: 16px; color: #666; padding-left: 34px; text-align:left;}
+.process .how{font-size: 16px; color: #ffa200; float: right; padding-right: 50px; position: relative;}
+.process .how .how-icon{width: 17px; height: 17px; display: block; background: url("//js.tuandai.com/images/investlist/weplan/index-icons-new.png") 0 -267px; position: absolute; right:25px; top: 3px;}
+.process .process-pics{margin-top: 50px;}
+.process .process-pics ul{width: 916px; margin: 0 auto;}
+.process .process-pics li{float: left;}
+.process .process-pics li a{background:url("//js.tuandai.com/images/investlist/weplan/process-pics.png?v=0020"); padding-top: 70px;  color: #51d4fd; width:151px; height:58px; overflow: hidden; display:block; text-align: center; font-size: 14px; font-weight: bold; line-height: 18px;}
+.process .process-pics li a:hover{color:#ffa200; text-decoration: none;}
+.process .process-pics .pro-1{background-position: 0px 0;}
+.process .process-pics .pro-1:hover{background-position: 0px -130px;}
+.process .process-pics .pro-2{background-position: -192px 0;}
+.process .process-pics .pro-2:hover{background-position: -192px -130px;}
+.process .process-pics .pro-3{background-position: -387px 0;}
+.process .process-pics .pro-3:hover{background-position: -387px -130px;}
+.process .process-pics .pro-4{background-position: -580px 0;}
+.process .process-pics .pro-4:hover{background-position: -580px -130px;}
+.process .process-pics .pro-5{background-position: -773px 0;}
+.process .process-pics .pro-5:hover{background-position: -773px -130px;}
+.process .process-pics .arrow-li{ padding:50px  10px 0 10px;}
+.process .process-pics .arrow{background:url("//js.tuandai.com/images/investlist/weplan/index-icons-new.png") 0 -290px; width:20px; height:20px;   display: block;}
+
+.tables{margin-top: 60px;}
+.tables table{  }
+.tables table td{border: 1px solid #E5E5E5; padding: 16px 0; font-size: 14px; color: #666;}
+.tables .th{padding-left: 20px;}
+.tables .th li{width: 90px; height: 33px; float:left;    line-height: 33px; text-align: center; cursor: pointer;
+border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; font-size: 16px; margin-right: 30px;}
+.tables .th .selected, .tables .th li:hover{background: #ffa200; color: #fff;}
+.tables .tb{width: 1000px; border-top: 1px solid #E5E5E5; margin-top: 20px; padding-top: 18px; padding-bottom: 40px;}
+
+.tables .tb1{margin: 0 auto; width: 950px; }
+.tables .tb1 .td1{width: 142px; padding-right: 26px; text-align: right; font-weight: bold; color: #ffa200; }
+.tables .tb1 .td2{width: 760px; padding-left: 20px; padding-right: 20px;}
+.tables .tb2{width: 950px; margin: 0 auto;}
+.tables .tb2 th{color: #FFA200; padding: 10px 0; font-size: 14px; border: 1px solid #E5E5E5;}
+.tables .tb2 td{padding: 10px 0; text-align: center;}
+.tables .tb3{width: 821px; height: 341px; background: url("//js.tuandai.com/images/investlist/weplan/tb3-bg.png"); margin: 0 auto; margin-top: 50px; position: relative;}
+.tables .tb3 p{position: absolute; color: #FFA200; font-size: 20px; }
+.tables .tb3 .p1{ left:102px; top:37px }
+.tables .tb3 .p2{ left:81px; top:173px }
+.tables .tb3 .p3{ left:123px; top:304px }
+.tables .tb3 .p4{ left:640px; top:37px }
+.tables .tb3 .p5{ left:640px; top:171px; }
+.tables .tb3 .p6{ left:621px; top:304px; }
+.tables .tb3 .p7{ position: absolute; color: #FFA200; font-size: 20px; left:335px; top:191px; font-size: 14px;text-align:center;width:150px; }
+.tables .tb4{width: 950px; margin:0 auto;}
+.tables .tb4 p{font-size: 14px; line-height: 28px; padding-left: 20px;}
+.tables .tb4 .title{font-size: 14px; font-weight: bold; color: #FFA200; padding-left: 0; padding-top: 30px; padding-bottom: 5px;}
+
+.situation{padding-top: 2px; *padding-top: 8px; padding-left: 35px;}
+.situation li{float: left; background: url("//js.tuandai.com/images/investlist/weplan/situation.png") ; height: 62px;  width: 110px; padding-left: 74px; line-height: 24px; font-size: 14px; padding-top: 5px;}
+.situation li span {color: #FFA200;}
+.situation .s1{width: 95px;    padding-top: 0px; margin-right: 18px; padding-left: 20px; line-height: 58px; color: #FFA200;  }
+.situation .s2{ background-position: 0px -65px; width: 100px;}
+.situation .s3{ background-position: 0px -131px; padding-left: 55px; width: 125px;}
+.situation .s4{ background-position: 0px -206px; width: 71px; padding-left: 55px; }
+
+
+
+/*12.12添加样式*/
+.project-data .clearfloat .l2 .dkuang{}
+.project-data .clearfloat .l2 .i1{width: 20px; height: 20px; display:block;  background: url("//js.tuandai.com/images/investlist/weplan/qi.png") 0px 0px no-repeat; position: absolute; top:26px;left: 99px;}
+.project-data .clearfloat .l2 .wz{width: 279px;height: 20px;border:1px solid #fd9800;position: absolute;top: -4px;left:-33px;padding-left: 10px;line-height: 20px;border-radius: 3px;background: #fff;}
+.project-data .clearfloat .l2 .i2{width: 20px; height: 20px; display:block;background: url("//js.tuandai.com/images/investlist/invest_detail/icons.png") -17px -74px no-repeat;position: absolute; top:17px;left: 99px;}
+
+.jx-red{  width: 57px;  height: 26px;  background:url(//js.tuandai.com/images/default/plusrate.png) no-repeat;    position: absolute;  margin-left:-12px;  line-height: 13px;
+  color: #fff; font-size:12px; font-style:normal;
+  text-indent: 6px;}
+
+
+  /*20160105 we计划--分期宝详情*/
+.fqb-f14{font-size: 14px;}
+.process .fqb-process-pics li a{background:url("//js.tuandai.com/images/investlist/weplan/process-pics_fqb.png"); padding-top: 70px;  color: #51d4fd; width:151px; height:58px; overflow: hidden; display:block; text-align: center; font-size: 14px; font-weight: bold; line-height: 18px;}
+.fqb-tables{margin-top:22px;}
+.fqb-tables .tb4{width: 950px; margin:0 auto; background: none; height: auto;}
+.fqb-tables .tb4 p{font-size: 14px; line-height: 28px; padding-left: 20px; position: static; color: #333}
+.fqb-tables .tb4 .title{font-size: 14px; font-weight: bold; color: #FFA200; padding-left: 0; padding-top: 30px; padding-bottom: 5px;}
+.project-detail-r .account .text,.project-detail-r #recharge-art .text{line-height: 30px; height: 30px; overflow-y: hidden; font-size: 14px; color: #333; padding-bottom: 0px;}
+.project-detail-r #recharge-art .right{width: 288px;}
+.project-detail-r #recharge-art .right .invent-form{width: 288px;}
+.project-detail-r #recharge-art .right .invent-form .form-box{width: 125px;}
+.project-detail-r #recharge-art .right .invent-form .input-text{width: 109px; overflow: hidden;}
+.project-detail-r #recharge-art .right .invent-form i{right:104px }
+.project-detail-r #recharge-art .right .invent-form a{width: 60px; right: 30px}
+.project-detail-r .account .inter-icon{width: 14px; height: 14px; position: relative; top: 1px; *top: -3px; right: -10px; cursor:pointer; background-position: -34px -77px; display: inline-block;}
+.project-detail-r #recharge-art .inter-showtips{top: 126px; *top: 126px; right: -140px; }
+.project-detail-r #recharge-art .inter-showtips p{font-size: 12px; line-height: 18px; padding-bottom: 0;}
+/*提示信息*/
+.project-detail-l .project-data .inter-showtips{top: -56px;  left: 45px; width: 270px; padding:5px 11px 5px 14px;}
+.project-detail-l .project-data .inter-showtips p{font-size: 12px; margin-bottom: 0}
+.project-detail-l .project-data .inter-icon{left: 5px; top: 2px; *top: -2px;}
+.project-detail-r #recharge-art .right .agreement{*margin-top: 6px;}
+/*未登录*/
+.project-detail-r #recharge-art .right .dt{padding-bottom: 0;}
+
+.fqb-tables .th .how{height: auto; overflow: hidden; float: right; width: 150px;}
+.fqb-tables .th .how:hover{background: none; }
+.fqb-tables .th .how a{font-size: 14px; }
+.fqb-tables .th .how a:hover{color: #666; text-decoration: underline;}
+.fqb-tables .th .how .how-icon{width: 14px; height: 14px; display: inline-block; position: relative; top: 2px; *top: -2px; left: 5px;  background: url(//js.tuandai.com/images/default/td-art-icon.png?v=20160120001) no-repeat; background-position: -34px -77px;}
+
+/*推广图*/
+.process {padding:20px 0; height:auto; overflow:hidden; text-align:center; border-bottom:1px solid #e5e5e5}
+
+/*20160125*/
+.project-detail-r .right .percent{margin-left: 3px;}
+
+/*20160128*/
+.we_banner{ width: 1000px; height: 80px; margin:0px auto 3px;}
+.we_redbao_container{ width: 1000px; height: 533px; position: relative;}
+.we_redbao_bg{ width: 1034px; height: 533px; position: absolute; top: 0px; left: -34px; background: url(//js.tuandai.com/images/investlist/weplan/we_hongbao.png) no-repeat;}
+.we_redbao{ width: 1000px; height: 533px; padding-left: 34px;}
+.we_redbao h2{ width: 1000px; height: 30px; line-height: 30px; font-size: 15px; color: #5b231a; text-align: center; padding-top: 62px;}
+.we_redbao_tablebox{ width: 804px; height: 350px; margin:26px auto 0px;}
+.we_redbao_table{ width: 804px;}
+.we_redbao_table tr td{ text-align: center; font-size: 16px; color: #4f130a; height: 30px; line-height: 30px; border:#ffcb0f dotted 1px; }
+.we_redbao_table tr th{ font-size: 18px; color: #fff; height: 40px; line-height: 40px; font-weight: normal;}
+.we_redbao_table tr th.low01{ width: 69px;}
+.we_redbao_table tr th.low02{ width: 186px;}
+.we_redbao_table tr th.low03{ width: 200px;}
+.we_redbao_table tr th.low04{ width: 180px;}
+.border_tn{ border-top: none !important;}
+.border_bn{ border-bottom: none !important;}
+.border_ln{ border-left: none !important;}
+.border_rn{ border-right: none !important;}
+.we_table_b{ width: 860px; height: 30px; line-height: 30px; margin:20px auto 0px; color: #fff; font-size: 16px;}
+.we_table_b a{font-size: 16px;color: #fff;}
+.we_table_b a:hover{text-decoration: underline;}
+.c_d8d8d8{ color: #d8d8d8 !important;}
+
+.dahei{display: none;position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: black;z-index: 5000;opacity: 0.5;filter:alpha(opacity=50);}
+.danchuang{display: none;background: url(//js.tuandai.com/images/investlist/weplan/daby_03.png?v=20160202001) no-repeat;width: 580px;height: 374px;position: fixed;z-index: 50001;top:120px;left: 50%;margin-left: -321px;padding: 40px 0 0 56px;}
+.danchuang .activity{width: 95px;height: 31px;background: #ff5239;font-size: 16px;color: #fff;text-align: center;line-height: 31px;border-radius: 3px;-webkit-border-radius:3px;-moz-border-radius:3px;}
+.danchuang .list{margin-top: 10px;} 
+.danchuang .list li{line-height: 27px;font-size: 15px;color: #4f130a;position: relative;padding-left: 30px;}  
+.danchuang .list li i{position:absolute;top:2px;left: 0px;}
+.danchuang .list li.no1 i{width: 24px;height: 24px;display:inline-block;background: url(//js.tuandai.com/images/investlist/weplan/icon.png) 0px 0px no-repeat;}
+.danchuang .list li.no2 i{width: 24px;height: 24px;display:inline-block;background: url(//js.tuandai.com/images/investlist/weplan/icon.png) 0px -50px no-repeat;}
+.danchuang .list li.no3 i{width: 24px;height: 24px;display:inline-block;background: url(//js.tuandai.com/images/investlist/weplan/icon.png) 0px -103px no-repeat;}
+.danchuang .list li.no4 i{width: 24px;height: 24px;display:inline-block;background: url(//js.tuandai.com/images/investlist/weplan/icon.png) 0px -157px no-repeat;}
+.danchuang .list li.no5 i{width: 24px;height: 24px;display:inline-block;background: url(//js.tuandai.com/images/investlist/weplan/icon.png) 0px -211px no-repeat;}
+.danchuang .award{margin-top: 15px;width: 95px;height: 31px;background: #ff5239;font-size: 16px;color: #fff;text-align: center;line-height: 31px;border-radius: 3px;-webkit-border-radius:3px;-moz-border-radius:3px;}
+.danchuang .gb{display: block;width: 30px;height: 30px;background: url(//js.tuandai.com/images/investlist/weplan/icon.png) -6px -284px no-repeat;position: absolute;top:30px;right: 30px;}
+
+.detail_logo_bg{ height:5px; width:100%; background:url(//js.tuandai.com/images/introduction/tuandaiSchool/detail_logo_bg.jpg) repeat-x;}
+
+/*提示小tip*/
+.ask-icon{width: 15px; height: 15px; display: inline-block; background-position: 0 -1087px; cursor: pointer; position: relative; top:0px; *top: 2px;}
+.we-showtips-box{display: inline-block; position: relative; top:3px; *top: -3px; z-index: 1; left: 3px;}
+.we-showtips{ display: inline-block; display:none; position: absolute; top: -56px; width: 280px; left: -63px; /* height: 36px; */ padding: 3px 5px;  color: #666; background: #fff; border-radius: 4px; -webkit-border-radius: 4px; border: 1px solid #fbab4a}
+.we-showtips span{padding-bottom: 0; line-height: 18px; font-size: 12px; display: block;}
+.arrow-tip{width: 12px; height: 11px; background-position: -56px -77px; position: absolute; left: 62px; bottom: -10px;}
+.showtips-prom{width: 114px; top: -83px; *top: -91px; left: -60px;}
+.showtips-prom span{line-height: 24px;}
+.showtips-prom span .fc-ff7800{color: #ff7800;}
+
+/*加息tip*/
+.tip-red{background: #ff000; border: 1px solid #ff000; margin-left: 5px; height: 20px; line-height: 19px;   border-radius:2px ; padding: 0 10px; vertical-align:0 ;  color: #fff; font-size: 12px; text-align: center; display: inline-block; *display: inline; }

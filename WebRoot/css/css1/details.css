@@ -1,0 +1,242 @@
+﻿
+.btn
+{
+    border: 1px solid #7AADC8;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: hand;
+    text-align: center;
+    padding: 2px 10px;
+}
+.box1
+{
+    margin: 10px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box1 td
+{ 
+    line-height: 20px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+.box1 .pb td
+{
+    padding-bottom: 7px;
+}
+.upfile
+{
+    width: 330px;
+    border: 1px solid #7F9DB9;
+    background-color: #f9f9f9; 
+    padding: 3px 2px 0;
+    margin-right: 4px;
+    vertical-align: middle;
+    height: 22px;
+}
+.box1 td.t
+{
+    width: 150px;
+    text-align: right;
+    padding-right: 5px;
+    vertical-align: top;
+}
+.box1 td.c
+{
+    text-align: left;
+    padding: 2px 4px;
+    vertical-align: top;
+}
+.box1 td.tdexplain
+{
+    padding-left: 30px;
+}
+.box1 td b.red
+{
+    font-size: 17px;
+    position: relative;
+    top: 5px;
+    color: #f00;
+}
+.box1 td select, .box1 td input
+{
+    margin: 0 4px 0 0;
+    vertical-align: middle !important;
+    vertical-align: baseline;
+    text-align: left;
+}
+.box1 td select
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7F9DB9;
+    padding: 2px;
+}
+.textarea2
+{
+    width: 480px;
+    height: 70px;
+    border: 1px solid #7F9DB9;
+    font-size: 13px;
+    padding: 2px;
+    vertical-align: top;
+}
+.tag3
+{
+    display: inline-block;
+    width: 490px;
+}
+.tag3 li
+{
+    width: 24%;
+    height: 22px;
+    overflow: hidden;
+    padding-bottom: 5px;
+    float: left;
+}
+.tag3 li input
+{
+    vertical-align: top;
+    vertical-align: middle;
+}
+.tag3 li span
+{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+    margin-right: 3px;
+    border: 1px solid #eee;
+}
+.box1 td .tag3 li input, .box1 td.checkpb input
+{
+    margin-left: 0px;
+    margin-left: -4px;
+    _vertical-align: baseline;
+}
+.box1 td input.uploadpic, .box2 td input.uploadpic
+{
+    width: 100px;
+    height: 25px;
+    font-size: 13px;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+a.line12, .line12 a
+{
+    font-size: 12px;
+    text-decoration: underline;
+}
+.box1 td input.base
+{
+}
+.conpanyo1
+{
+    position: relative;
+    background-color: #F5F8FF;
+    padding: 10px 20px 2px;
+    margin-right: 15px;
+}
+.logo-yulan
+{
+    position: absolute;
+    top: 20px;
+    right: 35px;
+}
+.box2
+{
+    width: 100%;
+}
+.box2 td
+{
+    vertical-align: top;
+    line-height: 20px;
+    padding-bottom: 8px;
+}
+.box2 .t
+{
+    width: 90px;
+    padding-right: 5px;
+    text-align: right;
+}
+.box1 td .sex input
+{
+    vertical-align: baseline;
+}
+.text1
+{
+    width: 330px;
+    height: 17px;
+    padding: 3px 3px 0; 
+    background-color:#fff;
+    border: 1px solid #7F9DB9;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+.text2
+{
+    width: 200px;
+    height:14px;
+
+    padding: 6px 0px 6px 5px;
+    background-color:#fff;
+    border: 1px solid #ddd;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+.text3
+{
+    width: 105px;
+    height: 17px;
+    text-align: center;
+    padding-top: 3px;
+    background-color:#fff;
+    border: 1px solid #7F9DB9;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+.text4
+{
+    width: 265px;
+    height: 17px;
+    padding: 3px 2px 0;
+    background-color:#fff;
+    border: 1px solid #7F9DB9;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+.text5
+{
+    width: 85px;
+    height: 17px;
+    padding: 3px 2px 0;
+    background-color:#fff;
+    border: 1px solid #7F9DB9;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+.textarea1
+{
+    width: 600px;
+    height: 150px;
+    background-color:#fff;
+    border: 1px solid #7F9DB9;
+}
+.textarea2
+{
+    width: 480px;
+    height: 70px;
+    border: 1px solid #7F9DB9;
+    background-color:#fff;
+    font-size: 13px;
+    padding: 2px;
+    vertical-align: top;
+}
+.selectStyle
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7F9DB9;
+    background-color:#fff;
+    padding: 2px;
+}

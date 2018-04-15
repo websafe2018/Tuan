@@ -1,0 +1,43 @@
+﻿.dv_account_0 { width: 1000px;  margin: 10px auto; height:auto; text-align:left; }
+
+.dv_account_1 { width: 224px; height: 100%; float: left; text-align: left; }
+.dv_account_2 { width: 768px; height: 100%; overflow: hidden; float: right; }
+
+.dv_account_3 { width: 798px; border: 1px solid #ffcc66; background-color: #ffffe3; height: 150px; float: left; }
+.dv_account_4 { width: 600px; height: 100%; overflow: hidden; float: left; }
+.dv_account_4_1 { width: 598px; border: 1px solid #ffcc66; background-color: #ffffe3; float: left; height: 150px; }
+.dv_account_5 { width: 198px; float: left; }
+.dv_account_6 { width: 128px; float: left; height: 150px; }
+.dv_account_6_1 { width: 128px; float: left; height: 120px; }
+.dv_account_6_2 { width: 128px; float: left; height: 30px; line-height: 30px; }
+.dv_account_7 { width: 470px; float: left; height: 150px; line-height: 30px; }
+.dv_account_7_1 { width: 470px; float: left; height: 30px; text-align: left; }
+.dv_account_7_2 { width: 70px; float: left; height: 30px; text-align: left; }
+.dv_account_7_3 { width: 400px; float: left; height: 30px; text-align: left; margin-top: 5px; }
+.dv_account_8 { width: 598px; border: 1px solid #cccccc; background-color: #f1dede; float: left; height: 30px; line-height: 30px; margin-top: 8px; text-align: left; }
+.dv_account_9 { width: 598px; border-left: 1px solid #cccccc; border-right: 1px solid #cccccc; border-bottom: 1px solid #cccccc; background-color: #f6f6f6; float: left; height: 30px; line-height: 30px; text-align: left; height: 100%; overflow: hidden; }
+.dv_account_9_1 { width: 299px; float: left; height: 30px; line-height: 30px; text-align: left; }
+ 
+.sp_account_1 { font-size: 14px; color: #993300; font-weight: bold; margin: 5px; }
+.sp_account_2 { font-size: 12px; color: #000000; width: 80px; margin: 5px; }
+
+.top_account_bg {background-color:#fff; width:auto;font-weight:600; color:#515151; font-size:16px;  height:24px; padding-top:10px; vertical-align:middle; text-align:left; margin-top:15px; margin-bottom:10px;}
+.top_account_bg .we-btn{ width:90px; height:28px; float:left; margin-right:10px; line-height:28px; font-size:14px;   display:block; text-align:center;  border:1px solid #e5e5e5;  border-radius:3px; margin-bottom:8px; overflow:hidden; text-overflow:ellipsis;white-space:nowrap; } 
+.top_account_bg .we-btn-selected, .top_account_bg .we-btn:hover{  background:#ffc600;  color:#fff; border-radius:3px;  text-decoration:none;}
+.top_account_bg img{margin-right: 5px;}
+.shenhe_tit{width:724px;height:32px;border-left:1px solid #e6e6e6;border-right:1px solid #ddd;background:url(//js.tuandai.com/images/member/my_borrow/img_shenhe.gif) 0 0 no-repeat;overflow:hidden}
+.shenhe_tit ul li{width:70px;height:32px;overflow:hidden;float:left;padding-left:10px}
+.shenhe_tit.se_tit01{background:url(//js.tuandai.com/images/member/my_borrow/img_shenhe.gif) 0 -32px no-repeat}
+.shenhe_tit.se_tit02{background:url(//js.tuandai.com/images/member/my_borrow/img_shenhe.gif) 0 -64px no-repeat}
+.shenhe_tit.se_tit03{background:url(//js.tuandai.com/images/member/my_borrow/img_shenhe.gif) 0 -96px no-repeat}
+.shenhe_tit.se_tit04{background:url(//js.tuandai.com/images/member/my_borrow/img_shenhe.gif) 0 -128px no-repeat}
+.shenhe_tit.se_tit05{background:url(//js.tuandai.com/images/member/my_borrow/img_shenhe.gif) 0 -160px no-repeat}
+.shenhe_tit.se_tit06{background:url(//js.tuandai.com/images/member/my_borrow/img_shenhe.gif) 0 -192px no-repeat}
+.shenhe_tit.se_tit07{background:url(//js.tuandai.com/images/member/my_borrow/img_shenhe.gif) 0 -224px no-repeat}
+.shenhe_tit.se_tit08{background:url(//js.tuandai.com/images/member/my_borrow/img_shenhe.gif) 0 -256px no-repeat}
+.shenhe_tit ul{padding-left:45px}
+.shenhe_tit ul li{ text-align:left;}
+.shenhe_tit ul li.selected a{color:#fff;font-weight:bold; padding-left:10px;}
+.shenhe_tit ul li.selected span{color:#fff;font-weight:bold; padding-left:10px;}
+.shenhe_tit ul li a{display:block;width:90px;height:32px;line-height:32px; padding-left:10px;}
+.shenhe_tit ul li span{display:block;width:90px;height:32px;line-height:32px; padding-left:10px; color:Gray;}

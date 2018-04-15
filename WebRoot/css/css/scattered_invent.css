@@ -1,0 +1,68 @@
+.tag-style{}
+.w350{width: 350px!important;}
+/*.pl20{margin-left:  30!important;}*/
+.bb0{border-bottom: none!important;}
+.w400{width: 400px!important;}
+h3{font-size: 18px; color: #666666;}
+.br0{border-right: 0!important;}
+input{font-family: "microsoft yahei";}
+.container{padding-bottom: 30px;}
+.text-tip{color: #999;font-size: 20px; }
+.reb-border{border:1px solid #ff0000 !important;}
+.count-star{display: inline-block!important;*display: inline!important; *vertical-align:10px ;}
+.tag-style ul{margin-bottom: -2px;}
+.tag-style li{float: left; background: #fbfbfb; width: 600px; text-align: center; font-size: 20px; height: 56px;line-height: 58px; overflow:hidden;}
+.tag-style li.on{border-top: 2px solid #ffbc1b; color: #333; background: #fff; line-height: 54px;}
+.tag-style li a{display: block;}
+.count-form{background: #fff; padding: 40px 75px 25px 75px;   }
+.count-form .input-type-box{height: 80px; }
+.count-form .input-type{ width: 420px;}
+.count-form .input-type input{height: 20px;width: 260px; color: #333; font-size: 20px; border:1px solid #d8d8d8; line-height: 16px; padding: 13px 0; border-radius: 2px; text-align: center; }
+.count-form .input-type input.err{border:1px solid #ff0000;}
+.count-form .input-type span{padding: 0 7px;}
+.count-form .input-type .text{*vertical-align: 10px; display: inline-block;*display: inline; }
+.count-form .count-star{margin-left: 25px; width: 218px; height: 45px; line-height: 45px; font-size: 18px;}
+.tool-arrow-1{ background: url(//js.tuandai.com/images/tool/arrow-1.png); cursor: pointer; width: 13px; height: 8px; position: absolute;   z-index: 10; right: 25px; top:20px;
+transition: all .2s linear ;  -webkit-transition: all  .2s linear;} 
+ 
+.err-tip{width: 200px; color: #ff0000;     left: 78px; top: 50px;  display: none;}
+.profit-count{width: 1050px;  margin: 0 auto;padding: 55px 0 50px; border-top: 1px solid #f3f3f3; background: #fff;}
+.result{margin-top: 35px;}
+.result li{float: left; text-align: center;  width: 349px; border-right: 1px solid #ebebeb;}
+.result .num{  font-size: 38px; color: #ff7301;  margin-top: 17px;}
+.payment{ width: 1050px;  margin: 0 auto;   padding: 55px 0 40px; border-top: 1px solid #f3f3f3;}
+.payment th{font-weight: normal; color: #333; height: 43px; line-height: 43px;}
+.payment td{text-align: center; height: 43px; line-height: 43px;}
+.payment-int{margin-top: 30px;}
+.payment-int span{color: #333;}
+.payment-int li{width: 578px;float: left; height: 30px; line-height: 30px;}
+.prg.load{ animation: load .7s cubic-bezier(0.15, 0.78, 1, 1) both;-webkit-animation: load .7s cubic-bezier(0.15, 0.78, 1, 1) both;}
+@-webkit-keyframes load{
+	from{transform: scaleX(0);transform-origin:left center; -webkit-transform-origin:left center;-webkit-transform: scaleX(0);}
+	to{ transform: scaleX(100%);-webkit-transform: scaleX(100%) ; transform-origin:left center; -webkit-transform-origin:left center; }
+}
+ 
+@keyframes load{
+	from{transform: scaleX(0);transform-origin:left center; -webkit-transform-origin:left center;-webkit-transform: scaleX(0);}
+	to{ transform: scaleX(100%);-webkit-transform: scaleX(100%) ; transform-origin:left center; -webkit-transform-origin:left center; }
+}
+ 
+.sort-condition{display: inline-block; *display: inline; }
+ .sort-condition {left: 0px; top: 9px; width: 48px; height: 30px;}
+  .sort-condition ul{border-radius:3px; background: none; border: 1px solid transparent;  top:0px; cursor: pointer;   }
+.sort-condition ul:hover{border: 1px solid #d8d8d8;  background: none;}
+.sort-condition li{height: 32px; display: none;  line-height: 32px;  padding-left: 9px; width: 45px;}
+.sort-condition li.on{display: block;}
+.sort-condition li:hover{color: #ffad2c;  }
+.sort-condition:hover .tool-arrow{transform: rotate(180deg); -webkit-transform: rotate(180deg);}
+.sort-condition .tool-arrow{left:31px; top:12px;background: url(//js.tuandai.com/images/tool/arrow-1.png); width: 13px; height: 8px;    position: absolute;
+    z-index: -1; display: inline-block; *display: inline;transition: all .2s linear ;  -webkit-transition: all  .2s linear; }
+.re-payment-type{display: inline-block; *display: inline; height: 45px; vertical-align: -16px; border-radius: 2px;}
+.re-payment-type dl{width: 260px!important; border-radius: 2px; font-size: 16px; border:1px solid #D8D8D8 ; cursor: pointer;    background: #fff;  }
+.re-payment-type dt, .re-payment-type dd{height: 45px; line-height: 45px; text-align: center;   color: #333;}
+.re-payment-type dt:hover, .re-payment-type dd:hover{color: #ffad2c;}
+.re-payment-type dd{display: none;}
+ .re-payment-type-1, .re-payment-type-2{border-radius: 2px;width: 260px!important; height: 45px; color: #333; display: inline-block; *display: inline; line-height: 45px; text-align: center; vertical-align: -1px; *vertical-align:  4px; font-size: 16px; border:1px solid #D8D8D8 ; cursor: pointer;    background: #fff; }
+ .re-payment-type-2{background: #f3f1f1;}
+ .list li{display: none;}
+.list li.on{display: block;}

@@ -1,0 +1,18 @@
+#menu_autoTender{position:relative}
+#menu_myWePlan{position:relative}
+.account-left .emClass,.account-left.emClass{width:18px;height:18px;display:block;left:16px;top:50%;margin-top:-10px;position:absolute;background:url(//js2.tdw.cn/images/investlist/invest_detail/we-financing.png) -191px -23px}
+.account-left .tip-box{position:absolute;left:110px;top:-4px;width:357px;height:126px;cursor:default}
+.account-left .tip{width:357px;position:relative;background:#fef8e0;padding:15px;padding-bottom:0;font-size:14px;line-height:22px;border:1px solid #e4e4e4;z-index:1}
+.account-left .tip p{text-align:right}
+.account-left .tip p a{margin-left:10px;color:#C60}
+.account-left .tip p a:hover{color:#EA7E00}
+.account-left .tip .arrow{width:9px;height:14px;display:block;position:absolute;background:url(//js2.tdw.cn/images/member/icon.png?v=20150808001) 0 -605px;left:-9px}
+.account-left .tip .close{width:9px;height:9px;display:block;position:absolute;background:url(//js2.tdw.cn/images/member/icon.png?v=20150808001) 0 -621px;right:8px;top:8px;cursor:pointer}
+.left-new{position:absolute;width:20px;height:14px;background:url(//js2.tdw.cn/images/member/left-new.gif) 0 0 no-repeat;right:24px;top:4px}
+.ny .tip-box{position:absolute;left:110px;top:-4px;width:357px;height:126px;cursor:default}
+.ny .tip{width:446px;position:relative;background:#fef8e0;padding:10px;font-size:14px;line-height:22px;border:1px solid #e4e4e4;z-index:1}
+.ny .tip p{text-align:right}
+.ny .tip .arrow{width:9px;height:14px;display:block;position:absolute;background:url(//js2.tdw.cn/images/member/icon.png?v=20150808001) 0 -605px;left:-9px}
+.ny .tip .close{width:9px;height:9px;display:block;position:absolute;background:url(//js2.tdw.cn/images/member/icon.png?v=20150808001) 0 -621px;right:8px;top:8px;cursor:pointer}
+
+

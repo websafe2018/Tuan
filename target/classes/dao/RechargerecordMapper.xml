@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<!--使用接口方式动态配置sql,官方推荐-->
+	<mapper namespace="dao.RechargerecordDao">
+		<select id="findReAll" resultType="entity.Rechargerecord">
+			select r.id,a.realName,r.chargeMoney from rechargerecord r,account a
+			where r.aid = a.id   
+			<if test="min!=null and min !=''">
+			 and r.chargeTime BETWEEN #{min} and  #{max}
+			</if>
+			<if test="uname!=null and uname !=''">
+				and a.realName like concat('%',#{uname},'%')
+			</if>
+			limit #{0},5
+		</select>
+		<select id="getReCount" resultType="Integer">
+			select count(1) from rechargerecord r,account a
+			where r.aid = a.id   
+			<if test="min!=null and min !=''">
+			 and r.chargeTime BETWEEN #{min} and  #{max}
+			</if>
+			<if test="uname!=null and uname !=''">
+				and a.realName like concat('%',#{uname},'%')
+			</if>
+		</select>
+		<select id="findReById" resultType="entity.Rechargerecord">
+			select r.id,a.realName,r.chargeNumber,r.chargeMoney,r.chargeTime,r.chargeStatus from rechargerecord r,account a
+			where r.aid = a.id  and r.id=#{0}
+		</select>
+		<select id="getRecharBodyByAid" resultType="entity.Rechargerecord">
+			select * from rechargerecord where aid=#{0}
+		</select>
+		
+		<insert id="addRecharge" parameterType="entity.Rechargerecord">
+			insert into rechargerecord (aid,chargeNumber,chargeType,chargeMoney,chargeTime,chargeStatus) 
+			values(#{aid},#{chargeNumber},#{chargeType},#{chargeMoney},#{chargeTime},#{chargeStatus})
+		</insert>
+		<select id="getRechargeListByAid" resultType="entity.Rechargerecord">
+			select * from rechargerecord where aid=#{0} 
+			<if test="s!=null and s!=''"></if>
+			and chargeTime between #{s} and #{e}
+		</select>
+	</mapper>
+

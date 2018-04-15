@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<!--使用接口方式动态配置sql,官方推荐-->
+	<mapper namespace="dao.RebackrecordDao">
+		<select id="getRebackBodyByLid" resultType="entity.Rebackrecord">
+			select * from rebackrecord where lid=#{0}	
+		</select>
+		
+		<insert id="addReBack" parameterType="entity.Rebackrecord">
+			insert into rebackrecord (lid,reTotal,reMoney,overMoney,reTime,reNumber,reStatus,ereback,punReback,overReback,overPay)
+			 values(#{lid},#{reTotal},#{reMoney},#{overMoney},#{reTime},#{reNumber},#{reStatus},#{ereback},#{punReback},#{overReback},#{overPay})
+		</insert>
+		
+		<update id="updateReback" parameterType="entity.Rebackrecord">
+			update rebackrecord 
+			<set>
+			<if test="lid!=null and lid!=''">
+			lid=#{lid},
+			</if>
+			<if test="reTotal!=null and reTotal!=''">
+			reTotal=#{reTotal},
+			</if>
+			<if test="reMoney!=null and reMoney!=''">
+			reMoney=#{reMoney},
+			</if>
+			<if test="overMoney!=null and overMoney!=''">
+			overMoney=#{overMoney},
+			</if>
+			<if test="reTime!=null and reTime!=''">
+			reTime=#{reTime},
+			</if>
+			<if test="reNumber!=null and reNumber!=''">
+			reNumber=#{reNumber},
+			</if>
+			<if test="reStatus!=null and reStatus!=''">
+			reStatus=#{reStatus},
+			</if>
+			<if test="ereback!=null and ereback!=''">
+			ereback=#{ereback},
+			</if>
+			<if test="punReback!=null and punReback!=''">
+			punReback=#{punReback},
+			</if>
+			<if test="overReback!=null and overReback!=''">
+			overReback=#{overReback},
+			</if>
+			<if test="overPay!=null and overPay!=''">
+			overPay=#{overPay},
+			</if>
+			</set>
+			 where id=#{id}
+		</update>
+	</mapper>
+

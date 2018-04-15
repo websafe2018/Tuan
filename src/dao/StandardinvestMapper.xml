@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper  
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+	<!--使用接口方式动态配置sql,官方推荐-->
+	<mapper namespace="dao.StandardinvestDao">	
+		<select id="findStandardinvest" resultType="entity.Standardinvest">
+		select * from standardinvest where id=#{0}
+		</select>
+		
+		
+		<select id="findStandardinvestAll" resultType="entity.Standardinvest">
+		select * from standardinvest 
+		<where>
+		<if test="standardinvest.pid !=null and standardinvest.pid!=0">
+		  and pid=#{standardinvest.pid}
+		</if>
+		<if test="standardinvest.speriod !=null">
+		 
+		 <if test="standardinvest.speriod ==1">
+		 and speriod between 0 and 6
+		 </if>
+		 <if test="standardinvest.speriod ==2">
+		 and speriod between 7 and 12
+		 </if>
+		 <if test="standardinvest.speriod ==3">
+		 and speriod  between 13 and 24
+		 </if>
+		 <if test="standardinvest.speriod ==4">
+		 and speriod >=25
+		 </if>
+		</if>	
+		<if test="standardinvest.srate !=null">
+		<if test="standardinvest.srate ==1">
+		and srate>5 and 9>= srate
+		</if>
+		<if test="standardinvest.srate ==2">
+		and  srate >9 and 11>= srate
+		</if>
+		<if test="standardinvest.srate ==3">
+		and srate >11 and 13>= srate
+		</if>
+		<if test="standardinvest.srate ==4">
+		and srate >13 
+		</if>
+		</if>
+		<if test="standardinvest.srepayType !=null and standardinvest.srepayType!=''">
+		  and srepayType=#{standardinvest.srepayType}
+		</if>	
+		</where>
+		limit #{1},5	
+		</select>
+		
+		
+		
+		<!-- 动态sql更新数据，如果没有数据提交，则相应的数据不用更改 -->
+		<update id="updateStandardinvest">
+		update standardinvest 
+		<set>
+		<if test="pid !=null and pid !=''">
+		pid=#{pid},
+		</if>
+		<if test="sname !=null and sname !=''">
+		sname=#{sname},
+		</if>
+		<if test="stotelMoney !=null and stotelMoney !=''">
+		stotelMoney=#{stotelMoney},
+		</if>
+		<if test="srate !=null and srate !=''">
+		srate=#{srate},
+		</if>
+		<if test="speriod !=null and speriod !=''">
+		speriod=#{speriod},
+		</if>
+		<if test="sprice !=null and sprice !=''">
+		sprice=#{sprice},
+		</if>
+		<if test="srepayType !=null and srepayType !=''">
+		srepayType=#{srepayType},
+		</if>
+		<if test="sloadNumber !=null and sloadNumber !=''">
+		sloadNumber=#{sloadNumber},
+		</if>
+		<if test="srestNumber !=null and srestNumber !=''">
+		srestNumber=#{srestNumber},
+		</if>
+		<if test="istartTime !=null and istartTime !=''">
+		istartTime=#{istartTime},
+		</if>
+		<if test="sopenPeriod !=null and sopenPeriod !=''">
+		sopenPeriod=#{sopenPeriod},
+		</if>
+		<if test="spreStatus !=null and spreStatus!=''">
+		spreStatus=#{spreStatus},
+		</if>
+		<if test="sbackStatus !=null and sbackStatus !=''">
+		sbackStatus=#{sbackStatus}
+		</if>
+		</set>
+		where id=#{id}
+		</update>
+		
+		
+		<insert id="addStandardinvest">
+		insert into standardinvest 
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+		<if test="pid !=null">
+		pid,
+		</if>
+		<if test="sname !=null">
+		sname,
+		</if>
+		<if test="stotelMoney !=null">
+		stotelMoney,
+		</if>
+		<if test="srate !=null">
+		srate,
+		</if>
+		<if test="speriod !=null">
+		speriod,
+		</if>
+		<if test="sprice !=null">
+		sprice,
+		</if>
+		<if test="srepayType !=null">
+		srepayType,
+		</if>
+		<if test="sloadNumber !=null">
+		sloadNumber,
+		</if>
+		<if test="srestNumber !=null">
+		srestNumber,
+		</if>
+		<if test="istartTime !=null">
+		istartTime,
+		</if>
+		<if test="sopenPeriod !=null">
+		sopenPeriod,
+		</if>
+		<if test="spreStatus !=null">
+		spreStatus,
+		</if>
+		<if test="sbackStatus !=null">
+		sbackStatus,
+		</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+		<if test="pid !=null">
+		#{pid},
+		</if>
+		<if test="sname !=null">
+		#{sname},
+		</if>
+		<if test="stotelMoney !=null">
+		#{stotelMoney},
+		</if>
+		<if test="srate !=null">
+		#{srate},
+		</if>
+		<if test="speriod !=null">
+		#{speriod},
+		</if>
+		<if test="sprice !=null">
+		#{sprice},
+		</if>
+		<if test="srepayType !=null">
+		#{srepayType},
+		</if>
+		<if test="sloadNumber !=null">
+		#{sloadNumber},
+		</if>
+		<if test="srestNumber !=null">
+		#{srestNumber},
+		</if>
+		<if test="istartTime !=null">
+		#{istartTime},
+		</if>
+		<if test="sopenPeriod !=null">
+		#{sopenPeriod},
+		</if>
+		<if test="spreStatus !=null">
+		#{spreStatus},
+		</if>
+		<if test="sbackStatus !=null">
+		#{sbackStatus}
+		</if>
+		
+		</trim>
+		</insert>
+		
+		<delete id="delStandardinvest" >
+		delete from standardinvest where id=#{0}		
+		</delete>
+		
+		
+		<select id="getcount" resultType="Long">
+		select count(*) from standardinvest 
+		<where>
+		<if test="standardinvest.pid !=null">
+		  and pid=#{standardinvest.pid}
+		</if>
+		<if test="standardinvest.speriod !=null">
+		 <if test="standardinvest.speriod ==1">
+		 and speriod between 0 and 6
+		 </if>
+		 <if test="standardinvest.speriod ==2">
+		 and speriod between 7 and 12
+		 </if>
+		 <if test="standardinvest.speriod ==3">
+		 and speriod  between 13 and 24
+		 </if>
+		 <if test="standardinvest.speriod ==4">
+		 and speriod >=25
+		 </if>
+		</if>	
+		<if test="standardinvest.srate !=null">
+		<if test="standardinvest.srate ==1">
+		and srate>5 and 9>= srate
+		</if>
+		<if test="standardinvest.srate ==2">
+		and  srate >9 and 11>= srate
+		</if>
+		<if test="standardinvest.srate ==3">
+		and srate >11 and 13>= srate
+		</if>
+		<if test="standardinvest.srate ==4">
+		and srate >13 
+		</if>
+		</if>
+		<if test="standardinvest.srepayType !=null and  standardinvest.srepayType!=''">
+		  and srepayType=#{standardinvest.srepayType}
+		</if>	
+		</where>
+		
+		</select>
+		
+		<select id="findStandardInvestTime" resultType="entity.Standardinvest">
+		select * from standardinvest  
+		<where>
+		<if test="pid!=null and pid!=0" >
+		and pid=#{pid}
+		</if>
+		<if test="tys!=null" >
+		and sPreStatus=#{tys}
+		</if>
+		<if test="s!=null and s!='' ">
+		<if test="e!=null and e!='' ">
+		and istartTime between #{s} and #{e}
+		</if>
+		</if>
+		</where>
+		</select>
+		
+		<select id="orderStandardinvestAll" resultType="entity.Standardinvest">
+		select * from standardinvest 
+		<where>
+		<if test="standardinvest.pid !=null and standardinvest.pid !=0">
+		  and pid=#{standardinvest.pid}
+		</if>
+		<if test="standardinvest.speriod !=null">
+		 
+		 <if test="standardinvest.speriod ==1">
+		 and speriod between 0 and 0.5
+		 </if>
+		 <if test="standardinvest.speriod ==2">
+		 and speriod between 0.5 and 1
+		 </if>
+		 <if test="standardinvest.speriod ==3">
+		 and speriod  between 2 and 3
+		 </if>
+		 <if test="standardinvest.speriod ==4">
+		 and speriod  between 4 and 6
+		 </if>
+		 <if test="standardinvest.speriod ==5">
+		 and speriod  between 7 and 12
+		 </if>
+		 <if test="standardinvest.speriod ==6">
+		 and speriod >12
+		 </if>
+		</if>	
+		<if test="standardinvest.srate !=null">
+		<if test="standardinvest.srate ==1">
+		and srate>5 and 9>= srate
+		</if>
+		<if test="standardinvest.srate ==2">
+		and  srate >9 and 11>= srate
+		</if>
+		<if test="standardinvest.srate ==3">
+		and srate >11 and 13>= srate
+		</if>
+		<if test="standardinvest.srate ==4">
+		and srate >13 
+		</if>
+		</if>
+		<if test="standardinvest.srepayType !=null and standardinvest.srepayType !=''">
+		  and srepayType=#{standardinvest.srepayType}
+		</if>
+		
+		</where>
+		 order by
+		<choose>
+		<when test="group!=null and group!=0">
+		<if test="group ==1">
+		srate <if test="order==0">desc</if>
+		</if>
+		<if test="group ==2">
+		speriod <if test="order==0">desc</if>
+		</if>
+		<if test="group ==3">
+		spreStatus <if test="order==0">desc</if>
+		</if>
+		<if test="group ==4">
+		istartTime <if test="order==0">desc</if>
+		</if>
+		</when>
+		<otherwise>id</otherwise>
+		</choose>
+		limit #{1},5 
+		</select>
+		
+		<!--动态修改用户数据  -->
+		<update id="updateU" parameterType="entity.Users">
+		update users
+		<set>
+		<if test="roleId !=null">
+		roleId = #{roleId},
+		</if>
+		<if test="userName !=null">
+		userName = #{userName},
+		</if>
+		<if test="password !=null">
+		password = #{password},
+		</if>
+		<if test="registerTime !=null">
+		registerTime = #{registerTime},
+		</if>
+		<if test="telNo !=null">
+		telNo = #{telNo},
+		</if>
+		<if test="email !=null">
+		email = #{email},
+		</if>
+		</set>
+		where id=#{id}
+		</update>
+		
+		<select id="findUsersMsg" resultType="entity.Users">
+			SELECT * FROM(SELECT u.*,a.realName,a.acBalance,a.IDNumber,a.bankNumber,b.address,b.unitAddres FROM users u,account a ,basicinfo b WHERE u.`id`=a.`uId` AND u.`id`=b.`uId`) p WHERE id=#{0}
+		</select>
+	</mapper>
+

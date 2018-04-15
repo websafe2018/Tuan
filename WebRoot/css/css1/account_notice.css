@@ -1,0 +1,282 @@
+   .nav_top {
+            border-bottom: 1px solid #e5e5e5;
+            height: 46px;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 0;
+            position: relative;
+            width: 800px;
+        }
+        /*选项卡*/
+
+        .nav_title {
+            float: left;
+            height: 44px;
+            line-height: 44px;
+        }
+
+        .nav_title li {
+            float: left;
+            margin: 0px;
+            font-size: 16px;
+            width: 90px;
+        }
+
+        .nav_title li:hover {
+            border-bottom: 2px solid #ff8c00;
+        }
+
+        .nav_title li:hover a {
+            color: #ff8c00;
+        }
+        /*选项卡*/
+
+        .tab_title_a a:link,
+        .tab_title_a a:visited,
+        .tab_title_a a:hover,
+        .tab_title_a a:active {
+            font-size: 16px;
+            text-decoration: none;
+            color: #ff8c00;
+        }
+
+        .tab_title_b a:link,
+        .tab_title_b a:visited,
+        .tab_title_b a:hover,
+        .tab_title_b a:active {
+            color: #000;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .tab_title_a {
+            height: 44px;
+            line-height: 44px;
+            border-bottom: #ff8c00 solid 2px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .tab_title_b {
+            height: 44px;
+            line-height: 44px;
+            border-bottom: #fff solid 2px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .tab2_title_a a:link,
+        .tab2_title_a a:visited,
+        .tab2_title_a a:hover,
+        .tab2_title_a a:active {
+            font-size: 16px;
+            text-decoration: none;
+            color: #000;
+        }
+
+        .tab2_title_b a:link,
+        .tab2_title_b a:visited,
+        .tab2_title_b a:hover,
+        .tab2_title_b a:active {
+            color: #000;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .tab2_title_a {
+            width: 100px;
+            height: 44px;
+            line-height: 44px;
+            border-bottom: #ffa200 solid 4px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .tab2_title_b {
+            width: 100px;
+            height: 44px;
+            line-height: 44px;
+            border-bottom: #fff solid 4px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .txc {
+            text-align: center;
+        }
+
+        .yahoo2 {
+            display: inline-block;
+            *margin: 0 auto;
+            *display: inline;
+            width: auto;
+            float: none;
+        }
+ 
+        .dv_header_8 {
+            background: url();
+        }
+        /*20160516系统消息新*/
+
+        .sortlist {
+            height: 26px;
+            overflow: hidden;
+            font-size: 0;
+            padding-bottom: 22px;
+        }
+
+        .sortlist span {
+            padding: 0 12px;
+            font-size: 14px;
+            display: inline-block;
+        }
+
+        .sortlist em,
+        .sortlist i {
+            font-style: normal;
+            font-size: 14px;
+        }
+
+        .sortlist em {
+            padding: 3px 8px;
+            cursor: pointer;
+            margin-right: 8px;
+            display: inline-block;
+        }
+
+        .sortlist em i {
+            color: #ff8c00;
+        }
+
+        .sortlist .on,
+        .sortlist em:hover {
+            background: #ff8c00;
+            color: #fff;
+            -webkit-border-radius: 2px;
+            border-radius: 2px;
+        }
+
+        .sortlist em:hover i,
+        .sortlist .on i {
+            color: #fff;
+        }
+
+        .system-table .hd-tr {
+            height: 30px;
+            line-height: 30px;
+            background: #f7f7f7;
+        }
+
+        .system-table .hd-tr th {
+            font-weight: normal;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .system-table .hd-tr th .delete {
+            font-size: 14px;
+        }
+
+        .system-table .item-tr {
+            height: 59px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .system-table .item-tr td {
+            text-align: center;
+            color: #7e7e7e;
+        }
+
+        .system-table .item-tr .subject {
+            cursor: pointer;
+        }
+
+        .acc-icons {
+            background: url(//js2.tdw.cn/images/member/icon.png?v=20160516001);
+            display: inline-block;
+        }
+
+        .system-table .letter-icons {
+            width: 16px;
+            height: 12px;
+        }
+
+        .system-table .letter-icons {
+            background-position: 0 -685px;
+        }
+
+        .system-table .del-icons {
+            width: 14px;
+            height: 14px;
+            margin-left: 3px;
+            vertical-align: -2px;
+            *vertical-align: 2px;
+            background-position: -55px -684px;
+        }
+
+        .system-table tr .delete {
+            cursor: pointer;
+            text-align: right;
+            padding-right: 24px;
+        }
+
+        .system-table .content-tr {
+            height: 65px;
+            background: #f7f7f7;
+            border-bottom: 1px solid #eee;
+        }
+
+        .system-table .content-tr td {
+            padding-left: 82px;
+        }
+
+        .system-table .content-tr .let-message {
+            width: 615px;
+        }
+
+        .system-table .content-tr .let-message p {
+            padding-bottom: 10px;
+            color: #666;
+        }
+
+        .system-table .content-tr a {
+            color: #ff8c00;
+            float: right;
+            padding-right: 46px;
+        }
+
+        .system-table .content-tr a:hover {
+            text-decoration: underline;
+        }
+        /*无新消息*/
+
+        .no-message {
+            display: none;
+            text-align: center;
+            height: auto;
+            overflow: hidden;
+            padding: 60px 0;
+        }
+
+        .no-message .no-mes-con {
+            height: 44px;
+            line-height: 44px;
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            margin: 0 auto;
+        }
+
+        .no-message .no-mes-con .notice-icon {
+            width: 36px;
+            height: 36px;
+            margin-right: 5px;
+            vertical-align: -9px;
+            background-position: -44px -642px;
+            display: inline-block;
+        }
+
+        .no-message .no-mes-con {
+            font-size: 18px;
+            color: #a7a7a7;
+        }

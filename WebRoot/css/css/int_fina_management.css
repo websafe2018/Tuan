@@ -1,0 +1,41 @@
+.tag-style{}
+h3{font-size: 18px; color: #666666;}
+.w120{width: 120px;}
+.w100{width: 100px;}
+.w110{width: 110px;}
+.w135{width: 135px;}
+.w380{width: 380px;}
+.w155{width: 155px;}
+input{font-family: "microsoft yahei";}
+.text-tip{color: #999;}
+.reb-border{border:1px solid #ff0000 !important;}
+.tl{text-align: left!important;}
+.container{padding-bottom: 30px;}
+.count-star{display: inline-block!important;*display: inline!important; *vertical-align:10px ;}
+.tag-style ul{margin-bottom: -2px;}
+.tag-style li{float: left; overflow:hidden; background: #fbfbfb;  width: 600px; text-align: center; font-size: 20px; height: 56px;line-height: 58px;}
+.tag-style li.on{border-top: 2px solid #ffbc1b; color: #333; background: #fff; line-height: 54px;}
+.tag-style li a{display: block;  font-family: "微软雅黑";}
+.count-form{background: #fff; padding: 65px 0 60px 288px;   }
+.count-form .input-type input{height: 20px;width: 290px; color: #333; font-size: 20px; border:1px solid #d8d8d8; line-height: 18px; padding: 11px 0; border-radius: 2px; text-align: center;   }
+.count-form .input-type input.err{border:1px solid #ff0000;}
+.count-form .input-type .text{*vertical-align: 10px;}
+.count-form .count-star{margin-left: 25px; width: 218px; height: 45px; line-height: 45px; font-size: 18px;}
+.err-tip{width: 130px; color: #ff0000;     left: 78px;    top: 38px;*top: 55px; }
+.profit-count{width: 1050px;  margin: 0 auto;padding: 30px 0 40px; border-top: 1px solid #f3f3f3; background: #fff;}
+.profit-count table{margin-top:35px; color: #666;}
+.profit-count table th{font-weight: normal; height: 43px; line-height: 43px; background: #f9f9f9; position: relative; top:-15px}
+.profit-count table td{text-align: center; height: 55px; line-height: 55px;}
+.profit-count .join-now{width: 130px; height: 32px; line-height: 32px;  }
+.profit-count .prg{height: 8px; position: absolute;left: 0; top:25px; *top: 50%; *margin-top: -4px;   width:0 ; max-width:390px!important; border-radius: 20px; background: #8acafe; display: inline-block; *display: inline; }
+.prg.load{ animation: load .7s cubic-bezier(0.15, 0.78, 1, 1) both;-webkit-animation: load .7s cubic-bezier(0.15, 0.78, 1, 1) both;}
+@-webkit-keyframes load{
+	from{transform: scaleX(0);transform-origin:left center; -webkit-transform-origin:left center;-webkit-transform: scaleX(0);}
+	to{ transform: scaleX(100%);-webkit-transform: scaleX(100%) ; transform-origin:left center; -webkit-transform-origin:left center; }
+}
+ 
+@keyframes load{
+	from{transform: scaleX(0);transform-origin:left center; -webkit-transform-origin:left center;-webkit-transform: scaleX(0);}
+	to{ transform: scaleX(100%);-webkit-transform: scaleX(100%) ; transform-origin:left center; -webkit-transform-origin:left center; }
+}
+ 

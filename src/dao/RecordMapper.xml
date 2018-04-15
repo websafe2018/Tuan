@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<!--使用接口方式动态配置sql,官方推荐-->
+	<mapper namespace="dao.RecordDao">
+		<insert id="addRecord" parameterType="entity.Record">
+			insert into record (uid,rTime,rType,blance,rMoney,remarks)
+			 values(#{uid},#{rTime},#{rType},#{blance},#{rMoney},#{remarks})
+		</insert>
+		<select id="findRecordAllByUid" resultType="entity.Record">
+			select * from record where uid =#{0}
+		</select>
+		<select id="findReAll" resultType="entity.Record">
+			select * from record where uid=#{0}
+			<if test="remark!=null and remark!=''">
+				and remarks=#{remark}
+			</if>
+			<if test="type!=null and type!=''">
+				and rType =#{type}
+			</if>
+			<if test="time!=null and time !=''">
+				and rTime like concat('%',#{time},'%')
+			</if>
+		</select>
+	</mapper>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<!--使用接口方式动态配置sql,官方推荐-->
+	<mapper namespace="dao.CompanyinfoDao">
+		<insert id="addComp" parameterType="entity.Companyinfo">
+			insert into companyinfo (`uId`,nickname,education , memberLevel , headPic,school,marriage,
+address , industry , scale ,`position` , workTime , income,isHouse ,isCar,emergeContact ,telNo,relation ,queryOne,
+answerOne,queryTwo,answerTwo,`area`,numberID,age,gender ,loanMoney,residencePhone,organization,unitAddres ,worktelePhone,clanName,relationOne,clanPhone, 
+elseOne,elseName,relationTwo ,clanPhones ,elseTwo,certifier,certifierPhonne)
+values(#{uId},#{nickname},#{education}, #{memberLevel} , #{headPic},#{school},#{marriage},
+#{address} , #{industry} , #{scale} ,#{position} , #{workTime} , #{income},#{isHouse} ,#{isCar},#{emergeContact} ,#{telNo},#{relation} ,#{queryOne},
+#{answerOne},#{queryTwo},#{answerTwo},#{area},#{numberID},#{age},#{gender} ,#{loanMoney},#{residencePhone},#{organization},#{unitAddres} ,#{worktelePhone},#{clanName},#{relationOne},#{clanPhone}, 
+#{elseOne},#{elseName},#{relationTwo} ,#{clanPhones} ,#{elseTwo},#{certifier},#{certifierPhonne})
+		</insert>
+		
+		<select id="getcBodyByUid" resultType="entity.Companyinfo">
+			select * from companyinfo where uid=#{0}
+		</select>
+	</mapper>
+

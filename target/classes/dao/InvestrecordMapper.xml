@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<!--使用接口方式动态配置sql,官方推荐-->
+	<mapper namespace="dao.InvestrecordDao">
+		<insert id="addInvest" parameterType="entity.Investrecord">
+			insert into investrecord (uId,iId,sid ,bidsNumber,iMoney,iType,iTime,expectIncome ,realIncome ,rebackType) 
+			values(#{uid},#{iid}  ,#{sid} ,#{bidsNumber} ,#{imoney} ,#{itype}  ,#{itime}  ,#{expectIncome} ,#{realIncome} ,#{rebackType})
+		</insert>
+		
+		<select id="getiBodyByUid" resultType="entity.Investrecord">
+			select * from investrecord where uid =#{0}
+		</select>
+		<select id="getInvestBySid" resultType="entity.Investrecord">
+			select * from investrecord where sid =#{0} and uid=#{1}
+		</select>
+	</mapper>
+

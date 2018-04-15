@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--使用接口方式动态配置sql,官方推荐 -->
+<mapper namespace="dao.LoadrecordDao">
+
+	<select id="findLoadrecordByjiedai" resultType="entity.Loadrecord">
+		SELECT l.id, u.`userName`,a.`realName`,u.`telNo`,a.`IDNumber`,b.`address`
+		,b.`organization` ,l.`orderId`
+		,l.`loadMoney`,l.`loadPeriod`,r.`rName`,l.`status`,l.`loadStatus`
+		FROM
+		users AS u,account AS a , basicinfo AS b ,loadrecord AS l
+		,`rebacktype` AS r
+		WHERE u.`id`=a.`uId` AND u.`id`=b.`uId` AND
+		u.`id`=l.`uid` AND r.id IN
+		(SELECT l2.`rId` FROM users AS u2,loadrecord
+		AS l2 WHERE u2.`id`=l2.`uId` AND u2.`id`=u.id )
+		<if test="loadStatus !=null ">
+			AND l.`loadStatus`=#{loadStatus}
+		</if>
+		<if test="loadPeriod !=null and loadPeriod !=''">
+			AND #{loadPeriod}>=l.`loadPeriod`
+		</if>
+		<if test="realName !=null and realName !=''">
+			AND (a.`realName` LIKE concat('%',#{realName},'%') OR u.`telNo` LIKE
+			concat('%',#{realName},'%') OR l.`loadMoney`like
+			concat('%',#{realName},'%'))
+		</if>
+		
+		LIMIT #{pageno},5
+	</select> 
+
+
+	<select id="getCount" resultType="Integer">
+		SELECT COUNT(l.`id`)
+		FROM users AS u,account AS a , basicinfo AS b
+		,loadrecord AS l ,`rebacktype` AS r
+		WHERE u.`id`=a.`uId` AND
+		u.`id`=b.`uId` AND u.`id`=l.`uid` AND r.id IN
+		(SELECT l2.`rId` FROM
+		users AS u2,loadrecord AS l2 WHERE u2.`id`=l2.`uId` AND u2.`id`=u.id )
+		<if test="loadStatus !=null  ">
+			AND l.`loadStatus`=#{loadStatus}
+		</if>
+		<if test="loadStatus !=null and loadPeriod !=''">
+
+			AND #{loadPeriod}>=l.`loadPeriod`
+		</if>
+		<if test="realName !=null  and realName !=''">
+			AND (a.`realName` LIKE concat('%',#{realName},'%') OR u.`telNo` LIKE
+			concat('%',#{realName},'%') OR l.`loadMoney` LIKE
+			concat('%',#{realName},'%'))
+		</if>
+	</select>
+
+
+
+	<select id="findLoadrecordByid" resultType="entity.Loadrecord">
+		SELECT l.id, u.`userName`,a.`realName`,u.`telNo`,a.`IDNumber`,b.`address`
+		,b.`organization` ,l.`orderId`
+		,l.`loadMoney`,l.`loadPeriod`,r.`rName`,l.`status`,l.`loadStatus`
+		FROM
+		users AS u,account AS a , basicinfo AS b ,loadrecord AS l
+		,`rebacktype` AS r
+		WHERE u.`id`=a.`uId` AND u.`id`=b.`uId` AND
+		u.`id`=l.`uid` AND r.id IN
+		(SELECT l2.`rId` FROM users AS u2,loadrecord
+		AS l2 WHERE u2.`id`=l2.`uId` AND u2.`id`=u.id )
+		AND l.id=#{id}
+	</select>
+
+	<update id="updateLoadrecordByuid" parameterType="entity.Loadrecord" >
+		UPDATE `loadrecord` set	`status`=#{status},`loadStatus`=#{loadStatus}
+		WHERE id=#{id}
+	</update>
+	
+	<delete id="deleteLoadrecordByuid" >
+	
+	DELETE FROM `loadrecord` WHERE id=#{id}
+	
+	</delete>
+
+	<!-- 插入借款订单部分数据 -->
+	<insert id="addLoadrecord" parameterType="entity.Loadrecord">
+	insert into loadrecord (uid,pid,loadType,telNo,loadRate,loadTime,loadMoney,orderId,rid,loadStatus,Status,loadPeriod) 
+	values(#{uid},#{pid},#{loadType},#{telNo},#{loadRate},#{loadTime},#{loadMoney},#{orderId},1,0,0,12)
+	</insert>
+	
+	<insert id="addLoad" parameterType="entity.Loadrecord">
+	insert into loadrecord (uid,pid,loadType,telNo,loadTime,loadRate,loadMoney,orderId,rid,loadStatus,Status,loadPeriod) 
+	values(#{uid},#{pid},#{loadType},#{telNo},#{loadTime},#{loadRate},#{loadMoney},#{orderId},#{rid},#{loadStatus},#{status},#{loadPeriod})
+	</insert>
+	
+	<select id="getlBodyByUid" resultType="entity.Loadrecord">
+		select * from loadrecord where uid=#{0}
+	</select>
+	<select id="findLoadrecordAllTime" resultType="entity.Loadrecord">
+	select * from loadrecord 
+	<where>
+	<if test="pid!=null and pid!=0">
+	and pid=#{pid}
+	
+	</if>
+	<if test="loadtype!=null and loadtype!='全部'">
+	and loadType=#{loadtype}
+	
+	</if>
+	<if test="status!=null and status!=2">
+	and status=#{status}
+	
+	</if>
+	<if test="s!=null and s!=''">
+	<if test="e!=null and e!=''">
+	and loadTime between #{s} and #{e}
+	</if>
+	</if>
+	</where>
+	</select>
+	<!-- 借款记录查询 -->
+	<!-- <select id="findLoadrecordByjilu" resultType="entity.Loadrecord">
+		SELECT id, orderId,loadType,loadMoney,loadRate,loadTime,loadPeriod,loadStatus
+		FROM  loadrecord 
+		WHERE uid=#{uid} 
+	
+	</select>  -->
+	<select id="findLoadrecordByjilu" resultType="entity.Loadrecord">
+		SELECT *
+		FROM  loadrecord 
+		WHERE uid=#{uid} 
+	</select> 
+	<select id="findLoadByid" resultType="entity.Loadrecord">
+		select * from loadrecord where id=#{0}
+	</select>
+</mapper>
+

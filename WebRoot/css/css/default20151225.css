@@ -1,0 +1,640 @@
+/*首页公用 start*/
+.mt9{margin-top: 9px;}
+.bb2{border-bottom: 4px solid #f3f3f3!important;}
+.mb18{ margin-bottom: 18px;}
+.w119{width: 119px!important;}
+.ml28{margin-left: 28px;}
+.max-width250{max-width: 250px!important; padding-left: 5px;}
+.l-floor-bg{background: url(//js.tuandai.com/images/default/l-pic.png?v=20160822) no-repeat; }
+.right-arrow{width: 13px;height: 23px; margin-left: 35px; background-position: 0 -610px; vertical-align:0px; *vertical-align:12px;}
+.line{height: 1px; line-height:0; font-size: 0; background: #fff; opacity:.15; filter: alpha(opacity=15);}
+.yellow-bg{ background-position: 0 -1439px!important;}
+/*进度条1*/
+.container  .progress{width: 208px; height: 3px; background: #e4e4e4; overflow: hidden; }
+.container  .progress-box{ }
+.container  .progress-box span{display: inline-block; *display:inline; width: 36px; text-align: right; line-height: 20px;}
+.one-percent{width: 45px;height: 18px; background-position:0 -563px;  position: absolute; margin-left: -87px;	line-height: 14px; font-size: 12px; color: #fff; text-indent: 6px;  text-align: left;background: url(//js.tuandai.com/images/default/plusrate.png) no-repeat;}
+/*修改加息tips*/
+.one-p-top{top: -28px;}
+.tip-red{background: #ff0000; border: 1px solid #ff0000; margin-left: 5px; height: 18px; line-height: 19px; vertical-align: 3px; *vertical-align: 0px; border-radius:2px ; padding: 0 10px;  color: #fff; font-size: 12px; text-align: center; display: inline-block; *display: inline; }
+.item .numbers{text-align: center;}
+/*加息气泡*/
+.container  .pro-ed{ background: #ffad2c; height: 3px; left: 0; top: 0;width:0;
+ -webkit-transition: width 1s ease-in;
+ -o-transition: width 1s ease-in;
+ -ms-transition: width 1s ease-in;
+ -moz-transition: width 1s ease-in;
+ transition: width 1s ease-in; } /*进度条动画样式*/
+/*交易额提示*/
+.bid_inf_question{   z-index: 100; position: relative; display:inline-block;*display: inline;  height: 0; width: 0;      }
+.bid_inf_question2{ left:434px;}
+.tips-detail .mt7{margin-top: 7px;}
+ .bid_tipbox{ bottom:87px;left: 50%; margin-left: 68px; width:200px;     position: absolute;  display:none; z-index:104; cursor:text;}
+.bid_tipbox2{ top:-29px; left:-140px; width:290px; height:20px; padding: 10px; color: #666666;}
+.bond_tipbox{ position:relative; width:290px; height:20px; text-align:center; color:#ff7506;border: 1px solid #ff7506; line-height:22px; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px;}
+.bond_tipbox p i.bond_arrow{ position:absolute; left:143px; bottom:-4px; width:7px; height:4px; display:block; background:url(//js.tuandai.com/images/investlist/invest_detail/bond_arrow.gif) 0px 0px no-repeat;}
+.bid_tipbox .tips-detail{ position:relative; line-height: 20px;   padding:11px 16px 12px 16px; background:#fff;  border:1px solid #ffa019   ; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px;}
+.bid_tipbox .tips-detail .tips-arrow{ position:absolute; width:17px; height:7px; display:block; background: url(//js.tuandai.com/images/investlist/invest_detail/icons.png?v=20150814) -17px -74px;left: 50%; margin-left: -8px; bottom: -7px;}
+ /*banner*/
+.banner-w{height: 400px;   }
+.banner-w .banner{height: 400px; top: 0; margin-left: -600px; left: 50%; }
+.banner-box .bd li{  height:400px; width:100%; }
+.banner-box .bd ul li a{width:100%; height:100%; display:block; text-indent:-99999em;}
+.banner-box .bd{  height:400px; width:100%; }
+.banner-box .slider{margin: 0 auto;}
+.banner-box .hd{width: 1200px;  left: 50%; margin-left: -600px;  text-align: center; bottom: 8px;}
+.banner-box .hd ul{text-align: center; display: inline-block; *zoom:1; *display: inline; padding: 0 60px;}
+.banner-box .hd ul li{ display:inline-block; *zoom:1; *display:inline; width: 8px;height: 8px; margin: 0 6px; background: none; border:2px solid #fff; border-radius: 50%;  cursor: pointer; box-shadow: 1px 2px 2px rgba(30,30,30,.1), 1px 2px 2px rgba(30,30,30,.1) inset;}/*20160107修改轮播圆点*/
+.banner-box .hd ul li.on, .banner-box .hd ul li:hover{border: 2px solid #ffad2c; }
+
+/*登录前*/
+.banner-w .reg-box{width: 300px; height: 328px; border-radius:5px; top: 37px;  left: 50%; margin-left:300px; background: url(//js.tuandai.com/images/default/reg-bg.png); /*background-color:rgba(40,117,118,0.3); opacity: .3; filter:alpha(opacity=30);*/}
+.banner-w .reg-body{width: 242px; height: 315px;  }
+.banner-w .it-1{  padding: 18px 0 10px 0;}
+.banner-w .it-2{  padding: 12px 0 15px 0;}
+.banner-w .it-3{ text-align: justify;  height: 79px; width: 240px;  }
+.banner-w .it-3 .circle-list{width: 72px;  display:inline-block; }
+.banner-w .it-3 .circle-list .c{width: 60px; line-height: 56px; height: 56px; text-align: center; background-position: 0 -76px; margin: 0 auto; }
+.banner-w .it-3 .circle-list .text{ text-align: center; }
+.banner-w .reg{width: 240px; height: 46px; line-height: 46px; text-align: center;  background: #ffad2c; color: #fff; margin-top: 20px;
+	transition: background .2s ease-in-out; -webkit-transition: background .2s ease-in-out;
+}
+.banner-w .reg:hover{background-color: #ffa019;}
+.banner-w .reg .m-p{width: 18px;height: 24px; background-position: 0 -265px; vertical-align: -5px; *vertical-align: -1px; line-height: 0; margin-right: 10px;}
+.banner-w .login{ margin-top: 10px;   text-align: center;}
+.banner-w .login a{color: #fff;  text-decoration: underline;}
+.banner-w .login a:hover{color:#fff;}
+
+/*登录后*/
+.banner-w .reg-box-ed .user-inf{padding-top: 27px;}
+.banner-w .reg-box-ed .user-inf .user-face img{width: 71px;height: 71px; border-radius:50%;}
+.banner-w .reg-box-ed .recharge a{text-decoration:underline!important; color:#ffad2c;}
+.banner-w .reg-box-ed .vip-text{line-height:18px;}
+.banner-w .reg-box-ed .vip-text .myvip-link{float: left;}
+.banner-w .reg-box-ed .vip-text i{ margin-right: 8px; }
+.banner-w .reg-box-ed .vip-text span{display: block; line-height: 34px; text-align: center; color: #fff; background: rgba(0,0,0,.3); border-radius: 3px; font-size: 12px;}
+/*contaner*/
+.container{}
+.container .warp-ann .ann{height: 44px; line-height: 44px;}
+.container .warp-ann .more{height: 44px; line-height: 44px; margin-left:20px; font-size: 12px; color:#999999;  vertical-align:-1px;*vertical-align:-0px;}
+.container .warp-ann .more:hover{color:#ffad2c;}
+.container .warp-ann .ann .ann-top-top{margin-left: 5px;  overflow: hidden;}
+.container .warp-ann .ann .ann-icon{width: 13px;height: 12px;  background-position: 0 -289px; vertical-align: middle; line-height: 0;}
+.container .warp-ann .ranking{line-height: 44px; }
+.container .warp-ann .ranking-icon{background-position: 0 -818px; width: 20px;height: 17px; vertical-align: -3px; *vertical-align:1px;}
+/*.container .ann .ann-list li{line-height: 23px;}
+*/
+/*pack-1*/
+.container .p1{ background: #fff; }
+.container .p1 .data{height: 60px; width: 1150px;   padding: 27px 0 22px 0; border-bottom: 1px solid #f3f3f3;	}
+.container .ny-bank{width: 72px; height: 72px; display: block; position: absolute; background-position: -166px 0;     right: -25px;    top: -1px;}
+.container .p1 .data .d{display:inline-block; *zoom:1; *display:inline; height: 57px; float: left; padding-left: 40px; border-right: 1px solid #f3f3f3;  }
+.container .p1 .data .d1{width: 220px;}
+.container .p1 .data .d2{width: 274px; padding-left: 54px;}
+.container .p1 .data .d3{width: 250px; padding-left: 54px;}
+.container .p1 .data .d1 dt{  /*width: 31px; height: 35px; margin: 12px 10px 0 0; */ }
+.container .p1 .data .d2 dt{  /*width: 23px; height: 30px; margin: 16px 10px 0 0;*/  }
+.container .p1 .data .d3 dt{ /* width: 31px; height: 29px; margin: 16px 10px 0 0;*/   }
+.container .p1 .data .d4 {   padding-left:43px;  text-align: center;  }
+.container .p1 .data .d4  .ready{ height: 29px; background-position: 0 -581px; width: 182px; padding-top: 5px;  cursor:pointer;}
+
+/*circle STAR*/
+.container .p1 .circle{text-align: center; padding-top:25px; padding-left: 60px; position:relative; overflow:hidden;}
+.container .p1 .circle .c-box{ display:block; width: 295px; height:110px; text-align: left; float:left; cursor:pointer;}
+.container .p1 .circle .last-c-box{width: 220px;}
+.container .p1 .circle .c-box p{text-align:left; line-height: 24px; width:100%;}
+.container .p1 .circle .text{padding-top: 13px; margin-left: 10px; text-align:left ;}
+.container .p1 .circle .c{width: 68px; height: 68px; margin: 5px auto 0;  }
+.container .p1 .circle .c1{ background-position: -51px -234px;}
+.container .p1 .circle .c2{ background-position: -141px -234px;}
+.container .p1 .circle .c3{ background-position: -230px -234px;}
+.container .p1 .circle .c4{ background-position: -325px -234px;}
+.container .p1 .circle .c5{ background-position: -357px -314px;}
+.container .p1 .circle .c6{ background-position: -448px -314px;}
+.container .p1 .circle .c7{ background-position: -541px -314px;}
+.container .p1 .circle .tempWrap{ margin:0 auto;}
+.container .p1 .circle .btn{ width:26px; height:37px; position:absolute; top:50%; margin-top:-30px; z-index:10; display:none;}
+.container .p1 .circle:hover .btn{ display:block;}
+.container .p1 .circle .btn-l{ background-position:-117px -650px; left:2%;}
+.container .p1 .circle .btn-l:hover{ background-position:-117px -613px;}
+.container .p1 .circle .btn-r{ background-position:-143px -650px; right:2%;}
+.container .p1 .circle .btn-r:hover{ background-position:-143px -613px;}
+/*恭喜发财*/
+.container .p1 .circle .g{width: 92px; height: 92px; margin: 0 auto; background: url(//js.tuandai.com/images/default/gxfc.png) no-repeat; );  }
+.container .p1 .circle .g1{ background-position: 0 0px;}
+.container .p1 .circle .g2{ background-position: -232px 0px;}
+.container .p1 .circle .g3{ background-position: -461px 0px;}
+.container .p1 .circle .g4{ background-position: -689px 0px;}
+.container .p1 .circle .g5{ background-position: -921px 0px;}
+.container .p1 .circle .c-box:hover .g{transform:rotateY(720deg); -webkit-transform:rotateY(720deg); transition: transform 1.2s ease-out ; -webkit-transition: -webkit-transform 1.2s ease-out ;}
+/*恭喜发财*/
+/*circle END*/
+
+/*p2~p4右侧版面 等宽列表排列 STAR*/
+.p2 .r-floor .item,
+.p3 .r-floor .item,
+.p4 .r-floor .item{width: 414px; *width: 421px;height: 141px; padding:29px 27px 0 26px; *padding:29px 20px 0 26px;  cursor: pointer; border-bottom:1px solid #f3f3f3 ;      border-right: 1px solid #f3f3f3; float: left;  display: inline-block; *display: inline-block;}
+
+/*右侧版面 等宽列表排列 END*/
+/*pack-2*/
+	/*基侧板块*/
+.l-floor .hot-invent{margin-top: 68px;}
+.container .l-floor{width: 263px; overflow: hidden; position: absolute;   }
+
+.container .r-floor{margin-left: 264px; /*overflow: hidden; */}
+.container .l-floor h2{font-size: 36px;   font-weight: bold; color: #fff;  padding: 22px 0 0 30px; }
+.container .l-floor .int{ width: 180px; color: #fff; padding: 20px 0 0 30px; vertical-align: 10px;}
+.container .p2{ height: 340px;  }
+.container .p2 .title{vertical-align:3px; *vertical-align:0px; font-size:18px;}
+.container .p2 .l-floor{ height: 225px; }
+	/*右侧板块 */
+.red-package{background: url(//js.tuandai.com/images/default/red-package.gif?v=20161121001); width: 64px; height: 63px;  position: absolute; right: 0; top: 0; }
+.red-package-a{width: 64px; height: 63px; position: absolute; right: 0; top: 0; z-index: 1; cursor: pointer;}	
+.recommend{width: 55px; height: 55px; position: absolute; display: block; right: 0; top: 0; background: url(//js.tuandai.com/images/default/recommend.png);}
+.container .p2 .r-floor {   }
+.p2 .s-banner{border-left:1px solid #f3f3f3; height: 342px;}
+.p2 .s-banner .pic{padding: 24px 30px 0 30px; height: 146px; border-bottom:1px solid #f3f3f3; }
+.container .p2 .r-floor .item{    }
+.container .p2 .r-floor .item .new-user-inv{ color:#e88b06; background: #fffbf0; font-size: 12px; display:inline-block; *display:inline; height: 18px; line-height: 19px; border:1px solid #ffdeab; border-radius: 1px; padding: 0 10px; vertical-align:4px; *vertical-align:3px;}
+.container .p2 .interest{width: 415px;}
+.container .p2 .c-poi-a{ height: 340px; background: url(//js.tuandai.com/images/default/red-bg.jpg);}
+.container .p2 .date{width: 120px; position:relative;  z-index: 0; }
+.container .p2 .per-box{width: 167px; position: relative;}
+.container .p2 .submit{ position:relative;   }
+.container .p2 .submit .g{width: 11px;height: 15px; background-position: 0 -249px; vertical-align:-3px; *vertical-align:2px;}
+.container .p2 .submit .join{   *display:inline;  margin-top: 30px; }
+.container .p2 .submit .join.td-btn-1-gar{margin-top: 30px;}
+
+.container .p2 .xint{     margin: 25px 0;    height: 0;    font-size: 0;    line-height: 0;    overflow: hidden;    border-bottom: 1px dashed #d9d9d9;}
+.container .p2 .video{width: 256px; padding-top: 3px;   display:inline-block;   *display:inline; padding-left: 30px;    }
+.container .p2 .video img{display:block;}
+.container .p2 .video a{padding-top: 10px; display:block; float:left;}
+.container .p2 .video:hover{    /*  transform: translate(0,-5px); -webkit-transform: translate(0,-5px); */}
+.container .p2 .vide .animate-scale-small{transition: scale .4s; -webkit-stransition: scale .4s;}
+.container .p2 .video .car-arrow{top: 57px;left: 50%; margin-left: -17px;}
+/*.container .p2 .video:hover .animate-scale-small{  transform:scale(.98); -webkit-transform:scale(.98);}*/
+/*pack-3*/ 
+.container .p3{  font-weight: bold; height: 514px; overflow: hidden;}
+.container .p3 .item{}
+.container .p3 .l-floor{background-position: 0 -340px; height: 514px; }
+
+.container .p3 .l-floor .tb{padding-left: 30px ;margin-top: 29px;  }
+.container .p3 .l-floor .tb a{color:#fff; position: relative;}
+.container .p3 .l-floor .tb p{display: block; width: 87px;height: 34px; line-height: 34px;text-align: center; color: #fff;    border-radius: 3px;
+ 							   background: url(//js.tuandai.com/images/default/rgb10.png);
+							transition: background .2s ease-in-out, opacity .2s ease-in-out;
+							 -webkit-transition: background .2s ease-in-out, opacity .2s ease-in-out;}
+.container .p3 .l-floor .tb p:hover{ background: url(//js.tuandai.com/images/default/rgb20.png);}
+.container .p3 .l-floor .arrow-v{*vertical-align:10px;}
+
+/*右侧*/
+/*20160105* 修改we计划 添加左右滚动效果 s*/
+
+.container .p3 .r-floor .title {   font-size: 18px; vertical-align:2px ;*vertical-align:0px ;}
+.container .p3 .r-floor .tip-redeem{width: 48px; height: 16px; top: 3px; right: 4px; display: inline-block; *line-height: 17px; border: 1px solid #ff7800;background: #ff7800;color: #FFFFFF;}
+.container .p3 .r-floor .precent {font-size: 45px; margin-top: 12px;  }
+.container .p3 .r-floor .tc{margin-top: 25px;}
+.container .p3 .r-floor .tc a{margin: 0 auto;}
+.container .p3  .join{   *display:inline;   margin-top: 30px; }
+.container .p3 .submit .join.td-btn-1-gar{margin-top: 30px;}
+.container .p3 .per-box{width: 167px; position: relative;}
+.container .p3 .item .new-user-inv{ color:#e88b06; background: #fffbf0; font-size: 12px; display:inline-block; *display:inline;     height:18px;  line-height:19px;    border:1px solid #ffdeab; border-radius: 2px; padding: 0 10px; vertical-align:4px; *vertical-align:1px;}
+.p3 .r-floor .item{height: 140px;}
+.container .p3 .we-box{width: 935px;overflow:hidden; position:relative;  }
+.container .p3 .we-box ul{overflow:hidden; zoom:1;}
+.container .p3 .we-box li{ float:left; _display:inline; overflow:hidden;   }
+.container .p3 .we-box .ctrl-arrow{display: none;}
+.container .p3 .we-box .ctrl-arrow i{position: absolute; width: 24px;height: 66px; top:50%; margin-top:-33px; z-index:1; cursor: pointer; }
+.container .p3 .we-box i.prev{left: 10px; background-position:0 -634px;}
+.container .p3 .we-box i.next{right: 10px; background-position:-24px -634px; }
+.container .p3 .we-box i.prev:hover{background-position:-52px -634px;  }
+.container .p3 .we-box i.next:hover{background-position:-76px -634px;  }
+.container .p3 .submit{ position: relative;}
+.p3 .we-plan-list{padding-left: 30px; padding-bottom: 32px; border-right: 1px solid #f3f3f3; width: 203px; float: left;}
+.p3 .we-plan-list .submit-box{padding-left: 35px;}
+.we-plan-list .submit-box a{ width: 75px; height: 32px; line-height: 32px; font-size: 14px; margin-top: 12px;}
+.we-plan-list .submit-box p{text-align: center;} 
+/*20160105* 修改we计划 添加左右滚动效果 e*/
+
+/*pack-4*/
+/*左侧*/
+.container .p4{height: 240px; font-weight: bold; }
+.container .p4 .l-floor{background-position: 0 -406px; height: 240px;}
+/*右侧*/
+.container .p4 .r-floor .title{ }
+.container .p4 .r-floor{}
+.container .p4 .date{width: 130px;}
+.container .p4 .pre{width: 120px;}
+.container .p4 .r-floor .item{ height: 215px;border-right: 1px solid #f3f3f3; }
+.container .p4 .submit{margin-top: 25px;}
+.container .p4 .submit .g{width: 11px;height: 15px; background-position: 0 -249px;}
+.container .p4 .submit .join{ display:inline-block;   *display:inline;  }
+.container .p4 .interest{margin-top: 23px;}
+.container .hot .title{width: 190px;  display:inline-block; *zoom:1; *display:inline; text-overflow:ellipsis;  white-space:nowrap; *word-wrap:all; overflow:hidden; }
+.container .p4 .progress-box{margin:28px 0;height: 0; font-size: 0; line-height: 0; overflow: hidden; border-bottom: 1px dashed #d9d9d9;}
+.inv-type{width: 120px; }
+.inv-type .tip{width: 128px;height: 80px;  z-index:1 ; border: 1px solid #dbdbdb; border-radius:2px; padding:0px 5px 0 10px; background: #fff; font-size: 12px; color: #595757;     top: -81px;    left: -8px;}
+.inv-type .tip span{margin-right: 5px; vertical-align: 3px; font-size: 28px; line-height: 14px; color: #ffbc1b;}
+.inv-type .tip p{height: 22px; }
+.inv-type .arrow{background-position: -258px 0; z-index: 2; left: 5px; width: 13px; top: 80px; height: 6px; display: block;}
+/*pack-5*/
+.container .p5{height: 585px; font-weight: bold;   }
+.container .p5 .l-floor{background-position: 0 -855px; height: 584px;overflow: hidden;   }
+/*产品列表 TAG*/
+.container .financial .fin-list{ margin-top: 20px;  width: 118px;position: absolute;right: -1px;}
+.container .financial .fin-list li{ transition:all .3s ease-in-out; -webkit-transition:all .3s ease-in-out; width: 118px; height: 36px;  margin-top: 10px; position: relative; cursor: pointer;; border: 1px solid #fff; line-height: 36px; color: #fff; text-indent: 16px;  right: 0;   }
+.container .financial .fin-list li:hover, .container .financial .fin-list  .selected{background: #fff; color: #9461fb;}
+.container .financial .fin-list li:hover i{background: #f0f0f0; color: #acacac; opacity: 1;filter:alpha(opacity=100);}
+.container .financial .fin-list i {width: 20px;  height: 20px; line-height: 20px;  right: 10px;    top: 8px;
+    display: block;    position: absolute;   background: #FFF ;  border-radius: 50%;
+    text-indent: 0;    text-align: center;   font-size: 12px; color: #000;    opacity: 0.3; filter:alpha(opacity=30);}
+.container .financial .fin-list i.on{background: #ff614f!important; color: #fff!important; opacity: 1; filter:alpha(opacity=100);}
+.container .p5 .r-floor{height: 585px; margin-left: 265px;}
+.container .p5 .arrow-v{*vertical-align:10px;}
+.container .p5 .inv-list{padding: 18px 0 16px 25px;  border-bottom: 1px solid #f3f3f3; height: 74px; overflow: hidden;   }
+.container .p5 .inv-list dt img{border-radius:5px; width: 65px;height: 65px;}
+.container .p5 .inv-list dd {}
+.container .p5 .inv-title {height: 26px;  }
+.container .p5 .inv-title a{  max-width: 280px;  display:inline-block; *zoom:1; vertical-align: 2px!important; *display:inline; text-overflow:ellipsis;  white-space:nowrap; *word-wrap:all; overflow:hidden;}
+.container .p5 .inv-list .detail {width: 695px;}
+.container .p5 .inv-list .inv-data{ }
+.container .p5 .inv-list .inv-data ul{line-height: 35px ;}
+.container .p5 .inv-list .inv-data li{  width: 135px; display:inline-block;   *display:inline;}
+.container .p5 .inv-list .inv-data li.percent{width: 140px;}
+.container .p5 .inv-list .inv-data li.surplus{ width: 115px;}
+/*债权转让*/
+.container .p5 .inv-list .inv-data li.percent-zq{width: 140px;}
+.container .p5 .inv-list .inv-data li.surplus-zq{ width: 100px;}
+/*债权转让*/
+.container .p5 .inv-list .inv-progress{padding-top: 2px; width: 130px;}
+.container .p5 .inv-list .inv-progress.fqb{ }
+.container .p5 .inv-list .inv-progress .progress{width: 56px;}
+.container .p5 .inv-list .inv-progress .buy-input-new{width: 100px;height: 30px;position: relative; margin-bottom:5px; -moz-user-select:none;}
+.container .p5 .inv-list .inv-progress .buy-input-new .input-text{width: 50px;height: 26px;line-height: 26px;border: 2px solid #ffc800;text-align: center;position: absolute;top: 0;left: 26px;font-size: 12px;color: #666;}
+.container .p5 .inv-list .inv-progress .buy-input-new .btn{width: 26px;height: 30px;display: block;text-align: center;line-height: 26px;font-size: 28px;font-weight: bold;color: #fff;background: #ffc800;cursor: pointer;}
+.container .p5 .inv-list .inv-progress .buy-input-new .l-btn{position: absolute;left: 0;top: 0;}
+.container .p5 .inv-list .inv-progress .buy-input-new .r-btn{position: absolute;left: 78px;top: 0;}
+.container .p5 .list-5 li{line-height: 42px;}
+/*.container .p5 .list-5 .detail{width: 389px;}*/
+.container .p5 .list-5 .profit{width: 168px;  }
+.container .p5 .list-5 .term{width: 138px;   }
+.container .p5 .list-5 .term .term-lh42{line-height: 48px;}
+/*.container .p5 .list-8 li{line-height: 42px;}
+.container .p5 .list-8 .detail{width: 400px;}
+.container .p5 .list-8 .profit{width: 168px;  }
+.container .p5 .list-8 .term{width: 127px;  }
+.container .p5 .list-8 .term .term-lh42{line-height: 54px;}*/
+.container .p5 .one-percent{width: 45px;height: 18px; background-position:0 -563px;  position: absolute; margin-left: -43px;
+	line-height: 14px; font-size: 12px; color: #fff; text-indent: 6px;
+    background: url(//js.tuandai.com/images/default/plusrate.png) no-repeat; margin-top:-1px;
+}
+.container .p5 .more-inv{line-height: 38px;   }
+.container .p5 .simubao-list .man-biao{top: -19px; right:40px;}
+
+/*新闻板块*/
+.container .news{}
+.container .news h2{border-bottom: 1px solid #e6e6e6;}
+.container .news h2 span{color:#666666;  　  margin-bottom: -1px;}
+.container .news .more{font-size: 14px; line-height: 38px;}
+/*左侧新闻*/
+.container .l-new-wrap{width: 785px; background: #fff;}
+.container .l-news{width: 728px;   }
+.container .l-news-list{  text-align: justify; vertical-align: top; height: 200px;}
+.container .l-news-list .text-justify-list{width: 226px; display:inline-block;  }
+.container .l-news-list .text-justify-list img{width: 226px; height: 120px; display:block;}
+.container .l-news-list .text-justify-list span{line-height: 24px;  font-size: 14px; }
+
+/*右侧新闻*/
+.container .r-news-wrap{width: 400px; height: 248px; padding-top: 25px; *height: 243px;  margin-left: 14px;   background: #fff;}
+.container .r-news{width: 345px; margin: 0 auto;  }
+.container .r-news a{    max-width: 180px;     display: inline-block;    text-overflow: ellipsis;    white-space: nowrap;    overflow: hidden;}
+.container .r-news li{}
+.tag{width: 340px; margin: 0 auto 5px;  border-bottom: 1px solid #e6e6e6;}
+.tag li{float: left; cursor: pointer; padding-bottom: 18px; font-size: 18px; color: #666;}
+.tag li:hover{color: #ffad2c;}
+.tag li.on{border-bottom:1px solid  #ffad2c; margin-bottom:-1px;}
+.container .r-news li{line-height: 37px; height: 37px;  }
+.container .r-news i{width: 7px;height: 7px;background-position: 0px -302px;  }
+.container .r-news .date{float: right;}
+.container .r-news .line{    margin: 18px 0;  opacity:1; filter: alpha(opacity=100);  height: 0;    font-size: 0;    line-height: 0;    overflow: hidden;    border-bottom: 1px solid #f0f0f0;}
+.container .r-news-list a{width: 180px; float: left;  display:inline-block; *zoom:1; *display:inline; text-overflow:ellipsis;  white-space:nowrap; *word-wrap:all; overflow:hidden; }
+.container .r-news-list .eare{width:90px;}
+.container .r-news-list i{margin-right: 5px; float: left; margin-top: 12px; vertical-align:11px;  *vertical-align: 5px; display:inline-block; *zoom:1; *display:inline;}
+.container .r-news-list .date{float: right;}
+
+/*合作伙伴*/
+.container .partner{margin-top: 40px; }
+.container .partner h2{margin-bottom: 15px; color: #474747; padding-bottom: 5px; }
+.container .partner-list{text-align: left; font-size: 0;  }
+.container .partner-list .text-justify-list{  display: inline-block; *display:inline;    }
+.container .partner-list .hb5,.container .partner-list .hb10{margin-right\0: 0; margin-right*: 0;}
+.container .partner-list a{background: url(//js.tuandai.com/images/default/pn.png?v=20170629001) no-repeat; float: left; width: 188px; height: 83px; margin-right:12px;  margin-bottom: 14px;}
+.container .partner-list a{border: 1px solid #fff; display: block;  display: inline-block; *display:inline; font-size: 14px;  transition: border .3s ease-in-out; -webkit-transition: border .3s ease-in-out;}
+.container .partner-list a:hover{border:1px solid #ffad2c;}
+.container .partner-list .hb1 a{background-position: 0 0}
+.container .partner-list .hb2 a{background-position: -202px 0}
+.container .partner-list .hb3 a{background-position: -404px 0}
+.container .partner-list .hb4 a{background-position: -607px 0}
+.container .partner-list .hb5 a{background-position: -809px 0}
+.container .partner-list .hb6 a{background-position: -1012px 0px; margin-right: 0px!important;}
+.container .partner-list .hb7 a{background-position: -0 -97px}
+.container .partner-list .hb8 a{background-position: -202px -97px}
+.container .partner-list .hb9 a{background-position: -404px -97px}
+.container .partner-list .hb10 a{background-position: -607px -97px}
+.container .partner-list .hb11 a{background-position: -809px -97px}
+.container .partner-list .hb12 a{background-position: -1012px -97px; margin-right: 0px!important;}
+
+
+
+
+
+
+/*右则*/
+.right_servers_box{display: none;}
+
+
+
+/*动画*/
+.animate-right:hover{ transform: translate(5px,0); -webkit-transform: translate(5px,0); }
+.animate-up:hover{ transform: translate(0,-3px); -webkit-transform: translate(0,-3px); }
+.animate{position:relative;transition: all 0.2s ease-out; -webkit-transition: all 0.2s ease-out;}
+
+/*中间圆圈*/
+.circle .c-box:hover .animate-up{transform: translate(0,-3px); -webkit-transform: translate(0,-3px);}
+.animate-scale-up{ transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out;}
+ /*新闻图片*/
+/*.text-justify-list:hover .animate-scale-small, .animate-scale-small:hover{ transform:scale(.98); -webkit-transform:scale(.98); }
+.animate-scale-small{ transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out;}*/
+
+/*首页按钮 缓动	*/
+/*banner 小圈放大*/
+.banner-box .hd ul{transition: all .3s ease-in-out;  }
+
+.banner-box .hd ul:hover{transform: scale(1.3); -webkit-transform: scale(1.3);}
+.ewm-toTop{animation: toTop .2s ease-out forwards;	-webkit-animation: toTop .2s ease-out forwards; 		}
+.ewm-toBottom{animation: toBottom .5s ease-out forwards;	-webkit-animation: toBottom .5s ease-out forwards;		}
+
+
+/*标即投即息提示*/
+.jing-tip-box{height: 20px;  margin-left: 10px; margin-top: 1px; display: inline-block; *zoom:1; *display: inline;}
+.jing-tip{float: left; height: 20px;   text-align: center;  line-height: 18px; color: #10c986; background: url("//js.tuandai.com/images/default/jing-tip.png?v=20151226001")  ;}
+.jing-tip span{vertical-align: 2px;}
+.jing-tip-l{width: 7px; background-position: 0 0; }
+.jing-tip-c{padding-left: 3px; background-position:0 -20px;}
+.jing-tip-r{width: 9px;  background-position:0 -40px;  }
+
+@keyframes toTop{
+	0%{opacity: 0;transform: translateY(20px); -webkit-transform: translateY(20px);}
+	100%{opacity: 1;transform: translateY(0px); -webkit-transform: translateY(0px);}
+}
+@-webkit-keyframes toTop{
+	0%{opacity: 0;transform: translateY(20px); -webkit-transform: translateY(20px);}
+	100%{opacity: 1;transform: translateY(0px); -webkit-transform: translateY(0px);}
+}
+@keyframes toBottom{
+	0%{opacity: 1;transform: translateY(-20px); -webkit-transform: translateY(-20px);}
+	100%{opacity: 0;transform: translateY(0px); -webkit-transform: translateY(0px);}
+}
+@-webkit-keyframes toBottom{
+	0%{opacity: 1;transform: translateY(-20px); -webkit-transform: translateY(-20px);}
+	100%{opacity: 0;transform: translateY(0px); -webkit-transform: translateY(0px);}
+}
+.banner-box .hd ul:hover{transform: scale(1.3); -webkit-transform: scale(1.3)}
+.banner-box .hd ul:hover{transform: scale(1.3); -webkit-transform: scale(1.3)}
+
+
+/*右侧广告*/
+.rightAD{position: fixed;right: 20px;bottom: 20px; z-index: 80;}
+.rightAD-box{position: relative;width: 150px;height: 150px; }
+.rightAD a{position: absolute;bottom:0px;}
+.rightAD .xy{position: absolute;top: 106px;left: 59px;width: 30px;}
+.rightAD .close{font-size: 28px;z-index: 2;position: absolute;color: #999;right: -20px;top: 10px;cursor: pointer;font-style: normal;text-decoration: none;}
+* html .rightAD{position: absolute;right: auto;left: expression(eval(document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)-(parseInt(this.currentStyle.marginLeft,10)||0)-(parseInt(this.currentStyle.marginRight,10)||0));}
+
+/*左侧广告*/
+.left-banner{position: fixed; width: 127px;height: 279px;left: 10px; bottom: 20px;z-index:6;}
+.left-banner .pic{width: 127px;height: 279px;background: url("//js.tuandai.com/images/default/left-banner-04.png?v=20170518001") no-repeat;position: relative;}
+.left-banner i{position: absolute;display: block;width: 10px;height: 10px;cursor: pointer;background: url("//js.tuandai.com/images/default/left-banner-close.png?v=20160509001") no-repeat;top: 10px;left: 112px;z-index:100;}
+* html .left-banner /* IE6 左侧固定 */{position:absolute;right:auto;left:expression(eval(document.documentElement.scrollLeft));}
+* html,* html body /* 修正IE6振动bug */{
+    background-image:url(about:blank);background-attachment:fixed;
+}
+
+
+/*************浏览器升级*/
+.borrow-update{position: fixed; bottom:0; background: url("//js.tuandai.com/images/default/borrow-bg.png?v=20150703"); width: 984px; z-index: 999999;overflow: hidden; height: 47px; left: 50%; margin-left: -500px; padding-left: 16px; }
+.borrow-update .text{ font-size: 13px;  line-height: 47px; color: #fff;  position:relative; height: 47px;}
+.borrow-update .text a{color: #fff; text-decoration: none;}
+.borrow-update .text a{background: url("//js.tuandai.com/images/default/borrow1.png?v=20150703"); height: 23px;  display: inline-block; position: absolute;}
+.borrow-update .text .ff{background-position: 0 0; width: 82px; top:12px; left: 680px; }
+.borrow-update .text .more{background: none; top: 0;}
+.borrow-update .text .more:hover{text-decoration: underline;}
+.borrow-update .text .ie{background-position: 0 -23px; width: 55px; top:12px; left: 500px;}
+.borrow-update .text .chrome{background-position: 0 -46px; width: 77px; top:12px; left: 760px;}
+.borrow-update .text .close{font-size: 28px; position: absolute;  right: 10px; top: 0px; cursor: pointer;width:24px; height:24px;display:block;}
+/*IE6 固定底部*/
+*html .borrow-update{_position: absolute;_bottom: auto;_top: expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));}
+
+
+/*20160408风险储备金*/
+.container .p1 .data .d4-1{padding-left: 65px;}
+.container .p1 .data .d4-1 .riskbond{width: 15px; height: 16px; *position: relative; *top: -6px; left: -3px; display: inline-block; background-position: -136px -581px;}
+.container .p1 .data .d4-1 .ready{margin-left: 8px;}
+/*储备金翻滚*/
+.container .p1 .data .d4-1 .riskbond{
+    -webkit-animation:flipX 4s ease-in-out infinite;
+    animation:flipX 4s ease-in-out infinite;
+}
+@-webkit-keyframes flipX{
+    0%{-webkit-transform:scale(1);transform:scale(1);}
+    20%{-webkit-transform:scale(-1, 1);transform:scale(-1, 1);}
+    30%{-webkit-transform:scale(1);transform:scale(1);}
+    100%{-webkit-transform:scale(1);transform:scale(1);}
+}
+@keyframes flipX{
+    0%{-webkit-transform:scale(1);transform:scale(1);}
+    20%{-webkit-transform:scale(-1, 1);transform:scale(-1, 1);}
+    30%{-webkit-transform:scale(1);transform:scale(1);}
+    100%{-webkit-transform:scale(1);transform:scale(1);}
+}
+
+
+/*2016-06-06邀请好友赢福利弹窗 活动结束可删除*/
+.beijing{position: fixed;width: 100%;height: 100%;top:0;left: 0;background: #000;opacity: 0.5;filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity: 0.5;z-index: 100;}
+.zhuandong{width:750px;height:750px;position: fixed;top:60px;left:50%;margin-left:-380px;z-index:200;background: url("//js.tuandai.com/images/default/20160606by.png") no-repeat;animation: bounceIn 5s linear infinite backwards;}
+@keyframes bounceIn{
+    0%{transform-origin:50% 50%;transform:rotate(0deg);}
+    100%{transform-origin:50% 50%;transform:rotate(180deg);}
+}
+@-webkit-keyframes bounceIn{
+    0%{transform-origin:50% 50%;transform:rotate(0deg);}
+    100%{transform-origin:50% 50%;transform:rotate(180deg);}
+}
+.welfare{width:765px;height:667px;position: fixed;top:60px;left:50%;margin-left:-424px;z-index:201;background: url("//js.tuandai.com/images/default/20160606by_conter.png") no-repeat;}
+.welfare .guanbi{position: absolute;width: 45px;height: 45px;display: block;top:146px;left:571px;}
+.welfare .p1{font-size: 20px;color: #ee4639;font-weight: bold;position: absolute;top:355px;left: 340px;}
+.welfare .p2{font-size: 20px;color: #ee4639;font-weight: bold;position: absolute;top:400px;left: 316px;}
+.welfare .p3{font-size: 20px;color: #ee4639;font-weight: bold;position: absolute;top:450px;left: 283px;}
+.welfare p span{font-size: 24px;font-weight: bold;}
+.welfare .mashang{width: 158px;height: 47px;position: absolute;top:498px;left: 320px;}
+
+
+/*2016-07-01四周年毕弹窗 活动结束可删除*/
+.zhounian_by{position: fixed;width: 100%;height: 100%;top:0;left: 0;background: #000;opacity: 0.8;filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity: 0.8;z-index: 100;}
+.zhounian{width:663px;height:572px;position: fixed;top:60px;left:50%;margin-left:-320px;z-index:200;}
+.zhounian a.ur{display: block;width:640px;height:572px;}
+.zhounian a.zhounian_guanbi{display: block;width: 45px;height: 45px;position: absolute;top:90px;left: 477px;z-index: 201;background: #000;opacity: 0;filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity: 0;}
+.zhounian a.zhounian_guanbi_2{top:46px;left: 487px;}
+.zhounian a.zhounian_guanbi_3{top:46px;left: 500px;}
+
+
+
+/*2016-07-12 APP投资加息弹窗样式 活动结束可删除*/
+.app_beijing{position: fixed;width: 100%;height: 100%;top:0;left: 0;background: #000;opacity: 0.8;filter:alpha(opacity=80);-moz-opacity:0.8;-wekit-opacity: 0.8;z-index: 100;}
+.laser_by{width:717px;height:557px;position: fixed;top:110px;left:50%;margin-left:-380px;z-index:200;background: url("//js.tuandai.com/images/default/laser_by.png") no-repeat;animation:app 0.4s 0s ease both;}
+@keyframes app{
+    0%{opacity:0;transform: scale(0);}
+
+    100%{transform: scale(1);}
+}
+@-webkit-keyframes app{
+    0%{opacity:0;transform: scale(0);}
+
+    100%{transform: scale(1);}
+}
+@-moz-keyframes app{
+    0%{opacity:0;transform: scale(0);}
+    100%{transform: scale(1);}
+}
+/*.app{width:624px;height:355px;position: fixed;top:209px;left:50%;margin-left:-321px;z-index:201;background: url("//js.tuandai.com/images/default/app_by.png") no-repeat;}*/
+.app .guan{position: absolute;width: 43px;height: 43px;top:0px;right: 0px;background:url("//js.tuandai.com/images/default/guan.png") no-repeat;cursor: pointer; }
+.laser_by .stars1{position: absolute;width: 25px;height: 25px;top:106px;left: 230px;background:url("//js.tuandai.com/images/default/stars_by.png") -109px -188px no-repeat;animation: show1 1s 0.5s linear infinite backwards;}
+@keyframes show1{
+    0%{opacity: 0;}
+    80%{opacity: 1;}
+    100%{opacity: 0.5;}
+}
+@-webkit-keyframes show1{
+    0%{opacity: 0;}
+    80%{opacity: 1;}
+    100%{opacity: 0.5;}
+}
+.laser_by .stars2{position: absolute;width: 25px;height: 25px;top:83px;left: 292px;background:url("//js.tuandai.com/images/default/stars_by.png") -109px -188px no-repeat;animation: show1 1.11s 0.8s linear infinite backwards;}
+.laser_by .stars3{position: absolute;width: 25px;height: 25px;top:98px;left: 362px;background:url("//js.tuandai.com/images/default/stars_by.png") -109px -188px no-repeat;animation: show1 1.22s 0.6s linear infinite backwards;}
+.laser_by .stars4{position: absolute;width: 25px;height: 25px;top:106px;left: 456px;background:url("//js.tuandai.com/images/default/stars_by.png") -109px -188px no-repeat;animation: show1 1.04s 0.55s linear infinite backwards;}
+.laser_by .stars5{position: absolute;width: 25px;height: 25px;top:99px;left: 482px;background:url("//js.tuandai.com/images/default/stars_by.png") -94px -323px no-repeat;animation: show1 1.14s 0.58s linear infinite backwards;}
+.laser_by .stars6{position: absolute;width: 25px;height: 25px;top:57px;left: 464px;background:url("//js.tuandai.com/images/default/stars_by.png") -109px -188px no-repeat;animation: show1 1.05s 0.66s linear infinite backwards;}
+.laser_by .stars7{position: absolute;width: 25px;height: 25px;top:70px;left: 561px;background:url("//js.tuandai.com/images/default/stars_by.png") -109px -188px no-repeat;animation: show1 1.02s 0.7s linear infinite backwards;}
+.laser_by .stars8{position: absolute;width: 25px;height: 25px;top:250px;left: 635px;background:url("//js.tuandai.com/images/default/stars_by.png") -109px -188px no-repeat;animation: show1 0.8s 0.8s linear infinite backwards;}
+.laser_by .stars9{position: absolute;width: 25px;height: 25px;top:260px;left: 693px;background:url("//js.tuandai.com/images/default/stars_by.png") -109px -188px no-repeat;animation: show1 1.03s 0.88s linear infinite backwards;}
+.laser_by .stars10{position: absolute;width: 25px;height: 25px;top:301px;left: 60px;background:url("//js.tuandai.com/images/default/stars_by.png") -109px -188px no-repeat;animation: show1 1.01s 0.66s linear infinite backwards;}
+.laser_by .stars11{position: absolute;width: 25px;height: 25px;top:275px;left: 75px;background:url("//js.tuandai.com/images/default/stars_by.png") -109px -188px no-repeat;animation: show1 1s 0.55s linear infinite backwards;}
+.laser_by .stars12{position: absolute;width: 25px;height: 25px;top:385px;left: 133px;background:url("//js.tuandai.com/images/default/stars_by.png") -109px -188px no-repeat;animation: show1 0.99s 0.9s linear infinite backwards;}
+.laser_by .stars13{position: absolute;width: 25px;height: 25px;top:461px;left: 463px;background:url("//js.tuandai.com/images/default/stars_by.png") -109px -188px no-repeat;animation: show1 0.8s 0.5s linear infinite backwards;}
+.laser_by .stars14{position: absolute;width: 25px;height: 25px;top:452px;left: 497px;background:url("//js.tuandai.com/images/default/stars_by.png") -94px -323px no-repeat;animation: show1 1s 0.8s linear infinite backwards;}
+
+/*20160804底部通用广告banner*/
+.general-adbox{ width: 100%; height: auto;}
+.general-adbox .general-small-ad{width: 180px; height: 140px; display: block; position: fixed; right: -100%; bottom: 20px; z-index: 5;}
+.general-adbox .general-small-ad a img{width: 180px; height: 140px;}
+.general-adbox .general-arrow-l{width: 25px; height: 25px; cursor: pointer; position: absolute; left: 8px; top: 61px; z-index: 1; background-position: -21px -1109px;}
+.general-adbox .general-big-ad{width: 0; height: auto; overflow: hidden; background: url("//js.tuandai.com/images/default/general-png.png?v=20160823001") repeat; position: fixed; right: 0; bottom: 0; z-index: 5;}
+.general-adbox .general-big-ad a{width: 1200px; margin: 0 auto; display: block; position: relative;}
+.general-adbox .general-big-ad a img{width: 1200px; height: 139px;}
+.general-adbox .general-close{width: 28px; height: 28px; position: absolute; top: 15px; left: 50%; margin-left: 600px; cursor: pointer; background-position: -54px -1107px; -webkit-transition:all 0.3s linear; transition:all 0.3s linear; -webkit-transform:rotate(0deg); transform:rotate(0deg); }
+.general-adbox .general-close:hover{-webkit-transform:rotate(180deg); transform:rotate(180deg); }
+
+
+/*红包列表下拉*/
+.red-package-list{cursor: pointer;  height: 47px;   position: relative; z-index: 10;}
+.red-package-list dl{position: absolute; width: 100%; background: #fff;}
+.red-package-list dt{ border: 1px  dashed #d5d5d5; border-radius: 2px 2px 0 0 ; font-size: 12px; color: #ff7800; background: #fff; padding-left: 12px; height: 38px; line-height: 38px; position: relative;  }
+/*.red-package-list ul{ ; z-index: 100; }*/
+.red-package-list ul{border: 1px solid #ffa019;  height: 188px; overflow-y: scroll;}
+.red-package-list li{ background: #fff; color: #333;     border-top: none; font-size: 12px; border-bottom: none;  padding-left: 12px;   line-height: 30px; }
+.red-package-list li.more{color: #a3a2a2;}
+.red-package-list li:hover{background: #ffa019; color: #fff;}
+.red-package-list dd{display: none; z-index: 1; margin-top: -1px; width: 100%;   position: absolute;  margin-top: -1px; z-index: 100;}
+.red-package-list  i.arrow-orange{width: 13px; height: 8px;       right: 10px;    top: 15px; display:  block; position: absolute; background: url(//js.tuandai.com/images/investlist/invest_detail/arrow-orange.png?v=1024);}
+.red-package-list  i.arrow-orange:hover{-webkit-transition: all .3s linear;     transition: all .3s linear;}
+.red-package-list .no-package{padding-left: 12px; border: 1px  dashed #d5d5d5; border-radius: 2px ;height: 36px; line-height: 36px; font-size: 14px; color: #a3a3a3;}
+
+/*20161212 爱心日1218预热弹窗*/
+.beijing1218{position: fixed;width: 100%;height: 100%;top:0;left: 0;background: #000;opacity: 0.6;filter:alpha(opacity=60);-moz-opacity:0.6;-khtml-opacity: 0.6;z-index: 100;}
+.love1218{width: 454px;height:640px;background: url("//js.tuandai.com/images/default/love1218.png?v=2016121301") no-repeat;position:fixed;z-index: 105;top:50%;left: 50%;margin-left: -200px;margin-top: -320px;}
+.love1218 .shut{width: 60px;height: 60px;position: absolute;top:178px;right:-10px;cursor: pointer;}
+.love1218 .participate{width: 309px;height: 50px;position:absolute;top:585px;left: 44px;}
+
+
+/*20161216 爱心日1218当天弹窗*/
+.beijing_inday{position: fixed;width: 100%;height: 100%;top:0;left: 0;background: #000;opacity: 0.6;filter:alpha(opacity=60);-moz-opacity:0.6;-khtml-opacity: 0.6;z-index: 100;}
+.love_inday{width:505px;height:704px;background: url("//js.tuandai.com/images/default/love_inday.png") no-repeat;position:fixed;z-index: 105;top:50%;left: 50%;margin-left: -261px;margin-top: -320px;}
+.love_inday .shut_inday{width: 60px;height: 60px;position: absolute;top:141px;right:1px;cursor: pointer;}
+.love_inday .participate_inday{width:433px;height:86px;position:absolute;top:606px;left:28px;}
+
+ 
+/*20161010厦门银行托管*/
+.xm-mask{position: fixed; width: 100%; height: 100%; top: 0 ; left: 0; background: #000; opacity: 0.5; filter:alpha(opacity=50); z-index:1000001; }
+.xiamen-pop{position: fixed; width: 553px; height: auto; padding-bottom: 38px; text-align: center; background: #fff;  left: 50%; top:50%; margin-left: -276px; margin-top: -200px; border-radius: 8px; -webkit-border-radius: 8px; z-index:1000002;}
+.xiamen-pop .close{position: absolute; top: 12px; right: 13px; width: 22px; height: 22px; cursor: pointer; background: url("//js.tuandai.com/images/member/Bank/xm_bank/close.png") no-repeat;}
+.xiamen-pop .close{transition:all .3s linear; transform:rotate(0deg)}
+.xiamen-pop .close:hover{transform:rotate(180deg)}
+.xiamen-pop .pop-tit{width: 100%; height: 192px; padding-top: 50px; border-radius: 6px 6px 0 0; color: #fff; background: url("//js.tuandai.com/images/member/Bank/xm_bank/xmbank-topbg.png") no-repeat;}
+.xiamen-pop .pop-tit h3{width: 317px; height: 45px; margin: 0 auto; background: url("//js.tuandai.com/images/member/Bank/xm_bank/logo-03.png") no-repeat;}
+.xiamen-pop .pop-tit h4{margin-top: 20px;font-size: 40px; font-weight: 700;}
+.xiamen-pop .pop-tit p{margin-top: 5px; font-size: 16px;}
+.xiamen-pop .pop-body p{margin-top: 20px; line-height: 30px; color: #989898; font-size: 14px;}
+.xiamen-pop .pop-body p b{color: #ff7200}
+.xiamen-pop .pop-body .btn{width: 310px; height: 52px; line-height: 52px; display: block; margin: 10px auto 0; border-radius: 6px; -webkit-border-radius: 6px; -webkit-transition:all .3s linear; transition:all .3s linear; color: #fff; font-size: 18px; text-align: center; background: #ffbc1b;}
+.xiamen-pop .pop-body .btn:hover{background: #ffa019;}
+
+/*20161025充值提现等提示弹窗*/
+.xm-window{width: 531px;}
+.bankBindAlert{width: auto;}
+.bankBindAlert .body{width: auto; padding: 50px 38px 0px;}
+.bankBindAlert .body .p1{margin-bottom: 15px; font-size: 24px; color: #555;}
+.bankBindAlert .body .p2{font-size: 14px; color: #b5b5b5;}
+.bankBindAlert .bottom{height: auto; margin-top: 40px; text-align: center; padding-bottom: 30px;}
+.xm-window .bottom .btn{ height: 38px; margin: 0 auto; line-height: 38px; display: block; -webkit-border-radius: 3px; border-radius: 3px; cursor: pointer; color: #fff; text-align: center; font-size: 14px; background: #ffbc1b; -webkit-transition:all .3s linear; transition:all .3s linear;}
+.xm-window .bottom .btn:hover{background: #ffa019}
+.xm-window .bottom .btn-group span{font-size: 14px}
+.bankBindAlert .bottom .btn{width: 243px;}
+.bankBindAlert .bottom .question{color: #b5b5b5; font-size: 14px;  line-height: 34px; margin-top: 8px;}
+.bankBindAlert .bottom .question:hover{text-decoration: underline;}
+.xm-window .btn-group{padding-bottom: 0;}
+
+
+ /*20161019弹窗 开通免密功能*/
+.passwordAlt .title1 {height: 40px; line-height: 40px; font-size: 14px; padding-left: 20px; background: #f7f7f7; color: #666; position: relative;}
+.passwordAlt{width: 487px; margin-top: -201px;}
+.passwordAlt .body{height: auto; padding: 35px 68px 0px;  text-align: left;}
+.passwordAlt .body p{color: #555; line-height: 22px;}
+.passwordAlt .body .p1{width: auto;height: auto;}
+.passwordAlt .body .p2 {width: auto; height: auto; margin-top: 12px;}
+.passwordAlt .body .p2 em{width: 16px; height: 16px; margin-right: 5px; vertical-align: -3px; *vertical-align: 1px; display: inline-block; background: url("//js.tuandai.com/images/member/Bank/xm_bank/ok-icon.png") no-repeat 0 -52px;}
+.passwordAlt .body .p2 span{color: #b5b5b5;}
+.passwordAlt .bottom{clear: both; padding-top: 30px; padding-bottom: 43px;}
+.passwordAlt .bottom .btn{width: 243px;}
+.xm-window .bottom .btn{ height: 38px; margin: 0 auto; line-height: 38px; display: block; -webkit-border-radius: 3px; border-radius: 3px; cursor: pointer; color: #fff; text-align: center; font-size: 16px; background: #ffbc1b; -webkit-transition:all .3s linear; transition:all .3s linear;}
+.xm-window .bottom .btn:hover{background: #ffa019}
+
+/*20161222香港澳门开通存管账户提示*/
+.xm-window.hongkong {width: 610px; margin-top:-209px; margin-left:-305px}
+.xm-window.hongkong .body{width: auto; padding: 40px 50px;}
+.xm-window.hongkong .body p{text-align: left;}
+.xm-window.hongkong .body p{padding-bottom: 26px; color: #333; line-height: 26px;}
+.xm-window.hongkong .body p b{font-size: 16px; }
+.xm-window.hongkong .body p a{font-weight: 700; width: 79px; height: 24px; padding-left: 26px; display: inline-block; margin: 0 5px; font-size: 12px; color:#333; background: url("//js.tuandai.com/images/member/Bank/xm_bank/qq_btn.png?v=20170309001") no-repeat;}
+.xm-window.hongkong .btn{width: 235px;}
+
+/*20170106弹窗 资产标借款提示*/
+.borrow-window{width: 490px; margin-left: -245px;}
+.borrow-window .body{padding: 25px 30px}
+.borrow-window .body p{color: #b5b5b5}
+.borrow-window .body .p1{padding-top: 15px; padding-bottom: 20px; font-size: 26px; color: #555}
+.borrow-window .bottom{padding-top: 30px; text-align: center;}
+.borrow-window .bottom .btn{width: 220px; font-size: 14px;}
+.borrow-window .bottom .closebtn{display: inline-block; text-decoration: underline; padding: 5px 0;}
+
+/*客服btn*/
+.xm-window .qq-service-btn{font-weight: 700; width: 81px; height: 24px; padding-left: 24px; display: inline-block; margin: 0 5px; font-size: 12px; background: url("//js.tuandai.com/images/member/Bank/xm_bank/qq_btn.png?v=20170309001") no-repeat;}

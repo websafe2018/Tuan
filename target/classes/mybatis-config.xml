@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<!--未整合spring前需配置environments运行环境，加入default默认环境-->
+	<settings>
+	<setting name="logImpl" value="STDOUT_LOGGING"/>
+	</settings>
+	<!-- 将mapper文件加入到配置文件中 -->
+	<mappers>
+		<mapper resource="dao/UsersMapper.xml"/>
+		<mapper resource="dao/RoleMapper.xml"/>
+		<mapper resource="dao/StandardinvestMapper.xml"/>
+		<mapper resource="dao/AccountMapper.xml"/>
+		<mapper resource="dao/BasicinfoMapper.xml"/>
+		<mapper resource="dao/RechargerecordMapper.xml"/>
+		<mapper resource="dao/LoadrecordMapper.xml"/>
+		<mapper resource="dao/CompanyinfoMapper.xml"/>
+		<mapper resource="dao/InvestrecordMapper.xml"/>
+		<mapper resource="dao/RebackrecordMapper.xml"/>
+		<mapper resource="dao/RecordMapper.xml"/>
+		<mapper resource="dao/BackPlanMapper.xml"/>
+		
+	</mappers>
+
+
+
+</configuration>

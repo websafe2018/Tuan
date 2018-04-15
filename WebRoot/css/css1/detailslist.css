@@ -1,0 +1,41 @@
+﻿
+.timeInput_Day
+{
+    height: 18px;
+    width: 95px;
+    text-align: left;
+    background-color: #fff;
+    padding: 2px;
+    font-size: 12px;
+    margin-right: 4px;
+    vertical-align: middle;
+    background-image: url(//js.tuandai.com/images/member/my_borrow/timer.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    border: 1px #ccc solid;
+}
+.tdContent
+{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 22px;
+    height: 45px;
+    color: Gray;
+    border: 1px #cee1ee solid;
+}
+.tdEven
+{
+    background-color: #f9f9f9;
+}
+.tdHeard
+{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ebebeb;
+    font-size: 14px;
+    font-weight: bold;
+	color:#515151;
+    height: 45px;
+    border: 1px #ddd solid;
+}

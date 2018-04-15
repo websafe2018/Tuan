@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<!--使用接口方式动态配置sql,官方推荐-->
+	<mapper namespace="dao.UsersDao">
+		<select id="findUsersAll" resultType="entity.Users">
+			select * from users
+		</select>
+		<select id="adminLogin" resultType="entity.Users">
+			select * from users where userName=#{0} and password=#{1}	
+		</select>
+		<select id="findAdminUsersAll" resultType="entity.Users">
+			select * from users where roleId=1 or roleId=2 or roleId=3
+		</select>
+		<delete id="delUserById">
+			delete from users where id=#{0}
+		</delete>
+		<select id="findUserById" resultType="entity.Users">
+			select * from users where id=#{0}
+		</select>
+		<select id="getuBodyById" resultType="entity.Users">
+			select * from users where id=#{0} and (roleId =4 or roleId=5)
+		</select>
+		
+		<update id="updateUser" parameterType="entity.Users">
+			update users set roleId=#{roleId},userName=#{userName},password=#{password},telNo=#{telNo},email=#{email},registerTime=#{registerTime} where id=#{id}
+		</update>
+		
+		<select id="findUsersByRole" resultType="entity.Users">
+			SELECT u.`id`,a.`realName`,u.`telNo`,a.`IDNumber`,u.`email`,
+			a.`bankNumber`,b.`address`,b.`unitAddres`,a.`acBalance`,u.`registerTime` FROM users u,account a ,basicinfo b 
+			WHERE a.`uId`=u.`id` AND u.`id`=b.`uId` 
+			AND u.`id` IN(SELECT id FROM users WHERE roleId=4 OR roleid=5) 
+			<if test="start !=null and start !=''">
+			AND u.`registerTime` BETWEEN #{start} AND #{end}
+			</if>
+			<if test="cond !=null and cond !=''">
+			AND ( u.`userName`=#{cond} OR u.`telNo`=#{cond} OR b.`address`=#{cond}) 
+			</if>
+			LIMIT #{0},5
+		</select>
+		<select id="getVipCount" resultType="Integer">
+						SELECT count(1) FROM users u,account a ,basicinfo b 
+			WHERE a.`uId`=u.`id` AND u.`id`=b.`uId` 
+			AND u.`id` IN(SELECT id FROM users WHERE roleId=4 OR roleid=5) 
+			<if test="start !=null and start !=''">
+			AND u.`registerTime` BETWEEN #{start} AND #{end}
+			</if>
+			<if test="cond !=null and cond !=''">
+			AND ( u.`userName`=#{cond} OR u.`telNo`=#{cond} OR b.`address`=#{cond}) 
+			</if>
+		</select>
+		<!-- u.`id`,a.`realName`,u.`telNo`,a.`IDNumber`,u.`email`,
+			a.`bankNumber`,b.`address`,b.`unitAddres`,a.`acBalance`,u.`registerTime` -->
+		<select id="findVipById" resultType="entity.Users">
+			SELECT * FROM users u,account a ,basicinfo b 
+			WHERE a.`uId`=u.`id` AND u.`id`=b.`uId` 
+			AND u.`id` = #{0} 
+		</select>
+		<update id="updateVIP" parameterType="entity.Users">
+			update users set registerTime=#{registerTime},email=#{email},telNo=#{telNo} where id=#{id}
+		</update>
+		<select id="checkTel" resultType="Integer">
+			select count(1) from users where telNo=#{0}
+		</select>
+		<select id="checkEmail" resultType="Integer">
+			select count(1) from users where email=#{0}
+		</select>
+		<insert id="addVipUser" parameterType="entity.Users">
+			insert into users (userName,password,telNo,email,registerTime,roleId) 
+			values(#{userName},#{password},#{telNo},#{email},#{registerTime},#{roleId})
+		</insert>
+		
+		<select id="findUserByTel" resultType="entity.Users">
+			select * from users where telNo=#{0}
+		</select>
+		
+		<select id="chenkuName" resultType="Integer">
+			select count(1) from users where userName=#{0}
+		</select>
+		<update id="changePass" >
+			update users set password=#{newPass} where id =#{1}
+		</update>
+		
+		<select id="login" resultType="entity.Users">
+			select * from users where (userName=#{0} or email=#{0} or telNo=#{0}) and password=#{1} and (roleId=4 or roleId=5)
+		</select>
+		<select id="checkLoginName" resultType="Integer">
+			select count(1) from users where (userName=#{0} or email=#{0} or telNo=#{0});
+		</select>
+		<select id="findUserByEmail" resultType="entity.Users">
+			select * from users where email=#{0}
+		</select>
+		<!--动态修改用户数据  -->
+		<update id="updateU" parameterType="entity.Users">
+		update users
+		<set>
+		<if test="roleId !=null">
+		roleId = #{roleId},
+		</if>
+		<if test="userName !=null">
+		userName = #{userName},
+		</if>
+		<if test="password !=null">
+		password = #{password},
+		</if>
+		<if test="registerTime !=null">
+		registerTime = #{registerTime},
+		</if>
+		<if test="telNo !=null">
+		telNo = #{telNo},
+		</if>
+		<if test="email !=null">
+		email = #{email},
+		</if>
+		</set>
+		where id=#{id}
+		</update>
+		
+		<select id="findUsersMsg" resultType="entity.Users">
+			SELECT * FROM(SELECT u.*,a.realName,a.acBalance,a.IDNumber,a.bankNumber,b.address,b.unitAddres FROM users u,account a ,basicinfo b WHERE u.`id`=a.`uId` AND u.`id`=b.`uId`) p WHERE id=#{0}
+		</select>
+	</mapper>
+

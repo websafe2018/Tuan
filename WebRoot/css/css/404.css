@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document 
+
+
+/* CSS Document */
+*{ margin:0; padding:0;}
+body, html{background: #fff!important;}
+#Error_warp{width: 100%;background: #fff;font-family: "微软雅黑", "宋体",Arial, Helvetica, sans-serif;}
+#Error_warp .main{ width:1100px; margin:0 auto; position:relative;}
+#Error_warp .main_left{ float:left; width:30%; height:410px; background:url(//js.tuandai.com/styles/404/ico_404.png) center no-repeat;}
+#Error_warp .main_right{ float:left; width:46%; height:410px;}
+#Error_warp .main_right_text{ margin-top:120px; color:#4a4a4a; }
+#Error_warp .text_1{font-size:20px;}
+#Error_warp .text_1 span{ color:#f08300; font-size:24px; font-weight:bold;}
+#Error_warp .text_2{ font-size:12px; margin-top:40px;}
+#Error_warp .line{ border-bottom:1px solid #d9d9d9; width:100%; height:30px;}
+#Error_warp .text_3{ font-size:12px; margin-top:25px;}
+#Error_warp .text_3 span{ color:#f08300; }
+#Error_warp .text_3 a{ text-decoration:none; background:#f08300; color:#fff; padding:3px; -moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius:5px;}
+#Error_warp .text_4{ font-size:12px; margin-top:15px;}
+#Error_warp .text_4 a{ text-decoration:none; color:#0066c5;}
+#Error_warp .text_4 a:hover{ text-decoration:underline;}
+.detail_logo_bg{ height:5px; width:100%; background:url(//js.tuandai.com/images/default/detail_logo_bg.jpg) repeat-x;}

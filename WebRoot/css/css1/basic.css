@@ -1,0 +1,214 @@
+﻿.dv_basic_1
+{
+    height: 100%;
+    overflow: hidden;
+    width: 598px;
+    border: 1px solid #cccccc;
+}
+
+.dv_basic_2
+{
+    height: 36px;
+    line-height: 36px;
+    width: 598px;
+    float: left;
+    background-image: url(//js.tuandai.com/images/member/dvline.gif);
+}
+
+.dv_basic_2_1
+{
+    height: 36px;
+    line-height: 36px;
+    width: 798px;
+    float: left; 
+    background-image: url(//js.tuandai.com/images/member/dvline.gif);
+}
+
+.dv_basic_2_1_1
+{
+    height: 36px;
+    line-height: 36px;
+    width: 298px;
+    float: left;
+}
+
+.dv_basic_2_1_2
+{
+    height: 36px;
+    line-height: 36px;
+    width: 100px;
+    float: left;
+}
+
+
+.dv_basic_2_1_3
+{
+    height: 36px;
+    line-height: 36px;
+    width: 300px;
+    float: left;
+}
+
+.dv_basic_2_1_3_1
+{
+    height: 36px;
+    line-height: 36px;
+    width: 60px;
+    float: left;
+}
+.dv_basic_2_1_3_2
+{
+    height: 36px;
+    line-height: 36px;
+    width: 60px;
+    float: left;
+}
+.dv_basic_2_1_3_3
+{
+    height: 36px;
+    line-height: 36px;
+    width: 60px;
+    float: left;
+}
+
+.dv_basic_2_1_3_4
+{
+    height: 36px;
+    line-height: 36px;
+    width: 60px;
+    float: left;
+}
+
+.dv_basic_2_1_3_5
+{
+    height: 36px;
+    line-height: 36px;
+    width: 60px;
+    float: left;
+}
+
+.dv_basic_2_1_4
+{
+    height: 36px;
+    line-height: 36px;
+    width: 100px;
+    float: left;
+}
+
+.dv_basic_3
+{
+    height: 36px;
+    line-height: 36px;
+    width: 98px;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+    text-align: right;
+}
+
+
+.dv_basic_4
+{
+    height: 36px;
+    line-height: 36px;
+    width: 450px;
+    float: left;
+    text-align: left;
+}
+
+.dv_basic_4_1
+{
+    height: 36px;
+    line-height: 36px;
+    width: 350px;
+    float: left;
+    text-align: left;
+}
+
+
+.dv_basic_5
+{
+    height: 36px;
+    line-height: 36px;
+    width: 50px;
+    float: left;
+    text-align: left;
+}
+
+.dv_basic_5_1
+{
+    height: 36px;
+    line-height: 36px;
+    width: 150px;
+    float: left;
+    text-align: left;
+}
+
+
+
+
+.dv_basic_6
+{
+    height: 100%;
+    overflow: hidden;
+    width: 135px;
+    margin-left: 8px;
+}
+
+
+.dv_basic_r_1
+{
+    height: 30px;
+    line-height: 30px;
+    width: 135px;
+    background-color: #F9F9F9;
+    margin-top: 1px;
+    color: #000;
+}
+
+.dv_basic_r_2
+{
+    height: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    width: 135px;
+    background-color: #ccc;
+    margin-top: 1px;
+    color: #bf0707;
+}
+
+.sp_basic_r_1
+{
+    text-align: left;
+    
+    font-size: 12px;
+    float: left;
+}
+
+
+.ctrl_basic_1
+{
+    margin-top: 8px;
+}
+
+.ctrl_basic_2
+{
+    margin-top: 6px;
+    width: 180px;
+    height: 18px;
+    line-height: 18px;
+}
+
+.sp_basic_1
+{
+    font-size: 14px;
+    margin: 0px 2px 0px 2px;
+}
+
+.sp_basic_2
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<!--使用接口方式动态配置sql,官方推荐-->
+	<mapper namespace="dao.BackPlanDao">
+		<insert id="addBackPlan" parameterType="entity.BackPlan">
+			insert into backPlan (lid,backMoney,backIncome,backTime,bstyle) 
+			values(#{lid},#{backMoney},#{backIncome},#{backTime},#{bstyle})
+		</insert>
+		
+		<select id="findBackPlan"  resultType="entity.BackPlan">
+			select * from backPlan where lid=#{0}
+			<if test="s!=null and s!=''">
+			and backTime between #{s} and #{e}
+			</if>
+		</select>
+		
+		<update id="updateStyle">
+			update backPlan set bstyle=#{1} where id=#{0}
+		</update>
+		<select id="findBpById" resultType="entity.BackPlan">
+			select * from backPlan where id=#{0}
+		</select>
+	</mapper>
+

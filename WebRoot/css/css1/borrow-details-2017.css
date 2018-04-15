@@ -1,0 +1,88 @@
+﻿/*20170228 新版贷款详情*/
+.borrow-contianer{width: 1198px; margin: 15px auto 0; height: auto; overflow: hidden; padding-bottom: 70px; border: 1px solid #e5e5e5; background: #fff; text-align: center;}
+.borrow-model{padding: 77px 0 90px; display: inline-block; *display: inline; *zoom:1; margin: 0 auto; text-align: left;}
+.borrow-model .quota {padding-bottom: 62px; height: auto; overflow: hidden; font-size: 16px; color: #999; line-height: 35px; }
+.borrow-model .quota .lt-q{padding-right: 42px; border-right: 1px solid #e5e5e5;}
+.borrow-model .quota .rt-q{padding-left: 42px;}
+.borrow-model .quota a{*vertical-align: -2px}
+.borrow-model .quota span{font-size: 26px; vertical-align: -4px;}
+.fc-ff7800{color: #ff7800;}
+.fc-f00{color: #f00;}
+.z-index2{z-index: 2 !important;}
+.z-index1{z-index: 1 !important;}
+.borrow-model .input-group{height: auto; clear: both;}
+.borrow-model .input-group label{width: 114px; height: 36px; line-height: 36px; margin-right: 25px; text-align: right; color: #333;}
+.borrow-model .input-group label em{color: #fe0000; vertical-align: -3px;}
+.borrow-model .inputbox .text-input{border: 1px solid #f0f0f0; padding: 9px; height: 16px; line-height: 16px; margin-right: 7px; color: #666; font-size: 14px;}
+.borrow-model .inputbox .w-input{width: 216px !important;}
+.borrow-model .inputbox .ver-ali{*vertical-align:10px}
+.borrow-model .error-mes{height: 30px; line-height: 23px; color: #f00; clear: both;}
+.borrow-model .secbox{height: 36px;}
+.borrow-model .recommend{display: inline-block; float: left; position: relative; margin-right: 10px; width: 57px; height: 34px; line-height: 34px; text-align: center; color: #666; cursor: pointer;  }
+.borrow-model .recommend:hover{color: #fe9b00;}
+/*.borrow-model .recommend.on{border: 1px solid #fe9b00;}*/
+.borrow-model .select-menu .arrow,.borrow-model .recommend.on i{background: url("//js.tuandai.com/images/member/my_borrow/new-borrow-detail.png") no-repeat;}
+.borrow-model .recommend.on i{position: absolute; right: 0; top: 0; width: 20px; height: 20px; background-position: 0 0;}
+.borrow-model .text{ float: left!important; border: none!important; margin: 7px 0 0 10px; }
+
+.borrow-model .select-menu{border: 1px solid #f0f0f0; height: 34px; cursor: pointer; color: #666;}
+.borrow-model .w-select{width: 126px !important;}
+.borrow-model .w-select1{width: 235px !important;}
+/*.borrow-model .select-menu.cur{border: 1px solid #fe9b00}*/
+.borrow-model .select-menu .value{padding-left: 10px; line-height: 34px;}
+.borrow-model .select-menu .arrow{position: absolute; top: 0; right: 0; width: 31px; height: 34px; border-left: 1px solid #f0f0f0; background-position: -26px 14px}
+.borrow-model .select-menu ul{display: none; position: absolute; top: 34px; left: -1px; width: 100%; border: 1px solid #f0f0f0; background: #fff;}
+.borrow-model .select-menu ul li{height: 31px; line-height: 31px; padding-left: 10px; cursor: pointer;}
+.borrow-model .select-menu ul .on,.borrow-model .select-menu ul li:hover{background: #fe9b00; color: #fff;}
+.borrow-model .ratebox{line-height: 36px;}
+.borrow-model .btn-group{padding-top: 35px; padding-left: 139px; clear: both;}
+.borrow-model .btn-group input[type="button"]{height: 40px; line-height: 40px; margin-right: 16px; color: #fff; text-align: center;font-size: 16px;  cursor: pointer; border: 0; -webkit-border-radius: 2px; border-radius: 2px;}
+.borrow-model .btn-group .btn-def{width: 150px; background: #fe9b00;}
+.borrow-model .btn-group .btn-gray{width: 100px; background: #cecece;}
+.borrow-model .btn-group .btn-def:hover{background: #ff7800;}
+
+/*温馨提示*/
+.borrow-contianer .infos{padding: 0 79px;text-align: left;}
+.borrow-contianer .infos h5{color: #666; font-size: 16px;}
+.borrow-contianer .infos h5 span{color: #d5d5d5; font-size: 14px;}
+.borrow-contianer .info-list{padding-top: 21px;}
+.borrow-contianer .info-list li{line-height: 30px; color: #666}
+.borrow-contianer .info-list .litype{width: 0; height: 0; display: inline-block; margin-right: 18px; vertical-align: 1px; border-top: 3px solid transparent;  border-bottom: 3px solid transparent;  border-left: 3px solid #ffa019; }
+
+/*滑过tips*/
+.borrow-contianer .bind-tipbox{display: none; border: 1px solid #ff9900; -webkit-border-radius: 5px; border-radius: 5px; left: -213px; top: -76px; z-index: 3; background: #fff; cursor: text;}
+.borrow-contianer .box-wth{width: 426px; padding: 10px;}
+.borrow-contianer .down-arrow{position: absolute; width: 20px; height: 20px; display: inline-block; top: 63px; left: 213px; background: url(//js.tuandai.com/images/investlist/weplan/we-icon.png) 0px -49px no-repeat}
+.borrow-contianer .bind-tipbox .table{ border-collapse:collapse; width: 100%;}
+.borrow-contianer .bind-tipbox .table td{border: 1px solid #ccc; height: 20px; line-height: 20px; font-size: 14px; color: #666; text-align: center;}
+
+/*弹窗*/
+.quota-popbox {width: 498px; margin-left: -249px; margin-top: -145px;}
+.quota-popbox .body{padding-top: 40px; padding-bottom: 25px;}
+.quota-popbox .body p{line-height: 30px; color: #666}
+.quota-popbox .btns{padding-bottom: 52px;}
+.quota-popbox .ok-btn,.quota-popbox .gray-btn{display: inline-block; width: 120px; height: 38px; line-height: 38px;}
+.quota-popbox .gray-btn{margin-left: 6px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
